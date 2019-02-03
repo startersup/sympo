@@ -417,6 +417,22 @@ footer p
     max-width:200px;
     width:100%;
 }
+    .evento h3
+{
+     font-family: 'Anton', sans-serif;
+    color:#fbe266;
+    letter-spacing: 3px;
+    line-height:40px;
+    margin-top:-50px;
+}
+    .top h3
+{
+     font-family: 'Anton', sans-serif;
+    color:#fbe266;
+    letter-spacing: 3px;
+    line-height:40px;
+    margin-top:-100px;
+}
    .navbar-brand span
     {
         margin-top:-30px;
