@@ -262,6 +262,10 @@ margin:0px 10px;
     margin-top:5%;
     
 }
+.images
+{
+     max-width:210px;
+}
 footer
 {
     margin:30px 0px;
@@ -299,6 +303,14 @@ footer p
 {
     padding-left:0px;
 }
+        .images
+{
+    max-width:200px;
+}
+   .navbar-brand span
+    {
+        margin-top:-30px;
+    }
     .fa-bars
     {
     float:right;
@@ -416,11 +428,19 @@ footer p
     {
         margin-top:10px;
     }
-
+    
+.events
+    {
+        margin-top:60px;
+    }
     .main
     {
         margin-top:30px;
         background-image: url(../images/front.mp4);
     }
+    .images
+{
+    max-width:160px;
+}
   
 }
