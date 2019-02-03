@@ -135,7 +135,7 @@ margin:0px 10px;
 
  .navbar-nav>li a:hover
 {
-    color:#ffffff !important;
+    color:#ff1111 !important;
      transition: width .3s;
      font-family: 'Anton', sans-serif;
     border-bottom:2px solid blue;
