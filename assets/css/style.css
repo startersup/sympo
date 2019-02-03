@@ -69,7 +69,14 @@ body
     letter-spacing: 3px;
     line-height:40px;
 }
-
+.right
+{
+    border-right:2px solid #bbb;
+}
+.left
+{
+    border-left:1px solid #bbb;
+}
 .navbar-fixed-top.scrolled {
   background-color: #000000!important;
   transition: background-color 200ms linear;
