@@ -62,12 +62,24 @@ body
     color:#ffffff;
     
 }
+.top
+{
+    margin-top:60px;
+}
 .margino h3
 {
      font-family: 'Anton', sans-serif;
     color:#fbe266;
     letter-spacing: 3px;
     line-height:40px;
+}
+.evento h3,.top h3
+{
+     font-family: 'Anton', sans-serif;
+    color:#fbe266;
+    letter-spacing: 3px;
+    line-height:40px;
+    margin-top:-100px;
 }
 .right
 {
@@ -276,6 +288,90 @@ footer p
     color:#bbb;
     font-size:20px;
 }
+.stickyfooter {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:transparent;
+   color: white;
+   text-align: center;
+}
+.evento
+{
+    margin-top:200px;
+}
+.col-md-6
+{
+    margin-top:20px;
+}
+.logos {
+  
+  text-align: center;
+  width: 65%;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+.logos1 {
+  
+  text-align: center;
+}
+.logos b{
+  font: 60 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logos b span{
+  animation: blink linear infinite 2s;
+}
+.logos1 b{
+  font: 60 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logos1 b span{
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
