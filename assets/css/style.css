@@ -412,6 +412,11 @@ footer p
 {
     max-width:200px;
 }
+    .spot
+{
+    max-width:200px;
+    width:100%;
+}
    .navbar-brand span
     {
         margin-top:-30px;
