@@ -140,6 +140,9 @@ margin:0px 10px;
      font-family: 'Anton', sans-serif;
     border-bottom:2px solid blue;
 }
+#aks:hover {
+    content: url('../images/non-tech.png');
+}
 #borderimg1 { 
   border: 10px solid transparent;
   padding: 15px;
