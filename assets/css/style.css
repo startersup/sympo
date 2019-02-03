@@ -393,6 +393,10 @@ footer p
   cursor: pointer;
  font-family: 'ProximaNovaSemibold';
 }
+    footer
+    {
+        position: sticky;
+    }
     footer p
 {
      font-family: 'ProximaNovaSemibold';
