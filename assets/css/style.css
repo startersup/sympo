@@ -309,8 +309,8 @@ footer p
   padding:5px;
   background-color:transparent;
   transition: transform .2s;
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height:auto;
   margin: 0 auto;
 }
 
