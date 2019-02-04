@@ -220,10 +220,8 @@ margin:0px 10px;
   transition: 0.3s;
     padding:10px;
   width: 100%;
-     border:4px solid transparent;
 }
 .card:hover {
- border:4px solid #ffffff;
     border-radius:18px;
 }
 .nopadding {
@@ -309,7 +307,7 @@ footer p
 }
 .zoom {
   padding: 50px;
-  background-color: green;
+  background-color:transparent;
   transition: transform .2s;
   width: 200px;
   height: 200px;
