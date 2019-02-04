@@ -22,14 +22,18 @@
     <body style="background-color:#000000;opacity:0.8;">
     <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
-        <i class="fa fa-bars visible-xs visible-sm"></i>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
            <center> <a class="navbar-brand" href="#">
                <span> <img class="logo" src="./assets/images/logo.png">Petrovision</span>
             </a></center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-              <ul class="nav navbar-nav navbar-right topnav blue circleBehind hidden-xs hidden-sm" id="myTopnav">
+              <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../">About</a>
@@ -47,7 +51,7 @@
                 
             </ul>
         </div>
-        
+      
     </nav>
         
         <section class="main container" style="margin-top:150px;">
@@ -74,26 +78,11 @@
                
             </div>
         </section>
- <footer class="stickyfooter"><center><a href="#" class="fa fa-facebook"></a>
+ <footer class=""><center><a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-google"></a>
 <a href="#" class="fa fa-linkedin"></a>
 <a href="#" class="fa fa-youtube"></a></center>
      <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
-        
-       
-        <script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
+    
     </body></html>

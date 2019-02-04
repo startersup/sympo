@@ -19,21 +19,25 @@
     <script src="../assets/js/sidenav.js"></script>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
-    <nav class="navbar navbar-default navit navbar-fixed-top">
+     <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
-        <i class="fa fa-bars visible-xs visible-sm"></i>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
            <center> <a class="navbar-brand" href="#">
                <span> <img class="logo" src="../assets/images/logo.png">Petrovision</span>
             </a></center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-              <ul class="nav navbar-nav navbar-right topnav blue circleBehind hidden-xs hidden-sm" id="myTopnav">
+              <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../">About</a>
                 </li>
-                <li><a href="../events/">Events</a>
+                <li><a href="./events/">Events</a>
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
@@ -46,14 +50,14 @@
                 
             </ul>
         </div>
-        
+      
     </nav>
         
 
         <section class="container events">
    
              <div class="row">
-            <div class="col-md-6 nopadding">
+            <div class="col-md-6">
                 <div class="card margino right">
                <center>
                    <img src="../assets/images/codethon_banner.png" style="max-width:400px;width:100%;">
@@ -61,7 +65,7 @@
                    <a href="../tech/index.html"><button class="button2">View Events </button></a>
                     </center></div>
                </div>
-                <div class="col-md-6 nopadding">
+                <div class="col-md-6">
                       <div class="card margino left">
                           <center>
                                 <img  class="images" src="../assets/images/non-tech.png" style="width:100%;">
