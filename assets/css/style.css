@@ -306,7 +306,7 @@ footer p
    text-align: center;
 }
 .zoom {
-  padding: 50px;
+  padding:5px;
   background-color:transparent;
   transition: transform .2s;
   width: 200px;
