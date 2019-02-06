@@ -296,6 +296,28 @@ footer p
     color:#bbb;
     font-size:20px;
 }
+.shadow h3
+{
+  font-family: 'ProximaNovaSemibold';
+    color:#bbb;
+    font-size:30px;  
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
 .stickyfooter {
    position: fixed;
    left: 0;
