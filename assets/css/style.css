@@ -227,6 +227,21 @@ margin:0px 10px;
   cursor: pointer;
  font-family: 'ProximaNovaSemibold';
 }
+
+.main li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+    color:#ffffff;
+  text-transform: uppercase;
+}
+
+.main li span {
+  display: block;
+  font-size: 4.5rem;
+    color:#63e265;
+}
 .spot
 {
     max-width:300px;
@@ -451,6 +466,12 @@ input[type=password] {
     float: right;
     display: block;
   }
+    .downer
+    {
+        font-size:25px !important;
+        margin-top:100px;
+        line-height:30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
