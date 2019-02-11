@@ -5,14 +5,13 @@ $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_st
 $id = $_POST['email'];
 $pass = $_POST['password'];
 $sql="select * from students where email= '$id' OR number= '$id' AND pass= '$pass'";
-echo $sql;
 $res=mysqli_query($conn,$sql);
 if(mysqli_num_rows($res)>0)
 {
   header('location :/index.html');
 }
 else {
-  echo "<script> alert('Invalid Credentials') </script>";
+  echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
 }
 mysqli_close($conn);
 }
