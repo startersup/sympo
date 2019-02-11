@@ -1,15 +1,18 @@
 <?php
+session_start();
 if(isset($_POST['login']))
 {
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $id = $_POST['email'];
 $pass = $_POST['password'];
-$sql="select * from students where (email= '$id' OR number= '$id') AND pass= '$pass'";
+$sql="select id from students where (email= '$id' OR number= '$id') AND pass= '$pass'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
 {
-  header('location: /index.html');
+  $row=mysqli_fetch_array($res);
+  $_SESSION=$row['id'];
+  header('location: /index.php');
 }
 else {
   echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";

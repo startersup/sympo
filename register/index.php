@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(isset($_POST['reg']))
 {
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
@@ -8,10 +9,12 @@ $contact =$_POST['contact'];
 $dept=$_POST['dept'];
 $college= $_POST['college'];
 $pass = $_POST['pass'];
-$sql = "INSERT into students (name,email,number,dept,college,pass,accom) VALUES('$name','$email',$contact,'$dept','$college','$pass','NO')";
+$id= uniqid('USR');
+$sql = "INSERT into students (id,name,email,number,dept,college,pass,accom) VALUES('$id','$name','$email',$contact,'$dept','$college','$pass','NO')";
 //   echo $sql;
 mysqli_query($conn,$sql);
-header('location: /index.html');
+$_SESSION['id']=$id;
+header('location: /index.php');
 mysqli_close($conn);
 }
 ?>

@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-               <ul class="nav navbar-nav navbar-right " id="myTopnav">
+             <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -45,10 +45,16 @@
                 </li>
                 <li><a href="../accomodation/">Accomodation</a>
                 </li>
-                <li><a href="../contact/">Contact</a>
-                </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <li><a href="../contact/">Contact</a></li>
+                  <<?php
+                  session_start();
+                    if(isset($_SESSION['id'])){
+                    echo "<li><a href='./logout/'>Logout</a>
+                 </li> "
+               } else {
+                 echo "<li><a href='./login/'>Login</a>
+              </li>";
+               }       ?>
             </ul>
         </div>
 
@@ -56,14 +62,18 @@
 
         <section class="container">
 
-             <div class="shadow" >
-            <center><img class="spot" src="../assets/images/adzap.png">
-
-             <p> The events that provides to demonstrate your marketing and management skills for a given product through various rounds.
-</p>
-                <br><button class="button">Subscribe and Register</button>
-             </center>
-
+         <div class="shadow" >
+            <center> <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
+            </center>
+                 <br><br>
+             <center><img src="../assets/images/Anna-University-Logo.png" style="max-width:400px;width:100%;"></center><br><br>
+             <p style="padding:10px;"> Anna University, established in 1978, was brought to life with the purpose of fostering free flow of thought, will and action related to Engineering and Technology,symbolised by the ventilated open halls of our main campus.<br><br>Department of Applied Science and Technology prides itself on producing students who work in Oil & Gas industries which pretty much decides the nation's economy and produces every essential of daily use for humans.
+The world pretty much owes us and we are  proud about it. DAB!</p><br>
+                <h3> Petrovision</h3>
+                <p>A national level technical symposium organised by the Department of Applied Science and Technology that envisions the coming together of diverse students and staffs related to the field of Petroleum Engineering. </p>
+               <br>
+             <p>Basic commodities to attend this Symposium: Sun tan lotion and Aviators.
+Coz it's 🔥 fam.</p>
             </div>
         </section>
 
