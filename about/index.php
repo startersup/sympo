@@ -46,7 +46,7 @@
                 <li><a href="../accomodation/">Accomodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a></li>
-                  <<?php
+                  <?php
                   session_start();
                     if(isset($_SESSION['id'])){
                     echo "<li><a href='./logout/'>Logout</a>
