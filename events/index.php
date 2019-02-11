@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse " id="myNavbar">
 
               <ul class="nav navbar-nav navbar-right " id="myTopnav">
-                <li><a href="../index.html">Home</a>
+                <li><a href="../index.php">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
                 </li>
@@ -70,7 +70,7 @@
                <center>
                    <img src="../assets/images/codethon_banner.png" style="max-width:400px;width:100%;">
                     <h3>Technically Strong?</h3>
-                   <a href="../tech/index.html"><button class="button2">View Events </button></a>
+                   <a href="../tech/index.php"><button class="button2">View Events </button></a>
                     </center></div>
                </div>
                 <div class="col-md-6 ">
@@ -78,7 +78,7 @@
                           <center>
                                 <img  class="images" src="../assets/images/non-tech.png" style="width:100%;">
                     <h3>Not Technically Strong ?</h3>
-                              <a href="../non-tech/index.html">  <button class="button1">View Events </button> </a>
+                              <a href="../non-tech/index.php">  <button class="button1">View Events </button> </a>
                           </center>
                     </div>
                </div>

@@ -56,7 +56,7 @@ mysqli_close($conn);
         <div class="collapse navbar-collapse " id="myNavbar">
 
                <ul class="nav navbar-nav navbar-right " id="myTopnav">
-                <li><a href="../index.html">Home</a>
+                <li><a href="../index.php">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
                 </li>

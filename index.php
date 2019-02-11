@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse " id="myNavbar">
 
               <ul class="nav navbar-nav navbar-right " id="myTopnav">
-                <li><a href="./index.html">Home</a>
+                <li><a href="./index.php">Home</a>
                 </li>
                 <li><a href="./about/">About</a>
                 </li>
@@ -76,7 +76,7 @@
                 <div class=" margino right">
                <center>
                     <h3>Intrested to Participate?</h3>
-                  <a href="events/index.html"> <button class="button2">Events</button></a>
+                  <a href="events/index.php"> <button class="button2">Events</button></a>
                     </center></div>
                </div>
                 <div class="col-xs-6 nopadding">
