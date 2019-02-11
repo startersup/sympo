@@ -1,3 +1,22 @@
+<?php
+if(isset($_POST['login']))
+{
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+$id = $_POST['email'];
+$pass = $_POST['password'];
+$sql="select * from students where email= '$id' OR number= '$id' AND pass= '$pass'";
+$res=mysqli_query($conn,$sql);
+if(mysqli_num_rows($res)>0)
+{
+  header('location :/index.html');
+}
+else {
+  echo "<script> alert('Invalid Credentials') </script>";
+}
+mysqli_close($conn);
+}
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,12 +81,12 @@
              <p> </p><br>
                 <form class="form-inline" action="/action_page.php">
     <div class="form-group">
-      <input type="text" class="controls" placeholder="Enter Email Address" name="email">
+      <input type="text" class="controls" placeholder="Email Address/Phone Number" name="email" required>
     </div>
     <div class="form-group">
-      <input type="password" class="controls" placeholder="Enter password" name="password">
+      <input type="password" class="controls" placeholder="Password" name="password" required>
     </div>
-                    <center><button class="button2">Login Now</button></center>
+                    <center><button name="login" class="button2">Login Now</button></center>
                     <br><br> <p>Not yet Registered ? <a href="../register/">click here</a></p>
   </form>
 
