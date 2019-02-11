@@ -9,7 +9,7 @@ $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
 {
-  header('location :/index.html');
+  header('location: /index.html');
 }
 else {
   echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
@@ -80,7 +80,7 @@ mysqli_close($conn);
             <center><img class="spot" src="../assets/images/login.png" >
              <h3 style="margin-top:-30px">Welcome Back Again!</h3>
              <p> </p><br>
-                <form class="form-inline" method="post" action="">
+                <form class="form-inline" method="post" action=" ">
     <div class="form-group">
       <input type="text" class="controls" placeholder="Email Address/Phone Number" name="email" required>
     </div>
