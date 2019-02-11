@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['reg']))
 {
-$conn=mysqli_connect('localhost','root','','test');
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision2k19','u453074143_stud');
 $name= $_POST['name'];
 $email=$_POST['email'];
 $contact =$_POST['contact'];
@@ -11,7 +11,7 @@ $pass = $_POST['pass'];
 $sql = "INSERT into students (name,email,number,dept,college,pass,accom) VALUES('$name','$email',$contact,'$dept','$college','$pass','NO')";
 //    echo $sql;
 mysqli_query($conn,$sql);
-header('location: /sympo/events/index.html');
+header('location: ./index.html');
 }
 ?>
 
