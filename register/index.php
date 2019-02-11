@@ -8,7 +8,7 @@ $contact =$_POST['contact'];
 $dept=$_POST['dept'];
 $college= $_POST['college'];
 $pass = $_POST['pass'];
-$sql = "INSERT into students (name,email,number,dept,college,pass) VALUES('$name','$email','$contact','$dept','$college','$pass')";
+$sql = "INSERT into students (name,email,number,dept,college,pass,accom) VALUES('$name','$email',$contact,'$dept','$college','$pass','NO')";
 //    echo $sql;
 mysqli_query($conn,$sql);
 header('location: /sympo/events/index.html');
