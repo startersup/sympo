@@ -5,6 +5,7 @@ $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_st
 $id = $_POST['email'];
 $pass = $_POST['password'];
 $sql="select * from students where email= '$id' OR number= '$id' AND pass= '$pass'";
+echo $sql;
 $res=mysqli_query($conn,$sql);
 if(mysqli_num_rows($res)>0)
 {
