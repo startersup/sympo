@@ -451,6 +451,12 @@ input[type=password] {
     float: right;
     display: block;
   }
+    .downer
+    {
+        font-size:25px !important;
+        margin-top:20px;
+        line-height:30px;
+    }
 }
 
 @media screen and (max-width: 600px) {

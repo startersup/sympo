@@ -65,7 +65,7 @@
         <section class="main container" style="margin-top:150px;">
           <center>  <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">P<span>etr</span>o<span>vi</span>sion 2k19</b></div>
             <br>
-              <h3>A National Level Technical Symposium</h3>
+              <h3 class="downer">A National Level Technical Symposium</h3>
 
             </center>
 </section>
