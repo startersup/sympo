@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-               <ul class="nav navbar-nav navbar-right " id="myTopnav">
+              <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -47,8 +47,15 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
@@ -58,38 +65,24 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Fu<span>n</span>p<span>a</span>ck</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">spo<span>t</span>li<span>g</span>ht</b></div>
+                <br><br>
              <div class="row">
             <div class="col-md-4">
-                <center><a href="../photohunt/"><div class="card zoom"><center><img class="spot" src="../assets/images/photo.png" ></center></div></a></center>
+                <center><a href="../paper/"><div class="card zoom"><center><img class="spot" src="../assets/images/paper.png" ></center></div></a></center>
 
                  </div>
                      <div class="col-md-4">
-                         <center><a href="../treasure/"><div class="card zoom"><img class="spot" src="../assets/images/treasure.png" ></div></a></center>
+                         <center><a href="../poster/"><div class="card zoom"><img class="spot" src="../assets/images/poster.png" ></div></a></center>
 
                  </div>
                   <div class="col-md-4">
-                      <center><a href="../adzap/"><div class="card zoom"><img class="spot" src="../assets/images/adzap.png" ></div></a></center>
+                      <center><a href="../case/"><div class="card zoom"><img class="spot" src="../assets/images/case.png" ></div></a></center>
 
                  </div>
-                        </div>
-             <div class="row">
-            <div class="col-md-4">
-                <center><a href="../game/"><div class="card zoom"><center><img class="spot" src="../assets/images/games.png" ></center></div></a></center>
+                        </div></div>
 
-                 </div>
-                     <div class="col-md-4">
-                         <center><a href="../minute/"><div class="card zoom"><img class="spot" src="../assets/images/minute.png" ></div></a></center>
 
-                 </div>
-                  <div class="col-md-4">
-                      <center><a href="../marvel/"><div class="card zoom"><img class="spot" src="../assets/images/marvel.png" ></div></a></center>
-
-                 </div>
-                        </div>
-            </div>
-
-    <hr>
         </section>
 
  <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>

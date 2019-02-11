@@ -47,23 +47,37 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../Login/">login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
     </nav>
 
         <section class="container">
-              <div class="shadow">
-            <center><img class="spot" src="../assets/images/petro.png">
 
-             <p>This event is predominantly a quiz comprising of questions from the both Petro-Chemical and Oil and Gas industry. This event includes prelim and a final round. Prelims consists of questions from general aptitude and technical sector followed by the final time based buzzer round.
-</p>
-                <br><button class="button">Subscribe and Register</button>
-             </center>
+            <div class="evento">
 
-            </div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">on<span>l</span>i<span>n</span>e</b></div>
+             <div class="row">
+            <div class="col-md-6">
+                <center><a href="../meme/"><div class="card zoom"><center><img class="spot" src="../assets/images/meme.png" ></center></div></a></center>
+
+                 </div>
+                     <div class="col-md-6">
+                         <center><a href="../isomanic/"><div class="card zoom"><img class="spot" src="../assets/images/inso.png" ></div></a></center>
+
+                 </div>
+                        </div></div>
+
+
         </section>
 
  <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>
@@ -72,64 +86,7 @@
 <a href="#" class="fa fa-linkedin"></a>
 <a href="#" class="fa fa-youtube"></a></center>
      <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
-        <style>.shadow {
-  position: relative;
-  margin: 120px auto 0;
-  padding:20px;
-  background: linear-gradient(0deg, #000, #262626);
-}
-            p
-            {
-                font-family: 'ProximaNovaSemibold';
-    color:#bbb;
-    font-size:20px;
-            }
-.shadow:before,
-.shadow:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(
-    45deg,
-    rgb(250,250,250),
-    rgb(0, 190, 200),
-    rgb(250,250,250)
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: moveBackground 20s linear infinite;
-}
-            button {
-  background: #4CAF50;
-  border: none;
-  border-radius: 25px;
-  color: snow; // Vanilla HTML color name
-  cursor: pointer;
-  font-size: 1.25em;
-  letter-spacing: .1em;
-  outline: none;
-  padding: .75em 2em;
-  position: relative; // Required for pseudo-element positioning
-  text-transform: uppercase;
-}
-.shadow:after {
-  filter: blur(20px);
-}
-@keyframes moveBackground{
-  0% {
-    background-position: 0 0;
-  }
-  50%{
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-</style>
 
 
-    </body></html>
+
+    </body></html>s

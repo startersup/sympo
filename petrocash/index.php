@@ -47,19 +47,25 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
     </nav>
-    
+
         <section class="container">
+              <div class="shadow">
+            <center><img class="spot" src="../assets/images/petro.png">
 
-             <div class="shadow" >
-            <center><img class="spot" src="../assets/images/inso.png">
-
-             <p> An online photography event in which participants are required to send their photograph based on the given theme to our event email id.
+             <p>This event is predominantly a quiz comprising of questions from the both Petro-Chemical and Oil and Gas industry. This event includes prelim and a final round. Prelims consists of questions from general aptitude and technical sector followed by the final time based buzzer round.
 </p>
                 <br><button class="button">Subscribe and Register</button>
              </center>

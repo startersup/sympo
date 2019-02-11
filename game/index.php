@@ -47,8 +47,15 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../Login/">login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
@@ -57,9 +64,9 @@
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/marvel.png">
+            <center><img class="spot" src="../assets/images/games.png">
 
-             <p> An interactive two round questionnaire event for the super hero fans that is based on the theme of DC and MARVEL. The top scorer will be the winner.
+             <p> A questionnaire fun event based on English TV show and Anime. The question will be from popular English TV shows and Anime (say, Pokemon, Dragon ball Z, Sherlock, The Walking Dead, F.R.I.E.N.D.S, Game of Thrones).
 </p>
                 <br><button class="button">Subscribe and Register</button>
              </center>

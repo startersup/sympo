@@ -47,8 +47,15 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
@@ -56,12 +63,14 @@
 
         <section class="container">
 
-         <div class="shadow" >
-            <center><img class="spot" src="../assets/images/paper.png">
+             <div class="shadow" >
+            <center><img class="spot" src="../assets/images/design.png">
 
-             <p>The great platform for the participates to present their innovative technical review or research paper through a digital presentation. The topics consist both chemical and oil and gas sector. The judgement will be based on the technical content of the paper and how well the content is presented.</p><br>
-                <button class="button">Subscribe and Register</button>
+             <p> Participants will be required to design a theoretical model for a particular petro-chemical equipment through the given data.
+</p>
+                <br><button class="button">Subscribe and Register</button>
              </center>
+
             </div>
         </section>
 

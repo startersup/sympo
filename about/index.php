@@ -50,7 +50,7 @@
                   session_start();
                     if(isset($_SESSION['id'])){
                     echo "<li><a href='./logout/'>Logout</a>
-                 </li> "
+                 </li> ";
                } else {
                  echo "<li><a href='./login/'>Login</a>
               </li>";

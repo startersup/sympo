@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-              <ul class="nav navbar-nav navbar-right " id="myTopnav">
+               <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -47,23 +47,31 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
     </nav>
 
         <section class="container">
-              <div class="shadow" id="two">
-            <center><img class="spot" src="../assets/images/poster.png">
 
-             <p>The participants exhibit their technical knowledge in the form of a poster. The topics consist both chemical and oil and gas sector. The judgement will be based on the technical content of the poster and how well the content is presented.</p>
+             <div class="shadow" >
+            <center><img class="spot" src="../assets/images/inso.png">
+
+             <p> An online photography event in which participants are required to send their photograph based on the given theme to our event email id.
+</p>
                 <br><button class="button">Subscribe and Register</button>
              </center>
 
             </div>
-
         </section>
 
  <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>

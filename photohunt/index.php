@@ -47,8 +47,15 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Lgin</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
@@ -57,9 +64,9 @@
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/meme.png">
+            <center><img class="spot" src="../assets/images/photo.png">
 
-             <p> An online meme contest in which participants are required to send their memes based on the given theme to our event email id.
+             <p> An exclusive fun event that demands you to explore our campus and find the given list of martials within the provided campus area.
 </p>
                 <br><button class="button">Subscribe and Register</button>
              </center>

@@ -19,7 +19,7 @@
     <script src="../assets/js/sidenav.js"></script>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
-     <nav class="navbar navbar-default navit navbar-fixed-top">
+  <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-              <ul class="nav navbar-nav navbar-right " id="myTopnav">
+                <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.html">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -47,41 +47,46 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../login/">Login</a>
-                </li>
+                <?php
+                session_start();
+                  if(isset($_SESSION['id'])){
+                  echo "<li><a href='./logout/'>Logout</a>
+               </li> ";
+             } else {
+               echo "<li><a href='./login/'>Login</a>
+            </li>";
+             }       ?>
             </ul>
         </div>
 
     </nav>
 
+        <section class="container">
 
-        <section class="container events">
+            <div class="evento">
 
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;"><span>Non-Tec</span>hn<span>i</span>cal</b></div>
              <div class="row">
-            <div class="col-md-6 ">
-                <div class="card margino right">
-               <center>
-                   <img src="../assets/images/codethon_banner.png" style="max-width:400px;width:100%;">
-                    <h3>Technically Strong?</h3>
-                   <a href="../tech/index.html"><button class="button2">View Events </button></a>
-                    </center></div>
-               </div>
-                <div class="col-md-6 ">
-                      <div class="card margino left">
-                          <center>
-                                <img  class="images" src="../assets/images/non-tech.png" style="width:100%;">
-                    <h3>Not Technically Strong ?</h3>
-                              <a href="../non-tech/index.html">  <button class="button1">View Events </button> </a>
-                          </center>
-                    </div>
-               </div>
+            <div class="col-md-6">
+                <center><a href="../funpack/"><div class="card"><img class="spot" src="../assets/images/funpack%20(2).png" ><h3>Intrested to Participate?</h3></div></a></center>
 
-            </div>
+                 </div>
+                  <div class="col-md-6">
+                      <center><a href="../online/"><div class="card"><img  class="spot" src="../assets/images/online.png" ><h3>Intrested in Exploring?</h3></div></a></center>
+
+                 </div>
+                        </div></div>
+
+
         </section>
- <footer><center><a href="#" class="fa fa-facebook"></a>
+
+ <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-google"></a>
 <a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a></center><br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
+<a href="#" class="fa fa-youtube"></a></center>
+     <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
+
+       <style></style>
 
     </body></html>
