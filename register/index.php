@@ -11,7 +11,7 @@ $pass = $_POST['pass'];
 $sql = "INSERT into students (name,email,number,dept,college,pass,accom) VALUES('$name','$email',$contact,'$dept','$college','$pass','NO')";
    echo $sql;
 mysqli_query($conn,$sql);
-header('location: /index.html');
+//header('location: /index.html');
 }
 ?>
 
