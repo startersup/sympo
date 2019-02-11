@@ -11,7 +11,7 @@ if(mysqli_num_rows($res)>0)
   header('location :/index.html');
 }
 else {
-  echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
+  //echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
 }
 mysqli_close($conn);
 }
