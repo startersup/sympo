@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['reg']))
 {
-$conn=mysqli_connect('localhost','u453074143_petro','petrovision2k19','u453074143_stud');
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $name= $_POST['name'];
 $email=$_POST['email'];
 $contact =$_POST['contact'];
