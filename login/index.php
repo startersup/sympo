@@ -79,7 +79,7 @@ mysqli_close($conn);
             <center><img class="spot" src="../assets/images/login.png" >
              <h3 style="margin-top:-30px">Welcome Back Again!</h3>
              <p> </p><br>
-                <form class="form-inline" action="/action_page.php">
+                <form class="form-inline" method="post" action="">
     <div class="form-group">
       <input type="text" class="controls" placeholder="Email Address/Phone Number" name="email" required>
     </div>
