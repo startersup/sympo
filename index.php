@@ -66,7 +66,13 @@
           <center>  <div class="logos"><b style="font-family: 'Anton', sans-serif;margin-top:-40px;">P<span>etr</span>o<span>vi</span>sion 2k19</b></div>
             <br>
               <h3 class="downer">A National Level Technical Symposium</h3>
-
+              <p>Starts at</p>
+ <ul>
+    <li><span id="days"></span>days</li>
+    <li><span id="hours"></span>Hours</li>
+    <li><span id="minutes"></span>Minutes</li>
+    <li><span id="seconds"></span>Seconds</li>
+  </ul>
             </center>
 </section>
         <section class="container about">
@@ -97,4 +103,25 @@
 <a href="#" class="fa fa-youtube"></a></center>
      <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
 
-    </body></html>
+    </body>
+<script>const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('March 11, 2019 00:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+      
+      
+
+    }, second)</script>
+
+</html>
