@@ -52,7 +52,7 @@
                     echo "<li><a href='./logout/'>Logout</a>
                  </li> ";
                } else {
-                 echo "<li><a href='./login/'>Login</a>
+                 echo "<li><a href='/login/'>Login</a>
               </li>";
                }       ?>
             </ul>
