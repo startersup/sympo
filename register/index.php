@@ -41,7 +41,7 @@ header('location: /sympo/events/index.html');
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
            <center> <a class="navbar-brand" href="#">
                <span> <img class="logo" src="../assets/images/logo.png">Petrovision</span>
@@ -64,15 +64,15 @@ header('location: /sympo/events/index.html');
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                   <li><a href="../Login/">Login</a>
+                   <li><a href="../login/">Login</a>
                 </li>
             </ul>
         </div>
-      
+
     </nav>
-    
+
         <section class="container">
-  
+
          <div class="shadow">
             <center><img class="spot" src="../assets/images/reg.png">
              <h3 style="margin-top:-30px">You are one step away from getting in to the event!</h3>
@@ -89,20 +89,20 @@ header('location: /sympo/events/index.html');
     </div>
                     <div class="form-group">
       <input type="text" class="controls" placeholder="Which Department you belong to ?" name="dept">
-    </div> 
+    </div>
     <div class="form-group">
       <input type="text" class="controls" placeholder="Name of your college ?" name="college" >
-    </div>   
+    </div>
               <div class="form-group">
       <input type="password" class="controls" placeholder="Set a Password" name="pass" >
-    </div>          
+    </div>
                     <center><button name="reg" class="button">Register</button></center>
   </form>
-                
+
              </center>
             </div>
-        </section>    
-       
+        </section>
+
  <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-google"></a>
@@ -167,6 +167,6 @@ header('location: /sympo/events/index.html');
   }
 }
 </style>
-       
-      
+
+
     </body></html>
