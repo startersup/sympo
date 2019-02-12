@@ -46,9 +46,9 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     color:#ffffff;
     padding:5px;
 }
-body
+#body
 {
-    background-image: url(../images/front.mp4);
+    background-image: url(../images/bg.png);
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
