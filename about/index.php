@@ -74,6 +74,38 @@ The world pretty much owes us and we are  proud about it. DAB!</p><br>
                <br>
              <p>Basic commodities to attend this Symposium: Sun tan lotion and Aviators.
 Coz it's 🔥 fam.</p>
+             <div class="row">
+                <div class="col-md-4">
+       <div class="char set">
+  <h1>Head of Department</h1>
+  <p class="title">DR.S.KALAISELVAM</p>
+  <p>hoddast@gmail.com</p>
+</div></div>
+                            <div class="col-md-4">
+       <div class="char set">
+  <h1>Faculty Co-ordinator</h1>
+  <p class="title">DR.M.DHARMENDIRA KUMAR</p>
+  <p>mdkumar@annauniv.edu</p>
+</div></div>
+                                <div class="col-md-4">
+       <div class="char set">
+  <h1>SPE Co-ordinator</h1>
+  <p class="title">DR.J.JAYAPRIYA</p>
+ <p>jayapriyachem@gmail.com</p>
+</div></div>
+              <div class="col-md-6">
+                
+       <div class="char set">
+  <h1>President</h1>
+  <p class="title">MR. NISHAL KRISHNAN</p>
+</div></div>
+        <div class="col-md-6">
+                
+       <div class="char set">
+  <h1>Vice-President</h1>
+  <p class="title">MR.VIGNESHWARAN</p>
+</div></div>
+            </div>
             </div>
         </section>
 
