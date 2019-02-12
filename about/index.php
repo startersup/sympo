@@ -74,7 +74,7 @@ The world pretty much owes us and we are  proud about it. DAB!</p><br>
                <br>
              <p>Basic commodities to attend this Symposium: Sun tan lotion and Aviators.
 Coz it's 🔥 fam.</p>
-             <div class="row">
+          <center>  <div class="row">
                 <div class="col-md-4">
        <div class="char set">
   <h1>Head of Department</h1>
@@ -105,7 +105,7 @@ Coz it's 🔥 fam.</p>
   <h1>Vice-President</h1>
   <p class="title">MR.VIGNESHWARAN</p>
 </div></div>
-            </div>
+            </div></center> 
             </div>
         </section>
 
