@@ -173,6 +173,55 @@ Coz it's 🔥 fam.</p>
   }
 }
 </style>
+         <style>
+.char {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  background-color:#ffffff;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.char h1
+         {
+             font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:30px;
+         }
+         .char p
+         {
+             font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:20px;
+         }
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #FCBB1C;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>  
 
 
     </body></html>
