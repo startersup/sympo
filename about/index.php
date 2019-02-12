@@ -73,7 +73,7 @@ The world pretty much owes us and we are  proud about it. DAB!</p><br>
                 <p>A national level technical symposium organised by the Department of Applied Science and Technology that envisions the coming together of diverse students and staffs related to the field of Petroleum Engineering. </p>
                <br>
              <p>Basic commodities to attend this Symposium: Sun tan lotion and Aviators.
-Coz it's 🔥 fam.</p>
+Coz it's 🔥 fam.</p><hr>
           <center>  <div class="row">
                 <div class="col-md-4">
        <div class="char set">
