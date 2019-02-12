@@ -62,7 +62,7 @@
 
     </nav>
 
-        <section class="main container" style="margin-top:150px;">
+        <section class="main container" style="margin-top:150px;background-color:#000000">
           <center>  <div class="logos"><b style="font-family: 'Anton', sans-serif;margin-top:-40px;">P<span>etr</span>o<span>vi</span>sion 2k19</b></div>
             <br>
               <h3 class="downer">A National Level Technical Symposium</h3>
