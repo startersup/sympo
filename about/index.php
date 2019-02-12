@@ -66,7 +66,7 @@
             <center> <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
             </center>
                  <br><br>
-             <center><img src="../assets/images/Anna-University-Logo.png" style="max-width:400px;width:100%;"></center><br><br>
+             <center><img src="../assets/images/banner.jpeg" style="width:100%;"></center><br><br>
              <p style="padding:10px;"> Anna University, established in 1978, was brought to life with the purpose of fostering free flow of thought, will and action related to Engineering and Technology,symbolised by the ventilated open halls of our main campus.<br><br>Department of Applied Science and Technology prides itself on producing students who work in Oil & Gas industries which pretty much decides the nation's economy and produces every essential of daily use for humans.
 The world pretty much owes us and we are  proud about it. DAB!</p><br>
                 <h3> Petrovision</h3>
