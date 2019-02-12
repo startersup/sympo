@@ -33,7 +33,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 }
 .main
 {
-    background-image: url(../images/bg.png);
+    background-color:#000000;
 }
 
 .about
@@ -675,7 +675,7 @@ input[type=password] {
     .main
     {
         margin-top:300px;
-        background-image: url(../images/bg.jpg);
+        background-color:#000000
     }
     .images
 {
