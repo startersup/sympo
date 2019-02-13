@@ -42,8 +42,8 @@
 
         </nav>
         <section class="container top color">
-       <center> <h3>You are One Step Away from Payment!</h3>
-            <div class="card white" style="background-color:#ffffff;color:#000000;border:none !important;">
+       <center> <h3>You are One Step Away from Payment!</h3><br><br>
+            <div class="card white" style="background-color:#ffffff;color:#000000;border:none;">
            <table class="table">
 
          <tr><td>Order Id :</td><td>ORD12567</td> </tr>
