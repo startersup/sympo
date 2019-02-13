@@ -76,8 +76,6 @@
           <li class="active"> <a href="#tab_default_1" data-toggle="tab"> Magento Product Upload </a> </li>
           <li> <a href="#tab_default_2" data-toggle="tab"> Yahoo Store Data Entry</a> </li>
           <li> <a href="#tab_default_3" data-toggle="tab"> Shopify Product Upload </a> </li>
-          <li> <a href="#tab_default_4" data-toggle="tab"> OpenCart Product Upload</a> </li>
-          <li> <a href="#tab_default_5" data-toggle="tab" class="thbada"> Amazon Product Listing </a> </li>
         </ul>
         <div class="tab-content margin-tops">
           <div class="tab-pane active fade in" id="tab_default_1">
@@ -132,19 +130,7 @@
               <div class="btns">View More <i class="fa fa-angle-right"></i></div>
               </a> </div>
           </div>
-          <div class="tab-pane fade" id="tab_default_5">
-            <div class="col-md-4">
-              <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="heading4">Amazon Product Listing </h4>
-              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
-              <h4 class="heading4">Amazon Product Listing</h4>
-              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
-              <a href="#">
-              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
-              </a> </div>
-          </div>
+
         </div>
       </div>
 
