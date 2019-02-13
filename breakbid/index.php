@@ -129,7 +129,7 @@
 				<div class="modal-body">
 					<p>Choose any of these suitable options according to your convenience!</p>
                     <div class="row">
-                    <div class="col-md-6"><center><img src="../assets/images/debit-card.png"><br><p>Pay Online</p></center></div>
+                    <div class="col-md-6"><a href="http://petrovision.co.in/paytmkit/txntest.php"></a><center><img src="../assets/images/debit-card.png"><br><p>Pay Online</p></center></div>
                      <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Pay Onspot</p></center></div>
                     </div>
 				</div>
