@@ -37,7 +37,7 @@
             </a></center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
-            <a href="../index.php"><button style="float:right;padding:0px 10px;" class="button2">Back</button></a>
+            <a href="../index.php"><button style="float:right;padding:5px 10px;" class="button2">Back</button></a>
         </div>
 
         </nav>
