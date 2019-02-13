@@ -176,7 +176,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 {
     margin-top:60px;
 }
-.margino h3,
+.margino h3
      font-family: 'Anton', sans-serif;
     color:#fbe266;
     letter-spacing: 3px;
@@ -643,7 +643,7 @@ input[type=password] {
     .h3{
      font-family: 'Anton', sans-serif;
     color:#fbe266;
-    letter-spacing: 3px;
+    letter-spacing:3px;
     line-height:40px;
     margin-top:-50px;
 }
