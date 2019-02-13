@@ -176,7 +176,7 @@ header h1 {
 }
 .cd-date
 {
-    color:orange;
+    color : orange;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
