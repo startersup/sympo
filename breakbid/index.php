@@ -117,6 +117,25 @@
             </div>
         </section>
 
+	
+	<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel-2">Title goes here</h4>
+				</div>
+
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum.</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-dialog">Ok</button>
+				</div>
+			</div><!-- modal-content -->
+		</div><!-- modal-dialog -->
+	</div><!-- mo
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
