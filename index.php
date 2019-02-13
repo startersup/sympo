@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <script src="./assets/js/sidenav.js"></script>
 </head>
-    <body style="background-image:url('assets/images/bg.jpg');opacity:0.8;">
+    <body style="background-color:#000000;opacity:0.8;">
     <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
