@@ -732,7 +732,10 @@ input[type=password] {
     margin: 0px 0px;
     color: #737373;
 }
-
+.white
+    {
+        background-color#ffffff;
+    }
      .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;

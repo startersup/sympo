@@ -42,7 +42,13 @@
 
         </nav>
         <section class="container top color">
-       <center> <h3>You are One Step Away from Payment!</h3></center>
+       <center> <h3>You are One Step Away from Payment!</h3>
+            <div class="card white">
+           
+           
+           </div>
+            
+            </center>
         
         </section>
     
