@@ -164,92 +164,92 @@ img {
   <div class="container">
     <div class="mySlides">
       <div class="numbertext">1 / 21</div>
-      <img src="/assets/images/gallery/1.jpg" style="width:100%">
+      <img src="/assets/images/gallery/1.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 21</div>
-      <img src="/assets/images/gallery/2.jpg" style="width:100%">
+      <img src="/assets/images/gallery/2.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 21</div>
-      <img src="/assets/images/gallery/3.jpg" style="width:100%">
+      <img src="/assets/images/gallery/3.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">4 / 21</div>
-      <img src="/assets/images/gallery/4.jpg" style="width:100%">
+      <img src="/assets/images/gallery/4.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">5 / 21</div>
-      <img src="/assets/images/gallery/5.jpg" style="width:100%">
+      <img src="/assets/images/gallery/5.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">6 / 21</div>
-      <img src="/assets/images/gallery/6.jpg" style="width:100%">
+      <img src="/assets/images/gallery/6.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">7 / 21</div>
-      <img src="/assets/images/gallery/7.jpg" style="width:100%">
+      <img src="/assets/images/gallery/7.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">8 / 21</div>
-      <img src="/assets/images/gallery/8.jpg" style="width:100%">
+      <img src="/assets/images/gallery/8.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">9 / 21</div>
-      <img src="/assets/images/gallery/9.jpg" style="width:100%">
+      <img src="/assets/images/gallery/9.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">10 / 21</div>
-      <img src="/assets/images/gallery/10.jpg" style="width:100%">
+      <img src="/assets/images/gallery/10.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">11 / 21</div>
-      <img src="/assets/images/gallery/11.jpg" style="width:100%">
+      <img src="/assets/images/gallery/11.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">12 / 21</div>
-      <img src="/assets/images/gallery/12.jpg" style="width:100%">
+      <img src="/assets/images/gallery/12.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">13 / 21</div>
-      <img src="/assets/images/gallery/13.jpg" style="width:100%">
+      <img src="/assets/images/gallery/13.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">14 / 21</div>
-      <img src="/assets/images/gallery/14.jpg" style="width:100%">
+      <img src="/assets/images/gallery/14.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">15 / 21</div>
-      <img src="/assets/images/gallery/15.jpg" style="width:100%">
+      <img src="/assets/images/gallery/15.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">16 / 21</div>
-      <img src="/assets/images/gallery/16.jpg" style="width:100%">
+      <img src="/assets/images/gallery/16.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">17 / 21</div>
-      <img src="/assets/images/gallery/17.jpg" style="width:100%">
+      <img src="/assets/images/gallery/17.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">18 / 21</div>
-      <img src="/assets/images/gallery/18.jpg" style="width:100%">
+      <img src="/assets/images/gallery/18.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">19 / 21</div>
-      <img src="/assets/images/gallery/19.jpg" style="width:100%">
+      <img src="/assets/images/gallery/19.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">20 / 21</div>
-      <img src="/assets/images/gallery/20.jpg" style="width:100%">
+      <img src="/assets/images/gallery/20.JPG" style="width:100%">
     </div>
     <div class="mySlides">
       <div class="numbertext">21 / 21</div>
-      <img src="/assets/images/gallery/21.jpg" style="width:100%">
+      <img src="/assets/images/gallery/21.JPG" style="width:100%">
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
@@ -260,66 +260,66 @@ img {
 
     <div class="row">
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        <img class="demo cursor" src="/assets/images/gallery/1.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        <img class="demo cursor" src="/assets/images/gallery/2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        <img class="demo cursor" src="/assets/images/gallery/3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        <img class="demo cursor" src="/assets/images/gallery/4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        <img class="demo cursor" src="/assets/images/gallery/5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/7.JPG" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/8.JPG" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/9.JPG" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/10.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/11.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/11.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div><div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/12.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/12.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/13.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/13.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/14.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/14.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/15.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/15.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/16.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/16.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/17.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/17.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/18.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/18.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/19.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/19.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/20.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/20.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/21.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/21.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
     </div>
   </div>
