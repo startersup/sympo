@@ -200,7 +200,6 @@
 }
     /* Tabs panel */
 .tabbable-panel {
-  border:1px solid #eee;
   padding: 10px;
 }
 
