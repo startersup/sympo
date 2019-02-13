@@ -112,7 +112,6 @@
 			</div>
 
                 <br><button class="button">Subscribe</button>
-=======
 </div>
              </center>
             </div>
