@@ -45,8 +45,8 @@
        <center> <h3>You are One Step Away from Payment!</h3>
             <div class="card white">
            <table>
-         <tr><td>Order Id :</td><td>ORD12567</td><br>
-             <td> Name :</td><td>Vinodhan</td> <br>
+         <tr><td>Order Id :</td><td>ORD12567</td><br><br>
+             <td> Name :</td><td>Vinodhan</td> <br><br>
               <td> Event Name :</td><td>Breaking Bid</td> <br>
               <td> Amount :</td><td> ₹ 200</td> 
                </tr>       
