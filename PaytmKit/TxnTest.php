@@ -51,19 +51,19 @@
           <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
-      <input type="text" class="form-control"  value="1232425262" name="email" disabled>
+      <input type="text" class="border"  value="1232425262" name="email" disabled>
     </div>
     <div class="form-group">
       <label>Student Name</label>
-      <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
+      <input type="text" class="border"  value="Vinodhan" name="pwd" disabled>
     </div>
                   <div class="form-group">
       <label>Event Subscribed</label>
-      <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
+      <input type="text" class="border"  value="grey cell" name="pwd" disabled>
     </div>
   <div class="form-group">
       <label>Amount</label>
-      <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
+      <input type="text" class="border"  value="₹ 200" name="pwd" disabled>
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
