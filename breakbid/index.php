@@ -70,73 +70,66 @@
 
              <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
 </p>
-                  <div class="tabbable-panel margin-tops4 ">
-      <div class="tabbable-line">
-        <ul class="nav nav-tabs tabtop  tabsetting">
-          <li class="active"> <a href="#tab_default_1" data-toggle="tab"> Magento Product Upload </a> </li>
-          <li> <a href="#tab_default_2" data-toggle="tab"> Yahoo Store Data Entry</a> </li>
-          <li> <a href="#tab_default_3" data-toggle="tab"> Shopify Product Upload </a> </li>
-        </ul>
-        <div class="tab-content margin-tops">
-          <div class="tab-pane active fade in" id="tab_default_1">
-            <div class="col-md-4">
-              <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="heading4">Magento Product Upload Services</h4>
-              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
-              <h4 class="heading4">Magento Product Upload Services</h4>
-              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
-              <a href="#">
-              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
-              </a> </div>
-          </div>
-          <div class="tab-pane fade" id="tab_default_2">
-            <div class="col-md-4">
-             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="heading4">Yahoo Store Data Entry</h4>
-              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
-              <h4 class="heading4">Yahoo Store Data Entry</h4>
-              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
-              <a href="#">
-              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
-              </a> </div>
-          </div>
-          <div class="tab-pane fade" id="tab_default_3">
-            <div class="col-md-4">
-             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="heading4">Shopify Product Upload </h4>
-              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
-              <h4 class="heading4">Shopify Product Upload </h4>
-              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
-              <a href="#">
-              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
-              </a> </div>
-          </div>
-          <div class="tab-pane fade" id="tab_default_4">
-            <div class="col-md-4">
-             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
-            </div>
-            <div class="col-md-8">
-              <h4 class="heading4">OpenCart Product Upload</h4>
-              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
-              <h4 class="heading4">OpenCart Product Upload</h4>
-              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
-              <a href="#">
-              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
-              </a> </div>
-          </div>
+           	<div class="tabbable-panel">
+				<div class="tabbable-line">
+					<ul class="nav nav-tabs ">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab">
+							Tab 1 </a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab">
+							Tab 2 </a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab">
+							Tab 3 </a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab_default_1">
+							<p>
+								I'm in Tab 1.
+							</p>
+							<p>
+								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+							</p>
+							<p>
+								<a class="btn btn-success" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+							<p>
+								Howdy, I'm in Tab 2.
+							</p>
+							<p>
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+							</p>
+							<p>
+								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+									Click for more features...
+								</a>
+							</p>
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<p>
+								Howdy, I'm in Tab 3.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        </div>
-      </div>
-
-<!--home-content-top ends here--> 
-
-                </div>
 
                 <br><button class="button">Subscribe and Register</button>
              </center>
@@ -205,26 +198,87 @@
     background-position: 0 0;
   }
 }
-            .heading4{font-size:18px;font-weight:400;font-family:'Lato', sans-serif;color:#111111;margin:0px 0px 5px 0px;}
-.heading1{font-size:30px;line-height:20px;font-family:'Lato', sans-serif;text-transform:uppercase;color:#1b2834;font-weight:900;}
-.content-quality{float:left;width:193px;}
-.content-quality p{margin-left:10px;font-family:'Open Sans', sans-serif;font-size:14px;font-weight:600;line-height:17px;}
-.content-quality p span{display:block;}
-.tabtop li a{font-family:'Lato', sans-serif;font-weight:700;color:#1b2834;border-radius:0px;margin-right:22.008px;}
-.tabtop .active a:before{content:"♦";position:absolute;top:15px;left:82px;color:#e31837;font-size:30px;}
-.tabtop li a:hover{color:#e31837 !important;text-decoration:none;}
-.tabtop .active a:hover{color:#fff !important;}
-.tabtop .active a{background-color:#e31837 !important;color:#FFF !important;}
-.margin-tops{margin-top:30px;}
-.tabtop li a:last-child{padding:10px 22px;}
-.thbada{padding:10px 28px !important;}
-section p{font-family:'Lato', sans-serif;}
-.margin-tops4{margin-top:20px;}
-.tabsetting{border-top:5px solid #ebebeb;padding-top:6px;}
-.services{background-color:#d4d4d4;min-height:710px;padding:65px 0 27px 0;}
-.services a:hover{color:#000;}
-.services h1{margin-top:0px !important;}
-.heading-container p{font-family:'Lato', sans-serif;text-align:center;font-size:16px !important;text-transform:uppercase;}
+    /* Tabs panel */
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}       
 </style>
 
 
