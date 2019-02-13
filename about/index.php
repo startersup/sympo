@@ -19,8 +19,8 @@
     <script src="../assets/js/sidenav.js"></script>
     <style>
     .con {
-    width: 200px;
-    height: 120px;
+    width: 600px;
+    height: 300px;
 }</style>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
