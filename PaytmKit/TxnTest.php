@@ -45,21 +45,32 @@
        <center> <h3>You are One Step Away from Payment!</h3><br>
            <div class="container1">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-           <table class="table" style="border-color:transparent;">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Order Id:</label>
+      <input type="email" class="form-control" id="email" value="1232425262" name="email" disabled>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Student Name:</label>
+      <input type="password" class="form-control" id="pwd" value="Vinodhan" name="pwd" disabled>
+    </div>
+                  <div class="form-group">
+      <label for="pwd">Event Subscribed:</label>
+      <input type="password" class="form-control" id="pwd" value="grey cell" name="pwd" disabled>
+    </div>
 
-         <tr><td>Order Id :</td><td>ORD12567</td> </tr>
-           <tr> <td> Name :</td><td>Vinodhan</td></tr> 
-             <tr> <td> Event Name :</td><td>Breaking Bid</td></tr> 
-               <tr>  <td> Amount :</td><td> ₹ 200</td> </tr>
-                     
-                
-         </table>
-           </div></div>
+    
             <br><br>
-           <button class="button1">Proceed to Checkout</button>
+              <button class="button1">Proceed to Checkout</button>  </form>    </div></div>
             </center>
         
         </section>
     
-    
+    <style>
+.form-control
+        {
+            border:none !important;
+        }
+        
+        </style>
     </body></html>
