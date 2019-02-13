@@ -201,6 +201,7 @@
     /* Tabs panel */
 .tabbable-panel {
   padding: 10px;
+    background-color: transparent;
 }
 
 /* Default mode */
