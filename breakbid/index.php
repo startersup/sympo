@@ -255,7 +255,10 @@
   padding-bottom: 0;
 }
 
-
+.tabpane
+            {
+                background-color:transparent;
+            }
 </style>
 
 
