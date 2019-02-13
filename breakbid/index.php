@@ -111,8 +111,13 @@
 				</div>
 			</div>
 
+<<<<<<< HEAD
+
+                <br><button class="button">Subscribe</button>
+=======
 </div>
                 <br><button class="button" data-toggle="modal" data-target="#myModal-2">Subscribe and Register</button>
+>>>>>>> 9e8c624ef4331503210e7e42af9e72b23b1b3107
              </center>
             </div>
         </section>
