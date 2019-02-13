@@ -45,22 +45,25 @@
        <center> <h3>You are One Step Away from Payment!</h3><br>
            <div class="container1">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-          <form action="/action_page.php">
+          <form action="http://petrovision.co.in/PaytmKit/PgRedirect.php">
     <div class="form-group">
-      <label for="email">Order Id:</label>
+      <label for="email">Order Id</label>
       <input type="text" class="form-control"  value="1232425262" name="email" disabled>
     </div>
     <div class="form-group">
-      <label for="pwd">Student Name:</label>
+      <label for="pwd">Student Name</label>
       <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
     </div>
                   <div class="form-group">
-      <label for="pwd">Event Subscribed:</label>
+      <label for="pwd">Event Subscribed</label>
       <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
     </div>
-
+  <div class="form-group">
+      <label for="pwd">Amount</label>
+      <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
+    </div>
     
-            <br><br>
+            <br>
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div>
             </center>
         
