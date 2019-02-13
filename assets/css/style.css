@@ -11,17 +11,17 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 .navbar-default{
   transition:500ms ease;
@@ -29,8 +29,112 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
   color: #000000;
     border:none !important;
     min-height:52px !important;
-     
+
 }
+/* FADE/SCALE EFFECT */
+	.modal.fade .modal-dialog {
+		opacity: 0;
+		-webkit-transform: scale(0.1);
+			-ms-transform: scale(0.1);
+			 -o-transform: scale(0.1);
+				transform: scale(0.1);
+		-webkit-transition: all 0.3s ease;
+		   -moz-transition: all 0.3s ease;
+			 -o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+	}
+
+	.modal.fade.in .modal-dialog {
+		opacity: 1;
+		-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			 -o-transform: scale(1);
+				transform: scale(1);
+		-webkit-transform: translate3d(0%, 0, 0);
+			-ms-transform: translate3d(0%, 0, 0);
+			 -o-transform: translate3d(0%, 0, 0);
+				transform: translate3d(0%, 0, 0);
+	}
+
+/* DIALOG CONTENT */
+	.modal-content {
+		border: none;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 40px 77px rgba(0, 0, 0, 0.22), 0 27px 24px rgba(0, 0, 0, 0.2);
+		   -moz-box-shadow: 0 40px 77px rgba(0, 0, 0, 0.22), 0 27px 24px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 40px 77px rgba(0, 0, 0, 0.22), 0 27px 24px rgba(0, 0, 0, 0.2);
+	}
+
+/* DIALOG HEADER */
+	.modal-header {
+		min-height: 16px;
+		padding: 24px;
+		border-bottom: none;
+	}
+
+	.modal-title {
+		font-weight: 500;
+		font-size: 21px;
+	}
+
+	/* DIALOG BODY */
+	.modal-body {
+		padding: 0 24px;
+	}
+
+	.modal-body p {
+		font-weight: 400;
+		font-size: 14px;
+		color: #212121;
+	}
+
+	.modal-body .lead {
+		font-weight: 300;
+		font-size: 16px;
+		color: #757575;
+	}
+
+	.modal-body p:last-child,
+	.modal-body .lead:last-child {
+		margin-bottom: 0;
+	}
+
+/* DIALOG FOOTER */
+	.modal-footer {
+		margin-top: 24px;
+		padding: 8px 0;
+		border-top: none;
+	}
+
+	.modal-footer .btn {
+		height: 36px;
+		margin-right: 8px;
+		padding: 8px 10px;
+		border: none;
+		border-radius: 0;
+		text-transform: uppercase;
+		font-weight: 500;
+		color: #009688;
+		background-color: #fff;
+	}
+
+	.modal-footer .btn:focus {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.modal-footer .btn:focus,
+	.modal-footer .btn:hover {
+		color: #00796B;
+	}
+
+	.modal-footer .btn + .btn {
+		margin-left: 0;
+	}
+
+	.modal-footer .btn + .btn:last-child {
+		margin-left: -4px;
+	}
 .main
 {
     background-color:#000000;
@@ -38,11 +142,11 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 
 .about
 {
-    padding:40px 10px; 
+    padding:40px 10px;
 }
 .white h2
 {
-  font-family: 'Anton', sans-serif;  
+  font-family: 'Anton', sans-serif;
     letter-spacing: 1.2px;
 }
 .white
@@ -61,15 +165,18 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
    font-size:22px;
     text-align: center;
     color:#ffffff;
-    
-}
 
+}
+.container1
+{
+    margin-left:5%;
+    margin-right:5%;
+}
 .top
 {
     margin-top:60px;
 }
-.margino h3
-{
+.margino h3,
      font-family: 'Anton', sans-serif;
     color:#fbe266;
     letter-spacing: 3px;
@@ -82,6 +189,10 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     letter-spacing: 3px;
     line-height:40px;
     margin-top:-100px;
+}
+.modal-title
+{
+
 }
 .contact
 {
@@ -107,7 +218,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 {
     background-color:#000000 !important;
 }
-.products h4
+.products h4,.modal-title
 {
       font-family: 'ProximaNovaSemibold';
     text-align: center;
@@ -131,7 +242,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 }
 .products p
 {
-   text-align: center; 
+   text-align: center;
 }
 #myTopnav
 {
@@ -178,12 +289,12 @@ margin:0px 10px;
 #aks:hover {
     content: url('../images/non-tech.png');
 }
-#borderimg1 { 
+#borderimg1 {
   border: 10px solid transparent;
   padding: 15px;
    border-image: url(../images/border.png) 20% round;
 }
-#borderimg2 { 
+#borderimg2 {
   border: 10px solid transparent;
   padding: 15px;
   -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
@@ -317,7 +428,7 @@ margin:0px 10px;
 {
     position: relative;
     margin-top:5%;
-    
+
 }
 
 .images
@@ -338,7 +449,7 @@ footer p
 {
   font-family: 'ProximaNovaSemibold';
     color:#bbb;
-    font-size:30px;  
+    font-size:30px;
 }
 input[type=text] {
     width: 100%;
@@ -386,7 +497,7 @@ input[type=password] {
 .zoom:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 .evento
 {
@@ -398,7 +509,7 @@ input[type=password] {
 }
 
 .logos {
-  
+
   text-align: center;
   width: 100%;
   height: 100px;
@@ -407,10 +518,10 @@ input[type=password] {
   left: 0;
   right: 0;
   bottom: 0;
- 
+
 }
 .logos1 {
-  
+
   text-align: center;
 }
 .logos b{
@@ -438,7 +549,7 @@ input[type=password] {
      color: #333;
   }
   80% {
-    
+
     text-shadow: none;
   }
   81% {
@@ -463,7 +574,7 @@ input[type=password] {
   }
 }
 .navbar-default .navbar-toggle {
- border:none; 
+ border:none;
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -477,6 +588,7 @@ input[type=password] {
         margin-top:100px;
         line-height:30px;
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -526,9 +638,9 @@ input[type=password] {
     .shadow p
     {
        font-size: 15px;
- 
+
     }
-    .h3 h3{
+    .h3{
      font-family: 'Anton', sans-serif;
     color:#fbe266;
     letter-spacing: 3px;
@@ -564,7 +676,7 @@ input[type=password] {
     font-weight:400;
         line-height:48px;
 }
-    #borderimg1 { 
+    #borderimg1 {
   border:none;
 }
 .work
@@ -575,7 +687,7 @@ input[type=password] {
      font-family: 'ProximaNovaSemibold';
     color: #000000;
     font-size:20px;
-  
+
     text-align:center;
     font-weight:400;
         line-height:32px;
@@ -583,7 +695,7 @@ input[type=password] {
 }
     .products
 {
- margin-top:80px;   
+ margin-top:80px;
 }
 }
 @media (max-width: 425px)
@@ -595,7 +707,18 @@ input[type=password] {
      margin-top: -2px;
      padding-left:0px;
     margin:10px;
-    } 
+    }
+    .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 0px 0px;
+    color: #737373;
+}
      .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
@@ -664,7 +787,7 @@ input[type=password] {
     {
         margin-top:10px;
     }
-    
+
 .events
     {
         margin-top:60px;
@@ -678,5 +801,5 @@ input[type=password] {
 {
     max-width:160px;
 }
-  
+
 }
