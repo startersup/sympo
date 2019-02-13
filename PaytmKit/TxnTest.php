@@ -74,6 +74,9 @@
         {
             border:none !important;
         }
-        
+        label
+        {
+            font-size:22px;
+        }
         </style>
     </body></html>
