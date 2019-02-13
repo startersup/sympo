@@ -50,19 +50,19 @@
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
           <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
-      <label for="email">Order Id</label>
+      <label>Order Id</label>
       <input type="text" class="form-control"  value="1232425262" name="email" disabled>
     </div>
     <div class="form-group">
-      <label for="pwd">Student Name</label>
+      <label>Student Name</label>
       <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
     </div>
                   <div class="form-group">
-      <label for="pwd">Event Subscribed</label>
+      <label>Event Subscribed</label>
       <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
     </div>
   <div class="form-group">
-      <label for="pwd">Amount</label>
+      <label>Amount</label>
       <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
     </div>
 
@@ -79,7 +79,7 @@
         label
         {
             font-size:22px;
-            text-align: left;
+            text-align: left !important;
         }
         </style>
     </body></html>
