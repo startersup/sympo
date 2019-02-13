@@ -125,7 +125,12 @@
 				</div>
 
 				<div class="modal-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum.</p>
+					<center><p>Choose your suitable options according to your convenience</p>
+                    <div class="row">
+                    <div class="col-md-6"><center><img src="../assets/images/debit-card%20(1).png"><br><p>Online</p></center></div>
+                    <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
+                    </div>
+                    </center>
 				</div>
 
 				<div class="modal-footer">
