@@ -63,7 +63,11 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     color:#ffffff;
     
 }
-
+.container1
+{
+    margin-left:5%;
+    margin-right:5%;
+}
 .top
 {
     margin-top:60px;
