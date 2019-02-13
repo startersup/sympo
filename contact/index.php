@@ -87,7 +87,7 @@
              <p>Harvard University</p>
   <p><button>Contact</button></p>
 </div></div>
-            
+
                                 <div class="col-md-3">
        <div class="char">
   <img src="../assets/images/iii.jpeg" alt="John" style="width:100%">
@@ -96,39 +96,7 @@
              <p>Harvard University</p>
   <p><button>Contact</button></p>
 </div></div>
-           
-            </div>
-  <div class="row">
-                <div class="col-md-4">
-       <div class="char set">
-  <h1>Head of Department</h1>
-  <p class="title">DR.S.KALAISELVAM</p>
-  <p>hoddast@gmail.com</p>
-</div></div>
-                            <div class="col-md-4">
-       <div class="char set">
-  <h1>Faculty Co-ordinator</h1>
-  <p class="title">DR.M.DHARMENDIRA KUMAR</p>
-  <p>mdkumar@annauniv.edu</p>
-</div></div>
-                                <div class="col-md-4">
-       <div class="char set">
-  <h1>SPE Co-ordinator</h1>
-  <p class="title">DR.J.JAYAPRIYA</p>
- <p>jayapriyachem@gmail.com</p>
-</div></div>
-              <div class="col-md-6">
-                
-       <div class="char set">
-  <h1>President</h1>
-  <p class="title">MR. NISHAL KRISHNAN</p>
-</div></div>
-        <div class="col-md-6">
-                
-       <div class="char set">
-  <h1>Vice-President</h1>
-  <p class="title">MR.VIGNESHWARAN</p>
-</div></div>
+
             </div>
         </section>
 
@@ -186,6 +154,6 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
-</style>  
+</style>
 
     </body></html>
