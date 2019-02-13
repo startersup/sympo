@@ -210,7 +210,7 @@
 .content-quality{float:left;width:193px;}
 .content-quality p{margin-left:10px;font-family:'Open Sans', sans-serif;font-size:14px;font-weight:600;line-height:17px;}
 .content-quality p span{display:block;}
-.tabtop li a{font-family:'Lato', sans-serif;font-weight:700;color:#1b2834;border-radius:0px;margin-right:22.008px;border:1px solid #ebebeb !important;}
+.tabtop li a{font-family:'Lato', sans-serif;font-weight:700;color:#1b2834;border-radius:0px;margin-right:22.008px;}
 .tabtop .active a:before{content:"♦";position:absolute;top:15px;left:82px;color:#e31837;font-size:30px;}
 .tabtop li a:hover{color:#e31837 !important;text-decoration:none;}
 .tabtop .active a:hover{color:#fff !important;}
