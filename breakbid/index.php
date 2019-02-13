@@ -135,7 +135,6 @@
 
 				<div class="modal-footer">
 					<button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
-					<button type="button" class="btn btn-dialog">Ok</button>
 				</div>
 			</div><!-- modal-content -->
 		</div><!-- modal-dialog -->
