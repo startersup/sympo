@@ -481,17 +481,7 @@ input[type=password] {
         margin-top:100px;
         line-height:30px;
     }
-    .tabbable-line > .nav-tabs > li > a {
-    border: 0;
-    margin-right: 0;
-    font-family: 'Anton', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1.9px;
-    line-height: 29px;
-    font-weight: 400;
-    margin: 0px 0px;
-    color: #737373;
-}
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -610,7 +600,18 @@ input[type=password] {
      margin-top: -2px;
      padding-left:0px;
     margin:10px;
-    } 
+    } \
+    .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 0px 0px;
+    color: #737373;
+}
      .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
