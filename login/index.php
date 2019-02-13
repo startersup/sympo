@@ -99,12 +99,11 @@ mysqli_close($conn);
             </div>
         </section>
 
- <footer class="footer"><center><a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a></center>
-     <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
+        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-twitter"></a>
+       <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
+       </center>
+            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
         <style>.shadow {
   position: relative;
   margin: 120px auto 0;
