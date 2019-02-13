@@ -62,8 +62,7 @@
       <label for="pwd">Amount</label>
       <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
     </div>
-    
-            <br>
+
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div>
             </center>
         
