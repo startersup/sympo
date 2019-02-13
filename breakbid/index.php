@@ -126,12 +126,16 @@
 				</div>
 
 				<div class="modal-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies bibendum.</p>
+					<p>Choose any of these suitable options according to your convenience!</p>
+                    <div class="row">
+                    <div class="col-md-6"><center><img src="../assets/images/debit-card.png">Pay Online</center></div>
+                     <div class="col-md-6"><center>Pay Onspot</center></div>
+                    </div>
 				</div>
 
 				<div class="modal-footer">
 					<button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
-					<button type="button" class="btn btn-dialog">Ok</button>
+					
 				</div>
 			</div><!-- modal-content -->
 		</div><!-- modal-dialog -->
