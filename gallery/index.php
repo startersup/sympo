@@ -29,7 +29,7 @@ body {
 
 img {
   vertical-align: middle;
-  height: inherit;
+  height: auto;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
