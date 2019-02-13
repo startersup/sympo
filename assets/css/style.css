@@ -731,6 +731,14 @@ input[type=password] {
     margin: 0px 0px;
     color: #737373;
 }
+    .color
+{
+    font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:20px;
+    color:#f4f4f4;
+    margin-top:50px;
+}
      .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;

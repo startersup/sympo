@@ -41,7 +41,7 @@
         </div>
 
         </nav>
-        <section class="container top color">
+        <section class="container color">
        <center> <h3>You are One Step Away from Payment!</h3></center>
         
         </section>
