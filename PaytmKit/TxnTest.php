@@ -42,20 +42,22 @@
 
         </nav>
         <section class="container top color">
-       <center> <h3>You are One Step Away from Payment!</h3><br><br>
-            <div class="card white" style="background-color:#ffffff;color:#000000;border:none;">
-           <table class="table">
+       <center> <h3>You are One Step Away from Payment!</h3><br>
+            <div class="container">
+      <h4>Cart 
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i> 
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+      <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+      <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+      <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
 
-         <tr><td>Order Id :</td><td>ORD12567</td> </tr>
-           <tr> <td> Name :</td><td>Vinodhan</td></tr> 
-             <tr> <td> Event Name :</td><td>Breaking Bid</td></tr> 
-               <tr>  <td> Amount :</td><td> ₹ 200</td> </tr>
-                     
-                
-         </table>
-           
-           </div>
-            <br><br>
            <button class="button1">Proceed to Checkout</button>
             </center>
         
