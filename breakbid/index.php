@@ -88,13 +88,9 @@
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
-<<<<<<< HEAD
-
-=======
 							<p>
 								I'm in Tab 1.
 							</p>
->>>>>>> parent of ad9e05a... change
 							<p>
 								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 							</p>
@@ -105,10 +101,6 @@
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of ad9e05a... change
 							<p>
 								Howdy, I'm in Tab 2.
 							</p>
@@ -122,10 +114,6 @@
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_3">
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of ad9e05a... change
 							<p>
 								Howdy, I'm in Tab 3.
 							</p>
@@ -142,18 +130,12 @@
 				</div>
 			</div>
 
-<<<<<<< HEAD
                 <br><button class="button">Subscribe</button>
-</div>
-=======
 
-                <br><button class="button">Subscribe</button>
->>>>>>> parent of ad9e05a... change
              </center>
             </div>
         </section>
 
-<<<<<<< HEAD
 
 	<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
 		<div class="modal-dialog" role="document">
@@ -173,9 +155,6 @@
 			</div><!-- modal-content -->
 		</div><!-- modal-dialog -->
 	</div>
-
-=======
->>>>>>> parent of ad9e05a... change
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
