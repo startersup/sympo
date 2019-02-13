@@ -19,7 +19,7 @@
     <script src="../assets/js/sidenav.js"></script>
     <style>
     .con {
-    width: 600px;
+    width: 300px;
     height: auto;
 }</style>
 </head>
