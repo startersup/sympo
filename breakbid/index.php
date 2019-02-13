@@ -112,7 +112,7 @@
 			</div>
 
 </div>
-                <br><button class="button" data-toggle="modal" data-target="#myModal">Subscribe and Register</button>
+                <br><button class="button" data-toggle="modal" data-target="#myModal-2">Subscribe and Register</button>
              </center>
             </div>
         </section>
