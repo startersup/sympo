@@ -247,6 +247,20 @@
             {
                 background-color:transparent;
             }
+            @media (max-width: 425px)
+{
+
+    .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 0px 0px;
+    color: #737373;
+    }}
 </style>
 
 
