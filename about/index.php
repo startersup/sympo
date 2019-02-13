@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <script src="../assets/js/sidenav.js"></script>
+    
 </head>
     <body style="background-color:#000000;opacity:0.8;">
      <nav class="navbar navbar-default navit navbar-fixed-top">
@@ -66,7 +67,7 @@
             <center> <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
             </center>
                  <br><br>
-             <center><img src="../assets/images/banner.jpeg" style="width:100%;"></center><br><br>
+             <center><div class="con"><img src="../assets/images/banner.jpeg" style="width:100%;height :auto;"></div></center><br><br>
              <p style="padding:10px;"> Anna University, established in 1978, was brought to life with the purpose of fostering free flow of thought, will and action related to Engineering and Technology,symbolised by the ventilated open halls of our main campus.<br><br>Department of Applied Science and Technology prides itself on producing students who work in Oil & Gas industries which pretty much decides the nation's economy and produces every essential of daily use for humans.
 The world pretty much owes us and we are  proud about it. DAB!</p><br>
                 <h3> Petrovision</h3>
@@ -94,18 +95,18 @@ Coz it's 🔥 fam.</p><hr>
  <p>jayapriyachem@gmail.com</p>
 </div></div>
               <div class="col-md-6">
-                
+
        <div class="char set">
   <h1>President</h1>
   <p class="title">MR. NISHAL KRISHNAN</p>
 </div></div>
         <div class="col-md-6">
-                
+
        <div class="char set">
   <h1>Vice-President</h1>
   <p class="title">MR.VIGNESHWARAN</p>
 </div></div>
-            </div></center> 
+            </div></center>
             </div>
         </section>
 
@@ -221,7 +222,7 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
-</style>  
+</style>
 
 
     </body></html>
