@@ -219,11 +219,18 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 {
     background-color:#000000 !important;
 }
-.products h4,.color
+.products h4,
 {
       font-family: 'ProximaNovaSemibold';
     text-align: center;
     font-size:25px;
+}
+.color
+{
+    font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:30px;
+    color:#f4f4f4;
 }
 .main h3
 {
