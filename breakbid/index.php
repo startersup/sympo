@@ -70,7 +70,7 @@
 
              <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
 </p>
-                
+                <div class="container1">
                 <br><br>
            	<div class="tabbable-panel">
 				<div class="tabbable-line">
@@ -111,7 +111,7 @@
 			</div>
 
                 <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
-
+</div>
              </center>
             </div>
         </section>
@@ -127,7 +127,7 @@
 				<div class="modal-body">
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
-              <div class="col-md-6"><center><a href="http://petrovision.co.in/PaytmKit/TxnText.php"><img src="../assets/images/debit-card%20(1).png"><br><p>Online</p></a></center></div>
+              <div class="col-md-6"><center><a href="http://petrovision.co.in/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"><br><p>Online</p></a></center></div>
                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
                     </div>
                     </center>
