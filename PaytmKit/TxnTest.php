@@ -44,10 +44,18 @@
         <section class="container top color">
        <center> <h3>You are One Step Away from Payment!</h3>
             <div class="card white">
-           
+           <table>
+         <tr><td>Order Id :</td><td>ORD12567</td>
+             <td> Name :</td><td>Vinodhan</td> 
+              <td> Event Name :</td><td>Breaking Bid</td> 
+              <td> Amount :</td><td> ₹ 200</td> 
+               </tr>       
+                
+         </table>
            
            </div>
-            
+            <br><br>
+           <button class="button">Proceed to Checkout</button>
             </center>
         
         </section>
