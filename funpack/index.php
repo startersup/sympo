@@ -67,10 +67,6 @@
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Fu<span>n</span>p<span>a</span>ck</b></div>
              <div class="row">
-            <div class="col-md-4">
-                <center><a href="../photohunt/"><div class="card zoom"><center><img class="spot" src="../assets/images/photo.png" ></center></div></a></center>
-
-                 </div>
                      <div class="col-md-4">
                          <center><a href="../treasure/"><div class="card zoom"><img class="spot" src="../assets/images/treasure.png" ></div></a></center>
 

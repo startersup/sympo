@@ -72,7 +72,7 @@
 
                  </div>
                   <div class="col-md-6">
-                      <center><a href="../online/"><div class="card"><img  class="spot" src="../assets/images/online.png" ><h3>Intrested in Exploring?</h3></div></a></center>
+                      <center><a href="../online/"><div class="card"><img  class="spot" src="../assets/images/online.png" ><h3>Intrested to Explore?</h3></div></a></center>
 
                  </div>
                         </div></div>
