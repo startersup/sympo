@@ -90,19 +90,19 @@
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
-							
+
 							<p>
 								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
-									
+
 							<p>
 								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_3">
-						
+
 							<p>
 								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 							</p>
@@ -111,18 +111,14 @@
 				</div>
 			</div>
 
-<<<<<<< HEAD
-
                 <br><button class="button">Subscribe</button>
 =======
 </div>
-                <br><button class="button" data-toggle="modal" data-target="#myModal-2">Subscribe and Register</button>
->>>>>>> 9e8c624ef4331503210e7e42af9e72b23b1b3107
              </center>
             </div>
         </section>
 
-	
+
 	<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -141,7 +137,7 @@
 			</div><!-- modal-content -->
 		</div><!-- modal-dialog -->
 	</div>
-        
+
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
