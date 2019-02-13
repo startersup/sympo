@@ -48,15 +48,15 @@
           <form action="/action_page.php">
     <div class="form-group">
       <label for="email">Order Id:</label>
-      <input type="email" class="form-control" id="email" value="1232425262" name="email" disabled>
+      <input type="text" class="form-control"  value="1232425262" name="email" disabled>
     </div>
     <div class="form-group">
       <label for="pwd">Student Name:</label>
-      <input type="password" class="form-control" id="pwd" value="Vinodhan" name="pwd" disabled>
+      <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
     </div>
                   <div class="form-group">
       <label for="pwd">Event Subscribed:</label>
-      <input type="password" class="form-control" id="pwd" value="grey cell" name="pwd" disabled>
+      <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
     </div>
 
     
