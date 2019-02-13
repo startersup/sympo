@@ -231,7 +231,6 @@
 }
 .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
   border: 0;
-  background: none !important;
   color: #333333;
 }
 .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
@@ -265,6 +264,21 @@
 .tabpane
             {
                 background-color:transparent;
+            }
+            @media screen and (max-width: 600px) {
+                
+                .tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+   font-family: 'Anton', sans-serif;
+     font-size:14px;
+    letter-spacing: 1.9px;
+    line-height:29px;
+    font-weight:400;
+    margin:0px 0px;
+  color: #737373;
+}
+                
             }
 </style>
 
