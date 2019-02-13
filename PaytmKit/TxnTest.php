@@ -42,7 +42,7 @@
 
         </nav>
         <section class="container top color">
-       <center> <h3>You are One Step Away from Payment!</h3><br>
+       <center> <h3>You are One Step Away from Payment!</h3><br>  </center>
            <div class="container1">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
           <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
@@ -64,7 +64,7 @@
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div>
-            </center>
+          
         
         </section>
     
