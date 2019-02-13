@@ -20,7 +20,7 @@
     <style>
     .con {
     width: 600px;
-    height: 300px;
+    height: auto;
 }</style>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
