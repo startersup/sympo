@@ -215,6 +215,7 @@
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
+    font-size:25px;
   color: #737373;
 }
 .tabbable-line > .nav-tabs > li > a > i {
