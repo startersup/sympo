@@ -162,7 +162,7 @@ img {
 
       <h2 style="text-align:center">Slideshow Gallery</h2>
 
-  <div class="container">
+  <div class="container" style="height:auto">
     <div class="mySlides">
       <div class="numbertext">1 / 21</div>
       <img src="/assets/images/gallery/1.JPG" style="width:100%">
