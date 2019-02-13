@@ -37,25 +37,7 @@
             </a></center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
-
-               <ul class="nav navbar-nav navbar-right " id="myTopnav">
-                <li><a href="../index.php">Home</a>
-                </li>
-                <li><a href="../about/">About</a>
-                </li>
-                <li><a href="../events/">Events</a>
-                </li>
-                <li><a href="../workshop/">Workshops</a>
-                </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
-                </li>
-                <li><a href="../contact/">Contact</a>
-                </li>
-                <li><a href="../gallery/">Gallery</a></li>
-
-                <?php
+        <?php
                 session_start();
                   if(isset($_SESSION['id'])){
                   echo "<li><a href='/logout/'>Logout</a>
@@ -64,7 +46,11 @@
                echo "<li><a href='/login/'>Login</a>
             </li>";
              }       ?>
-            </ul>
+           
         </div>
 
-        </nav></body></html>
+        </nav>
+    
+    
+    
+    </body></html>
