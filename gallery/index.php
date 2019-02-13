@@ -56,6 +56,7 @@ img {
   padding: 16px;
   margin-top: -50px;
   color: white;
+  background-color: black;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -290,36 +291,36 @@ img {
         <img class="demo cursor" src="/assets/images/gallery/10.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/11.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/11.JPG" style="width:100%" onclick="currentSlide(11)" alt="Snowy Mountains">
       </div><div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/12.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/12.JPG" style="width:100%" onclick="currentSlide(12)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/13.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/13.JPG" style="width:100%" onclick="currentSlide(13)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/14.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/14.JPG" style="width:100%" onclick="currentSlide(14)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/15.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/15.JPG" style="width:100%" onclick="currentSlide(15)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/16.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/16.JPG" style="width:100%" onclick="currentSlide(16)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/17.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/17.JPG" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/18.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/18.JPG" style="width:100%" onclick="currentSlide(18)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/19.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/19.JPG" style="width:100%" onclick="currentSlide(19)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/20.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/20.JPG" style="width:100%" onclick="currentSlide(20)" alt="Snowy Mountains">
       </div>
       <div class="column">
-        <img class="demo cursor" src="/assets/images/gallery/21.JPG" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        <img class="demo cursor" src="/assets/images/gallery/21.JPG" style="width:100%" onclick="currentSlide(21)" alt="Snowy Mountains">
       </div>
     </div>
   </div>
