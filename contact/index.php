@@ -66,34 +66,34 @@
                 <div class="col-md-3">
        <div class="char">
   <img src="../assets/images/IMG_5697%20(3).JPG.jpeg" alt="John" style="width:100%">
-  <h1>Abdul Haq</h1>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
+  <h1>Mr.Abdul Haq</h1>
+  <p class="title">Core Team</p>
+  <p>ACT<p>
   <p><button>Contact</button></p>
 </div></div>
                             <div class="col-md-3">
        <div class="char">
   <img src="../assets/images/img2.jpeg" alt="John" style="width:100%">
-  <h1>Arun Balaji</h1>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
+  <h1>Mr.Arun Balaji</h1>
+  <p class="title">Core Team</p>
+  <p>ACT</p>
   <p><button>Contact</button></p>
 </div></div>
                                 <div class="col-md-3">
        <div class="char">
   <img src="../assets/images/img3.jpeg" alt="John" style="width:100%">
-  <h1>Melvin Thomas</h1>
-  <p class="title">CEO & Founder, Example</p>
-             <p>Harvard University</p>
+  <h1>Mr.Melvin Thomas</h1>
+  <p class="title">Core Team</p>
+             <p>ACT</p>
   <p><button>Contact</button></p>
 </div></div>
 
                                 <div class="col-md-3">
        <div class="char">
   <img src="../assets/images/iii.jpeg" alt="John" style="width:100%">
-  <h1>Melvin Thomas</h1>
-  <p class="title">CEO & Founder, Example</p>
-             <p>Harvard University</p>
+  <h1>Ms.Varshini</h1>
+  <p class="title">Core Team</p>
+             <p>ACT</p>
   <p><button>Contact</button></p>
 </div></div>
 
