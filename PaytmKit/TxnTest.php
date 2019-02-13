@@ -45,7 +45,7 @@
        <center> <h3>You are One Step Away from Payment!</h3><br>
            <div class="container1">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-          <form action="http://petrovision.co.in/PaytmKit/PgRedirect.php">
+          <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label for="email">Order Id</label>
       <input type="text" class="form-control"  value="1232425262" name="email" disabled>
