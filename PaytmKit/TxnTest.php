@@ -44,7 +44,7 @@
         <section class="container top color">
        <center> <h3>You are One Step Away from Payment!</h3><br>
            <div class="container1">
-            <div class="card white" style="background-color:#ffffff;color:#000000;border:none;">
+            <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:8px;">
            <table class="table">
 
          <tr><td>Order Id :</td><td>ORD12567</td> </tr>
