@@ -17,7 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <script src="../assets/js/sidenav.js"></script>
-    
+    <style>
+    .con {
+    width: 200px;
+    height: 120px;
+}</style>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
      <nav class="navbar navbar-default navit navbar-fixed-top">
