@@ -176,7 +176,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 {
     margin-top:60px;
 }
-.margino h3
+.margino h3,.modal-title
 {
      font-family: 'Anton', sans-serif;
     color:#fbe266;

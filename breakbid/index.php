@@ -120,7 +120,7 @@
 		<div class="modal-dialog modal-sm" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title" id="myModalLabel">Title goes here</h4>
+					<h4 class="modal-title" id="myModalLabel">Subscribe</h4>
 				</div>
 
 				<div class="modal-body">
