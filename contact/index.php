@@ -69,7 +69,7 @@
   <h1>Mr.Abdul Haq</h1>
   <p class="title">Core Team</p>
   <p>ACT<p>
-  <p><button>Contact</button></p>
+  <p><a href="tel:7708522009"><button>Contact</button></a></p>
 </div></div>
                             <div class="col-md-3">
        <div class="char">
@@ -77,7 +77,7 @@
   <h1>Mr.Arun Balaji</h1>
   <p class="title">Core Team</p>
   <p>ACT</p>
-  <p><button>Contact</button></p>
+  <p><a href="tel:9789127282"><button>Contact</button></a></p>
 </div></div>
                                 <div class="col-md-3">
        <div class="char">
@@ -94,7 +94,7 @@
   <h1>Ms.Varshini</h1>
   <p class="title">Core Team</p>
              <p>ACT</p>
-  <p><button>Contact</button></p>
+  <p><a href="tel:9791190177"><button>Contact</button></a></p>
 </div></div>
 
             </div>
