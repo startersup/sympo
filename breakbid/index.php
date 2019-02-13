@@ -116,30 +116,13 @@
              </center>
             </div>
         </section>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog modal-sm" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title" id="myModalLabel">Subscribe</h4>
-				</div>
 
-				<div class="modal-body">
-					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices eget id neque.</p>
-				</div>
-
-				<div class="modal-footer">
-					<button type="button" class="btn btn-dialog" data-dismiss="modal">Disagree</button>
-					<button type="button" class="btn btn-dialog">Agree</button>
-				</div>
-			</div><!-- modal-content -->
-		</div><!-- modal-dialog -->
-	</div><!-- modal -->
 	
 	<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title" id="myModalLabel-2">Title goes here</h4>
+					<h4 class="modal-title" id="myModalLabel-2">Subscribe the Event </h4>
 				</div>
 
 				<div class="modal-body">
