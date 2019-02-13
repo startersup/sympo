@@ -111,13 +111,9 @@
 				</div>
 			</div>
 
-<<<<<<< HEAD
-
-                <br><button class="button">Subscribe</button>
-=======
 </div>
                 <br><button class="button" data-toggle="modal" data-target="#myModal-2">Subscribe and Register</button>
->>>>>>> 9e8c624ef4331503210e7e42af9e72b23b1b3107
+
              </center>
             </div>
         </section>
@@ -133,8 +129,8 @@
 				<div class="modal-body">
 					<p>Choose any of these suitable options according to your convenience!</p>
                     <div class="row">
-                    <div class="col-md-6"><center><img src="../assets/images/debit-card.png">Pay Online</center></div>
-                     <div class="col-md-6"><center>Pay Onspot</center></div>
+                    <div class="col-md-6"><center><img src="../assets/images/debit-card.png"><br>Pay Online</center></div>
+                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br>Pay Onspot</center></div>
                     </div>
 				</div>
 
