@@ -76,6 +76,7 @@
         label
         {
             font-size:22px;
+            text-align: left;
         }
         </style>
     </body></html>
