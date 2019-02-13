@@ -70,9 +70,90 @@
 
              <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
 </p>
+                  <div class="tabbable-panel margin-tops4 ">
+      <div class="tabbable-line">
+        <ul class="nav nav-tabs tabtop  tabsetting">
+          <li class="active"> <a href="#tab_default_1" data-toggle="tab"> Magento Product Upload </a> </li>
+          <li> <a href="#tab_default_2" data-toggle="tab"> Yahoo Store Data Entry</a> </li>
+          <li> <a href="#tab_default_3" data-toggle="tab"> Shopify Product Upload </a> </li>
+          <li> <a href="#tab_default_4" data-toggle="tab"> OpenCart Product Upload</a> </li>
+          <li> <a href="#tab_default_5" data-toggle="tab" class="thbada"> Amazon Product Listing </a> </li>
+        </ul>
+        <div class="tab-content margin-tops">
+          <div class="tab-pane active fade in" id="tab_default_1">
+            <div class="col-md-4">
+              <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-8">
+              <h4 class="heading4">Magento Product Upload Services</h4>
+              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
+              <h4 class="heading4">Magento Product Upload Services</h4>
+              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
+              <a href="#">
+              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
+              </a> </div>
+          </div>
+          <div class="tab-pane fade" id="tab_default_2">
+            <div class="col-md-4">
+             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-8">
+              <h4 class="heading4">Yahoo Store Data Entry</h4>
+              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
+              <h4 class="heading4">Yahoo Store Data Entry</h4>
+              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
+              <a href="#">
+              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
+              </a> </div>
+          </div>
+          <div class="tab-pane fade" id="tab_default_3">
+            <div class="col-md-4">
+             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-8">
+              <h4 class="heading4">Shopify Product Upload </h4>
+              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
+              <h4 class="heading4">Shopify Product Upload </h4>
+              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
+              <a href="#">
+              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
+              </a> </div>
+          </div>
+          <div class="tab-pane fade" id="tab_default_4">
+            <div class="col-md-4">
+             <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-8">
+              <h4 class="heading4">OpenCart Product Upload</h4>
+              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
+              <h4 class="heading4">OpenCart Product Upload</h4>
+              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
+              <a href="#">
+              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
+              </a> </div>
+          </div>
+          <div class="tab-pane fade" id="tab_default_5">
+            <div class="col-md-4">
+              <div class="row"> <img src="http://placemi.com/petnp/500x300" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-8">
+              <h4 class="heading4">Amazon Product Listing </h4>
+              <p>Are you looking for someone who could upload products on your Magento based website? At webenlance India, we can effectively help you with our top quality Magento product upload services. With the pool of well experienced and talented experts, we ensure that your customers have an enriching experience every time they visit your website. Our comprehensive range of services is available all over the globe at extremely low cost. </p>
+              <h4 class="heading4">Amazon Product Listing</h4>
+              <p>Also a data entry company from India, we provide time-bound and high-quality data entry services and encourage our clients to outsource end-to-end data entry projects to us. </p>
+              <a href="#">
+              <div class="btns">View More <i class="fa fa-angle-right"></i></div>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+
+<!--home-content-top ends here--> 
+
+                </div>
+
                 <br><button class="button">Subscribe and Register</button>
              </center>
-
             </div>
         </section>
 
@@ -138,6 +219,26 @@
     background-position: 0 0;
   }
 }
+            .heading4{font-size:18px;font-weight:400;font-family:'Lato', sans-serif;color:#111111;margin:0px 0px 5px 0px;}
+.heading1{font-size:30px;line-height:20px;font-family:'Lato', sans-serif;text-transform:uppercase;color:#1b2834;font-weight:900;}
+.content-quality{float:left;width:193px;}
+.content-quality p{margin-left:10px;font-family:'Open Sans', sans-serif;font-size:14px;font-weight:600;line-height:17px;}
+.content-quality p span{display:block;}
+.tabtop li a{font-family:'Lato', sans-serif;font-weight:700;color:#1b2834;border-radius:0px;margin-right:22.008px;border:1px solid #ebebeb !important;}
+.tabtop .active a:before{content:"♦";position:absolute;top:15px;left:82px;color:#e31837;font-size:30px;}
+.tabtop li a:hover{color:#e31837 !important;text-decoration:none;}
+.tabtop .active a:hover{color:#fff !important;}
+.tabtop .active a{background-color:#e31837 !important;color:#FFF !important;}
+.margin-tops{margin-top:30px;}
+.tabtop li a:last-child{padding:10px 22px;}
+.thbada{padding:10px 28px !important;}
+section p{font-family:'Lato', sans-serif;}
+.margin-tops4{margin-top:20px;}
+.tabsetting{border-top:5px solid #ebebeb;padding-top:6px;}
+.services{background-color:#d4d4d4;min-height:710px;padding:65px 0 27px 0;}
+.services a:hover{color:#000;}
+.services h1{margin-top:0px !important;}
+.heading-container p{font-family:'Lato', sans-serif;text-align:center;font-size:16px !important;text-transform:uppercase;}
 </style>
 
 
