@@ -46,29 +46,29 @@
            <div class="container1">
                <div class="row">
                    <div class="col-md-3"></div>
-                    <div class="col-md-6">
+                   <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
           <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
-      <h3 for="email">Order Id</h3>
+      <label for="email">Order Id</label>
       <input type="text" class="form-control"  value="1232425262" name="email" disabled>
     </div>
     <div class="form-group">
-      <h3 for="pwd">Student Name</h3>
+      <label for="pwd">Student Name</label>
       <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
     </div>
                   <div class="form-group">
-      <h3 for="pwd">Event Subscribed</h3>
+      <label for="pwd">Event Subscribed</label>
       <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
     </div>
   <div class="form-group">
-      <h3 for="pwd">Amount</h3>
+      <label for="pwd">Amount</label>
       <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
           
-        <div class="col-md-3"></div>
+         <div class="col-md-3"></div>
         </section>
     
     <style>
