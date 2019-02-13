@@ -70,53 +70,90 @@
 
              <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
 </p>
-                <div class="container1">
-                <br><br>
            	<div class="tabbable-panel">
 				<div class="tabbable-line">
 					<ul class="nav nav-tabs ">
 						<li class="active">
 							<a href="#tab_default_1" data-toggle="tab">
-							Description </a>
+							Tab 1 </a>
 						</li>
 						<li>
 							<a href="#tab_default_2" data-toggle="tab">
-							Rules </a>
+							Tab 2 </a>
 						</li>
 						<li>
 							<a href="#tab_default_3" data-toggle="tab">
-							Winners </a>
+							Tab 3 </a>
 						</li>
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
+<<<<<<< HEAD
 
+=======
+							<p>
+								I'm in Tab 1.
+							</p>
+>>>>>>> parent of ad9e05a... change
 							<p>
 								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+							</p>
+							<p>
+								<a class="btn btn-success" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of ad9e05a... change
 							<p>
-								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+								Howdy, I'm in Tab 2.
+							</p>
+							<p>
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+							</p>
+							<p>
+								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+									Click for more features...
+								</a>
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_3">
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of ad9e05a... change
 							<p>
-								Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+								Howdy, I'm in Tab 3.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-                <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+<<<<<<< HEAD
+                <br><button class="button">Subscribe</button>
 </div>
+=======
+
+                <br><button class="button">Subscribe</button>
+>>>>>>> parent of ad9e05a... change
              </center>
             </div>
         </section>
 
+<<<<<<< HEAD
 
 	<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
 		<div class="modal-dialog" role="document">
@@ -137,6 +174,8 @@
 		</div><!-- modal-dialog -->
 	</div>
 
+=======
+>>>>>>> parent of ad9e05a... change
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
@@ -216,12 +255,7 @@
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
-    font-family: 'Anton', sans-serif;
-     font-size:17px;
-    letter-spacing: 1.9px;
-    line-height:29px;
-    font-weight:400;
-    margin:0px 10px;
+    font-size:25px;
   color: #737373;
 }
 .tabbable-line > .nav-tabs > li > a > i {
@@ -232,6 +266,7 @@
 }
 .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
   border: 0;
+  background: none !important;
   color: #333333;
 }
 .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
@@ -266,20 +301,6 @@
             {
                 background-color:transparent;
             }
-            @media (max-width: 425px)
-{
-
-    .tabbable-line > .nav-tabs > li > a {
-    border: 0;
-    margin-right: 0;
-    font-family: 'Anton', sans-serif;
-    font-size: 14px;
-    letter-spacing: 1.9px;
-    line-height: 29px;
-    font-weight: 400;
-    margin: 0px 0px;
-    color: #737373;
-    }}
 </style>
 
 
