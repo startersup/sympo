@@ -37,16 +37,6 @@
             </a></center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
-        <?php
-                session_start();
-                  if(isset($_SESSION['id'])){
-                  echo "<li><a href='/logout/'>Logout</a>
-               </li> ";
-             } else {
-               echo "<li><a href='/login/'>Login</a>
-            </li>";
-             }       ?>
-           
         </div>
 
         </nav>
