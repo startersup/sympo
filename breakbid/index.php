@@ -130,7 +130,7 @@
 				</div>
 			</div>
 
-                <br><button class="button">Subscribe</button>
+                <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
 
              </center>
             </div>
