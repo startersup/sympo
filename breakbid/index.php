@@ -131,7 +131,7 @@
 			</div>
 
 
-                <br><button class="button">Subscribe and Register</button>
+                <br><button class="button">Subscribe</button>
              </center>
             </div>
         </section>
