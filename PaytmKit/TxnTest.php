@@ -54,7 +54,7 @@
                    <div class="col-md-3"></div>
                    <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-          <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
+          <form action="../PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
 			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>">
@@ -72,13 +72,13 @@
       <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
 			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<inout type="hidden" name="CUST_ID" Value="CUST001">
-    </div>
-
-              <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
+			<input type="hidden" name="CUST_ID" Value="CUST001">
+                <button class="button1">Proceed to Checkout</button></div> </form></div></div>
 
          <div class="col-md-3"></div>
-        </section>
+            </div>
+            </div>
+     </section>
 
     <style>
 .form-control
@@ -91,4 +91,5 @@
             text-align: left !important;
         }
         </style>
+      
     </body></html>
