@@ -37,7 +37,7 @@ if($isValidChecksum == "TRUE") {
 </head>
 <body>
 	<header class="site-header" id="header">
-		<h2 class="site-header__title" data-lead-id="site-header-title">Transaction Success!</h2>
+		<h2 class="site-header__title" data-lead-id="site-header-title">Success!</h2>
         <center><h3 style="padding:10px;">Transaction Id: 123456789</h3></center>
 	</header>
 
@@ -57,7 +57,7 @@ if($isValidChecksum == "TRUE") {
 	if (isset($_POST) && count($_POST)>0 )
 	{ 
 		foreach($_POST as $paramName => $paramValue) {
-				echo "<br/>" . $paramName . " = " . $paramValue;
+				
 		}
 	}
 	
