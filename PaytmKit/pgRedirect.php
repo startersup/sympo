@@ -8,7 +8,7 @@ require_once("./lib/encdec_paytm.php");
 
 $checkSum = "";
 $paramList = array();
-
+session_start();
 $ORDER_ID = $_POST["ORDER_ID"];
 $CUST_ID = $_POST["CUST_ID"];
 $INDUSTRY_TYPE_ID = $_POST["INDUSTRY_TYPE_ID"];
