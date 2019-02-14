@@ -132,7 +132,7 @@ $_POST['name']='Breaking Bid'
 				<div class="modal-body">
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
-              <div class="col-md-6"><center><a href="petrovision.co.in/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></a></center></div>
+              <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></a></center></div>
                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
                     </div>
                     </center>
