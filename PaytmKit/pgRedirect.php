@@ -15,6 +15,12 @@ $INDUSTRY_TYPE_ID = $_POST["INDUSTRY_TYPE_ID"];
 $CHANNEL_ID = $_POST["CHANNEL_ID"];
 $TXN_AMOUNT = $_SESSION['amount'];
 
+echo $ORDER_ID;
+echo $CUST_ID;
+echo $INDUSTRY_TYPE_ID;
+echo $CHANNEL_ID;
+echo $TXN_AMOUNT;
+
 // Create an array having all required parameters for creating checksum.
 $paramList["MID"] = PAYTM_MERCHANT_MID;
 $paramList["ORDER_ID"] = $ORDER_ID;
