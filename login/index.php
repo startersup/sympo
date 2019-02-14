@@ -11,7 +11,7 @@ $count=mysqli_num_rows($res);
 if($count>0)
 {
   $row=mysqli_fetch_array($res);
-  $_SESSION=$row['id'];
+  $_SESSION['id']=$row['id'];
   header('location: /index.php');
 }
 else {

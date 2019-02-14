@@ -2,7 +2,13 @@
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
-
+	session_start();
+	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+	$id=$_SESSION['id'];
+	$sql="select name from students where id='$id'";
+	$res=mysqli_query($conn,$sql);
+	$row=mysqli_fetch_array($res);
+	$name=$row['name'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,15 +61,18 @@
     </div>
     <div class="form-group">
       <label>Student Name</label>
-      <input type="text" class="form-control"  value="Vinodhan" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $name; ?>" name="pwd" disabled>
     </div>
                   <div class="form-group">
       <label>Event Subscribed</label>
-      <input type="text" class="form-control"  value="grey cell" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $_POST['name'];?>" name="pwd" disabled>
     </div>
   <div class="form-group">
       <label>Amount</label>
-      <input type="text" class="form-control"  value="₹ 200" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $_POST['amount'];?>" name="pwd" disabled>
+			<input type="hidden" value="WEB" name="CHANNEL_ID">
+			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
+			<inout type="hidden" name="CUST_ID" Value="<?php echo $id; ?>">
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>

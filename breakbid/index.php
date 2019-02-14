@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_POST['amount']=250;
+$_POST['name']='Breaking Bid'
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -127,7 +132,7 @@
 				<div class="modal-body">
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
-              <div class="col-md-6"><form method="post" action="/PaytmKit/TxnTest.php"><center><input type="hidden" name="event" value="Breaking Bid"/><input type="hidden" name="amt" value="250"><button><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></a></center></div>
+              <div class="col-md-6"><center><a href="petrovision.co.in/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></a></center></div>
                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
                     </div>
                     </center>
