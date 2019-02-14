@@ -51,7 +51,7 @@
           <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
-      <input type="text" class="form-control"  value="1232425262" name="email" disabled>
+			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>">
     </div>
     <div class="form-group">
       <label>Student Name</label>
@@ -67,10 +67,10 @@
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
-          
+
          <div class="col-md-3"></div>
         </section>
-    
+
     <style>
 .form-control
         {

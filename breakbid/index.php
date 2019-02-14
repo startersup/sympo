@@ -95,11 +95,11 @@
 							</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
-						
+
 							<p>
 								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
 							</p>
-							
+
 						</div>
 						<div class="tab-pane" id="tab_default_3">
 								<p>
@@ -127,7 +127,7 @@
 				<div class="modal-body">
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
-              <div class="col-md-6"><center><a href="http://petrovision.co.in/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"><br><p>Online</p></a></center></div>
+              <div class="col-md-6"><form method="post" action="/PaytmKit/TxnTest.php"><center><input type="hidden" name="event" value="Breaking Bid"/><input type="hidden" name="amt" value="250"><button><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></a></center></div>
                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
                     </div>
                     </center>
@@ -228,7 +228,7 @@
 }
 .tabbable-line > .nav-tabs > li > a > i {
   color: #a6a6a6;
-    
+
 }
 .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
   border-bottom: 4px solid #fbcdcf;
@@ -270,7 +270,7 @@
                 background-color:transparent;
             }
             @media screen and (max-width: 600px) {
-                
+
                 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
@@ -282,7 +282,7 @@
     margin:0px 0px;
   color: #737373;
 }
-                
+
             }
 </style>
 
