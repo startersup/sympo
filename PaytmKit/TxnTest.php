@@ -54,7 +54,7 @@
                    <div class="col-md-3"></div>
                    <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-          <form action="../PaytmKit/pgRedirect.php">
+          <form action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
 			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>">
