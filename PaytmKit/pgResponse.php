@@ -19,7 +19,7 @@ $isValidChecksum = verifychecksum_e($paramList, PAYTM_MERCHANT_KEY, $paytmChecks
 
 
 if($isValidChecksum == "TRUE") {
-	echo "<b>Checksum matched and following are the transaction details:</b>" . "<br/>";
+	echo "";
 	if ($_POST["STATUS"] == "TXN_SUCCESS") {
 		echo '<html lang="en">
 <head>
@@ -37,8 +37,8 @@ if($isValidChecksum == "TRUE") {
 </head>
 <body>
 	<header class="site-header" id="header">
-		<h1 class="site-header__title" data-lead-id="site-header-title">Transaction Success!</h1>
-        <center><h2 style="padding:10px;">Transaction Id: 123456789</h2></center>
+		<h2 class="site-header__title" data-lead-id="site-header-title">Transaction Success!</h2>
+        <center><h3 style="padding:10px;">Transaction Id: 123456789</h3></center>
 	</header>
 
 	<div class="main-content">
