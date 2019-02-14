@@ -65,11 +65,11 @@
     </div>
                   <div class="form-group">
       <label>Event Subscribed</label>
-      <input type="text" class="form-control"  value="<?php echo $_POST['name'];?>" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $_SESSION['name'];?>" name="pwd" disabled>
     </div>
   <div class="form-group">
       <label>Amount</label>
-      <input type="text" class="form-control"  value="<?php echo $_POST['amount'];?>" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
 			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
 			<inout type="hidden" name="CUST_ID" Value="<?php echo $id; ?>">

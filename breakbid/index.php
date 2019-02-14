@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_POST['amount']=250;
-$_POST['name']='Breaking Bid';
+$_SESSION['amount']="250";
+$_SESSION['name']='Breaking Bid';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -132,7 +132,7 @@ $_POST['name']='Breaking Bid';
 				<div class="modal-body">
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
-              <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input class="form-control" type="hidden" value="200" name="amount"><button class="form-control"><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></a></center></div>
+              <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"<img src="../assets/images/debit-card%20(1).png"><br><p>Online</p></a></center></div>
                     <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
                     </div>
                     </center>
