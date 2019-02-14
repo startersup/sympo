@@ -72,7 +72,7 @@
       <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
 			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<inout type="hidden" name="CUST_ID" Value="<?php echo $id; ?>">
+			<inout type="hidden" name="CUST_ID" Value="CUST001">
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
