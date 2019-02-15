@@ -717,6 +717,22 @@ input[type=password] {
 {
  margin-top:80px;
 }
+    .logos b{
+  font: 40 8vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logos b span{
+  animation: blink linear infinite 2s;
+}
+.logos1 b{
+  font: 40 8vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logos1 b span{
+  animation: blink linear infinite 2s;
+}
 }
 @media (max-width: 425px)
 {
