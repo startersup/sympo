@@ -229,7 +229,7 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 .main
 {
     padding-top:150px;
-    max-height: 100vh;
+    min-height: 100vh;
     height:100%;
     background: url(../images/rig.jpg);
     -webkit-background-size: cover!important;

@@ -77,7 +77,7 @@
     <li><span id="seconds"></span>Seconds</li>
   </ul>
               
-              <a href="./tl.html" target="_blank"><button class="button3">View Timeline</button></a>
+              <a href="./register/" ><button class="button3">Register Now</button></a>
             </center></div>
 </section>
         <section class="container about">
