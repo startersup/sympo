@@ -503,8 +503,8 @@ input[type=password] {
 }
 .craft
 {
-    font-family: 'ProximaNovaLtLight';
-    color:#f4f4f4;
+     font-family: 'ProximaNovaSemibold';
+     color:#bbb;
     font-size:15px;
 }
 .zoom {
@@ -760,6 +760,20 @@ input[type=password] {
     font-weight: 400;
     margin: 0px 0px;
     color: #737373;
+}
+    .main li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+    color:#ffffff;
+  text-transform: uppercase;
+}
+
+.main li span {
+  display: block;
+  font-size: 4rem;
+    color:#63e265;
 }
 .white
     {
