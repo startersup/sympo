@@ -147,7 +147,8 @@ $_SESSION['name']='Breaking Bid';
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
        </center>
-            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
+            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
+        <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
         <style>.shadow {
   position: relative;
   margin: 120px auto 0;
