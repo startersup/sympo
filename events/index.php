@@ -71,7 +71,7 @@
                <center>
                    <img src="../assets/images/codethon_banner.png" style="max-width:400px;width:100%;">
                     <h3>Technically Strong?</h3>
-                   <a href="../tech/index.php"><button class="button2">View Events </button></a>
+                   <a href="../tech/"><button class="button2">View Events </button></a>
                     </center></div>
                </div>
                 <div class="col-md-6 ">
@@ -79,7 +79,7 @@
                           <center>
                                 <img  class="images" src="../assets/images/non-tech.png" style="width:100%;">
                     <h3>Not Technically Strong ?</h3>
-                              <a href="../non-tech/index.php">  <button class="button1">View Events </button> </a>
+                              <a href="../non-tech/">  <button class="button1">View Events </button> </a>
                           </center>
                     </div>
                </div>

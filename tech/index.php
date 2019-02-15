@@ -73,7 +73,7 @@
 
                  </div>
                   <div class="col-md-6">
-                      <center><a href="../greycell/"><div class="card"><img src="../assets/images/greycell.png" style="max-width:400px;width:auto;"><h3>Intrested to Exploring?</h3></div></a></center>
+                      <center><a href="../greycell/"><div class="card"><img src="../assets/images/greycell.png" style="max-width:400px;width:auto;"><h3>Intrested to Explore?</h3></div></a></center>
 
                  </div>
                         </div></div>

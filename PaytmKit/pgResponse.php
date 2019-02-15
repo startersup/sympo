@@ -19,20 +19,63 @@ $isValidChecksum = verifychecksum_e($paramList, PAYTM_MERCHANT_KEY, $paytmChecks
 
 
 if($isValidChecksum == "TRUE") {
-	echo "<b>Checksum matched and following are the transaction details:</b>" . "<br/>";
+	echo "";
 	if ($_POST["STATUS"] == "TXN_SUCCESS") {
-		echo "<b>Transaction status is success</b>" . "<br/>";
-		//Process your transaction here as success transaction.
-		//Verify amount & order id received from Payment gateway with your application's order id and amount.
+		echo '<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700" rel="stylesheet" type="text/css">
+	<style>
+		@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+		@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+	</style>
+	<link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
+	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
+	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
+</head>
+<body>
+	<header class="site-header" id="header">
+		<h2 class="site-header__title" data-lead-id="site-header-title">Success!</h2>
+        <center><h3 style="padding:10px;">Transaction Id: 123456789</h3></center>
+	</header>
+
+	<div class="main-content">
+		<i class="fa fa-check main-content__checkmark" id="checkmark"></i>
+		<p class="main-content__body" data-lead-id="main-content-body">We are delighted to inform you that we received your payment, you will be receiveing the payment confirmation and Event Pass through Email.</p>
+	</div>
+<center><a href="http://petrovision.co.in">Back to Home</a></center>
+</body>
+</html>';
+		
 	}
 	else {
-		echo "<b>Transaction status is failure</b>" . "<br/>";
+		echo '<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700" rel="stylesheet" type="text/css">
+	<style>
+		@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+		@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+	</style>
+	<link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
+	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
+	<script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
+</head>
+<body>
+	<header class="site-header" id="header">
+		<h2 class="site-header__title" data-lead-id="site-header-title">Failure !</h2>
+       <center><h3>There is an error happened during the transaction, please try again or reach us at :</h3></center>
+	</header></body></html>';
 	}
 
 	if (isset($_POST) && count($_POST)>0 )
 	{ 
 		foreach($_POST as $paramName => $paramValue) {
-				echo "<br/>" . $paramName . " = " . $paramValue;
+				
 		}
 	}
 	
