@@ -76,10 +76,11 @@
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
   </ul>
+              
+              <button class="button">View Timeline</button>
             </center></div>
 </section>
         <section class="container about">
-
              <div class="row">
             <div class="col-xs-6">
                 <div class=" margino right">
