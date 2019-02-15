@@ -77,7 +77,7 @@
     <li><span id="seconds"></span>Seconds</li>
   </ul>
               
-              <button class="button">View Timeline</button>
+              <button class="button3">View Timeline</button>
             </center></div>
 </section>
         <section class="container about">

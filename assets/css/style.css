@@ -341,7 +341,20 @@ margin:0px 10px;
   cursor: pointer;
  font-family: 'ProximaNovaSemibold';
 }
-
+.button3 {
+  background-color:#06b05b;
+  border: none;
+  color: white;
+   border-radius:18px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 4px;
+  cursor: pointer;
+ font-family: 'ProximaNovaSemibold';
+}
 .buttonexplore {
   background-color: #f72f25;
   border: none;
