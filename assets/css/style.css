@@ -501,6 +501,12 @@ input[type=password] {
    color: white;
    text-align: center;
 }
+.craft
+{
+    font-family: 'ProximaNovaLtLight';
+    color:#f4f4f4;
+    font-size:15px;
+}
 .zoom {
   padding:5px;
   background-color:transparent;
@@ -636,7 +642,7 @@ input[type=password] {
 }
     .main
     {
-         padding-top:-60px !important;
+         padding-top:0px !important;
     }
     .spot
 {
