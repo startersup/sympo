@@ -648,7 +648,7 @@ input[type=password] {
 }
     .about
     {
-        margin-top:10px !important;
+        margin-top:-40px !important;
     }
         .images
 {
@@ -657,7 +657,6 @@ input[type=password] {
     .main
     {
          padding-top:100px !important;
-         min-height: 60vh;
     }
     .spot
 {
