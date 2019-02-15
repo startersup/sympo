@@ -70,7 +70,7 @@
   <div class="form-group">
       <label>Amount</label>
       <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
-			<input type="hidden" value="WAP" name="CHANNEL_ID">
+			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
 			<input type="hidden" name="CUST_ID" Value="CUST001">
     </div>
