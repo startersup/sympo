@@ -64,7 +64,8 @@
 
     </nav>
 
-        <section class="main container" style="margin-top:150px;background-color:#000000">
+        <section class="main">
+            <div class="container">
           <center>  <div class="logos"><b style="font-family: 'Anton', sans-serif;margin-top:-40px;">P<span>etr</span>o<span>vi</span>sion 2k19</b></div>
             <br>
               <h3 class="downer">A National Level Technical Symposium</h3>
@@ -75,7 +76,7 @@
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
   </ul>
-            </center>
+            </center></div>
 </section>
         <section class="container about">
 
