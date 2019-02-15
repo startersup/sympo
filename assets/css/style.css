@@ -634,6 +634,10 @@ input[type=password] {
 {
     max-width:200px;
 }
+    .main
+    {
+         padding-top:60px;
+    }
     .spot
 {
     max-width:200px;
