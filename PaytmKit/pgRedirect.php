@@ -15,12 +15,6 @@ $INDUSTRY_TYPE_ID = $_POST["INDUSTRY_TYPE_ID"];
 $CHANNEL_ID = $_POST["CHANNEL_ID"];
 $TXN_AMOUNT = $_SESSION['amount'];
 
-echo $ORDER_ID;
-echo $CUST_ID;
-echo $INDUSTRY_TYPE_ID;
-echo $CHANNEL_ID;
-echo $TXN_AMOUNT;
-
 // Create an array having all required parameters for creating checksum.
 $paramList["MID"] = PAYTM_MERCHANT_MID;
 $paramList["ORDER_ID"] = $ORDER_ID;
@@ -54,7 +48,7 @@ $checkSum = getChecksumFromArray($paramList,PAYTM_MERCHANT_KEY);
 			<tbody>
 			<?php
 			foreach($paramList as $name => $value) {
-				echo '';
+				echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
 			}
 			?>
 			<input type="hidden" name="CHECKSUMHASH" value="<?php echo $checkSum ?>">

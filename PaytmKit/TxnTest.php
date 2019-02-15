@@ -2,7 +2,6 @@
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
-	session_start();
 	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 	$id=$_SESSION['id'];
 	$sql="select name from students where id='$id'";
@@ -70,9 +69,9 @@
   <div class="form-group">
       <label>Amount</label>
       <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
-			<input type="hidden" value="WEB" name="CHANNEL_ID">
+			<input type="hidden" value="WAP" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<input type="hidden" name="CUST_ID" Value="CUST001">
+			<input type="hidden" name="CUST_ID" Value="<?php echo $_SESSION['id'];?>">
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
