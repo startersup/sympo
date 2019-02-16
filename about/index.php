@@ -69,7 +69,7 @@
         <section class="container">
 
          <div class="shadow" >
-            <center> <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
+            <center> <div class="logos"><b style="font-family: 'Signika', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
             </center>
                  <br><br>
              <center><div class="con"><img src="../assets/images/banner.jpeg" style="width:100%;height :auto;"></div></center><br><br>
