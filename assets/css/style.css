@@ -456,6 +456,10 @@ margin:0px 10px;
     margin-top:5%;
 
 }
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
 .right
 {
     border-right:1px solid #f4f4f4;
