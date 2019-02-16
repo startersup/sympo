@@ -61,7 +61,7 @@
     </div>
     <div class="form-group">
       <label>Student Name</label>
-      <input type="text" class="form-control"  value="<?php echo $name; ?>" name="pwd" disabled>
+      <input type="text" class="form-control"  value="<?php echo $name; ?>" >
     </div>
                   <div class="form-group">
       <label>Event Subscribed</label>
