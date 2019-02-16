@@ -66,7 +66,7 @@
 
         <section class="main">
             <div class="container">
-          <center>  <div class="logos"><b style="font-family: 'Signika', sans-serif;margin-top:-40px;">P<span>etr</span>o<span>vi</span>sion 2k19</b></div>
+          <center>  <div class="logos"><b style="font-family: 'Signika', sans-serif;margin-top:-40px;">P<span>ETR</span>O<span>VI</span>SION 2K19</b></div>
             <br>
               <h3 class="downer">A National Level Technical Symposium</h3>
               <p>Starts at</p>
@@ -76,7 +76,7 @@
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
   </ul>
-              
+
               <a href="./register/" ><button class="button3">Register Now</button></a>
             </center>
             <section class="container about">

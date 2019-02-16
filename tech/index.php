@@ -66,7 +66,7 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">T<span>ec</span>hn<span>i</span>cal</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">T<span>EC</span>HN<span>I</span>CAL</b></div>
              <div class="row">
             <div class="col-md-6">
                 <center><a href="../spotlight/"><div class="card"><img src="../assets/images/20190203_114857.png" style="max-width:400px;width:auto;"> <h3>Intrested to Participate?</h3></div></a></center>
