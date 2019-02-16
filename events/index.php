@@ -67,7 +67,7 @@
 
              <div class="row">
             <div class="col-md-6 ">
-                <div class="card margino right">
+                <div class="card margino">
                <center>
                    <img src="../assets/images/codethon_banner.png" style="max-width:400px;width:100%;">
                     <h3>Technically Strong?</h3>
@@ -75,7 +75,7 @@
                     </center></div>
                </div>
                 <div class="col-md-6 ">
-                      <div class="card margino left">
+                      <div class="card margino">
                           <center>
                                 <img  class="images" src="../assets/images/non-tech.png" style="width:100%;">
                     <h3>Not Technically Strong ?</h3>
