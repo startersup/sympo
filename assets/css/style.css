@@ -178,14 +178,14 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 }
 .margino h3
 {
-     font-family: 'Anton', sans-serif;
+     font-family: 'Signika', sans-serif;
     color:#fbe266;
-    letter-spacing: 3px;
+    letter-spacing:1.5px;
     line-height:40px;
 }
 .evento h3
 {
-     font-family: 'Anton', sans-serif;
+     font-family: 'Signika', sans-serif;
     color:#fbe266;
     letter-spacing: 3px;
     line-height:40px;
@@ -239,10 +239,10 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
 }
 .main h3
 {
-     font-family: 'Anton', sans-serif;
+     font-family: 'Signika', sans-serif;
     text-align: center;
     font-size:35px;
-    letter-spacing:4px;
+    letter-spacing:2px;
     color:#ffffff;
 }
 .main p
@@ -814,9 +814,9 @@ input[type=password] {
 }
     .margino h3
 {
-     font-family: 'Anton', sans-serif;
+     font-family: 'Signika', sans-serif;
     color:#fbe266;
-    letter-spacing:3px;
+    letter-spacing:1.5px;
     font-size:18px;
     line-height:30px;
 }
