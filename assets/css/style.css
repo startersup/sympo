@@ -456,6 +456,14 @@ margin:0px 10px;
     margin-top:5%;
 
 }
+.right
+{
+    border-right:1px solid #f4f4f4;
+}
+.left
+{
+    border-left:1px solid #f4f4f4;
+}
 .container1
 {
 margin-left:5%;
