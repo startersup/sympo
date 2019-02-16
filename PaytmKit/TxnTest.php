@@ -57,11 +57,11 @@
           <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
-			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>">
+			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>" disabled>
     </div>
     <div class="form-group">
       <label>Student Name</label>
-      <input type="text" class="form-control"  value="<?php echo $name; ?>" >
+      <input type="text" class="form-control"  value="<?php echo $name; ?>" name="pwd" disabled>
     </div>
                   <div class="form-group">
       <label>Event Subscribed</label>
@@ -89,6 +89,11 @@
         {
             font-size:22px;
             text-align: left !important;
+        }
+        input
+        {
+            background-color:transparent;
+            border:none !important;
         }
         </style>
     </body></html>
