@@ -78,9 +78,8 @@
   </ul>
               
               <a href="./register/" ><button class="button3">Register Now</button></a>
-            </center></div>
-</section>
-        <section class="container about">
+            </center>
+            <section class="container about">
              <div class="row">
             <div class="col-xs-6">
                 <div class=" margino right">
@@ -100,6 +99,9 @@
 
             </div>
         </section>
+            </div>
+</section>
+        
  <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
