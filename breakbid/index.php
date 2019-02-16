@@ -83,11 +83,7 @@ $_SESSION['name']='Breaking Bid';
 						</li>
 						<li>
 							<a href="#tab_default_2" data-toggle="tab">
-							Rounds </a>
-						</li>
-						<li>
-							<a href="#tab_default_3" data-toggle="tab">
-							Venue </a>
+							Rules </a>
 						</li>
 					</ul>
 					<div class="tab-content">
@@ -104,24 +100,17 @@ $_SESSION['name']='Breaking Bid';
 						</div>
 						<div class="tab-pane" id="tab_default_2">
 
-							<p>
                 <h3>Round One: Preliminary</h3>
-                A pen and paper round that consists of questions from petroleum, petro chemical
-                engineering domain. The teams with high score will be shortlisted.
+            <p>    A pen and paper round that consists of questions from petroleum, petro chemical
+                engineering domain. The teams with high score will be shortlisted.</p>
                 <h3>Round Two: Bidding</h3>
-              The shortlisted teams will enter the final bidding round. The teams will be initially
+            <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
               provided with virtual amount of credits with which the participants are required to
               purchase the commodities from the market by bidding among other teams. The market
               will sell certain barrels of crude oils, refinery equipment and other accessories. The
               teams are allowed to sell and purchase any commodity any time from the market or
-              other team. The team that earns the highest profit will win the game.
-              	</p>
+              other team. The team that earns the highest profit will win the game.</p>
 
-						</div>
-						<div class="tab-pane" id="tab_default_3">
-								<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
 						</div>
 					</div>
 				</div>
