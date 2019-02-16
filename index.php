@@ -70,12 +70,12 @@
             <br>
               <h3 class="downer hidden-xs">A National Level Technical Symposium</h3>
               <p class="margin-top">Starts at</p>
- <ul>
+ <center><ul>
     <li><span id="days"></span>days</li>
     <li><span id="hours"></span>Hours</li>
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
-  </ul>
+  </ul></center>
             </center>
             <section class="container about">
                 <br><br>
