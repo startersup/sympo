@@ -83,7 +83,7 @@
             <div class="col-xs-6 nopadding">
                 <div class=" margino right ">
                <center>
-                    <h3>Intrested to Participate?</h3>
+                    <h3>Interested to Participate?</h3>
                   <a href="events/index.php"> <button class="button2">Events</button></a>
                     </center></div>
                </div>

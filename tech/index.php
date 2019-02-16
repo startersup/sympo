@@ -69,11 +69,11 @@
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">T<span>EC</span>HN<span>I</span>CAL</b></div>
              <div class="row">
             <div class="col-md-6">
-                <center><a href="../spotlight/"><div class="card"><img src="../assets/images/20190203_114857.png" style="max-width:400px;width:auto;"> <h3>Intrested to Participate?</h3></div></a></center>
+                <center><a href="../spotlight/"><div class="card"><img src="../assets/images/20190203_114857.png" style="max-width:400px;width:auto;"> <h3>Interested to Participate?</h3></div></a></center>
 
                  </div>
                   <div class="col-md-6">
-                      <center><a href="../greycell/"><div class="card"><img src="../assets/images/greycell.png" style="max-width:400px;width:auto;"><h3>Intrested to Explore?</h3></div></a></center>
+                      <center><a href="../greycell/"><div class="card"><img src="../assets/images/greycell.png" style="max-width:400px;width:auto;"><h3>Interested to Explore?</h3></div></a></center>
 
                  </div>
                         </div></div>
