@@ -17,11 +17,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <script src="../assets/js/sidenav.js"></script>
-    <style>
-    .con {
-    width: 300px;
-    height: auto;
-}</style>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
      <nav class="navbar navbar-default navit navbar-fixed-top">
@@ -37,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-             <ul class="nav navbar-nav navbar-right " id="myTopnav">
+               <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.php">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -51,11 +46,11 @@
                 <li><a href="../accomodation/">Accomodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a></li>
-                <li><a href="../gallery/">Gallery</a></li>
+                                <li><a href="../gallery/">Gallery</a></li>
                   <?php
                   session_start();
                     if(isset($_SESSION['id'])){
-                    echo "<li><a href='/logout/'>Logout</a>
+                    echo "<li><a href='./logout/'>Logout</a>
                  </li> ";
                } else {
                  echo "<li><a href='/login/'>Login</a>
@@ -65,6 +60,7 @@
         </div>
 
     </nav>
+
 
         <section class="container">
 
