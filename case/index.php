@@ -92,8 +92,8 @@ $_SESSION['name']='Case Study';
   given problem. The participants are presented with a challenging real-life problem
   statement concerned to the field of Oil and Gas. They are obliged to provide an
   alternative best solution for the given problem through the analytical and technical
-  knowledge.
-  Max number of participants: Three or Four	</p>
+  knowledge.</p>
+  <p>Max number of participants: Three or Four	</p>
           </div>
           <div class="tab-pane" id="tab_default_2">
 

@@ -99,15 +99,15 @@ $_SESSION['name']='Paper Presentation';
           </div>
           <div class="tab-pane" id="tab_default_2">
           <h3>  Round One: Preliminary</h3>
-            Participants are requested to send their abstract, paper and PPT to event e-mail within the
+          <p>  Participants are requested to send their abstract, paper and PPT to event e-mail within the
             deadline.
             A quick review of the abstract will be done to ensure the quality of the content and to check
             whether the paper and PPT presentation has abided by the rules of the event. Participants
-            will be shortly notified through e-mail once their paper has been shortlisted.
+            will be shortly notified through e-mail once their paper has been shortlisted.</p>
             <h3>Round Two: Presentation</h3>
-            On the event day, shortlisted participants should submit the hard copies of the submitted
+          <p>  On the event day, shortlisted participants should submit the hard copies of the submitted
             paper for judges’ perusal. With no particular order presentations will be performed. The
-            decision of the judges will be final.
+            decision of the judges will be final.</p>
           </div>
         </div>
       </div>

@@ -88,27 +88,22 @@ $_SESSION['name']='Insomniac';
               <div class="tab-content">
               <div class="tab-pane active" id="tab_default_1">
               <p>
-              An innovative bidding competition in which the participants are requested to attain
-              the highest possible assets. It is a two-round event where prelims of technical question
-              from chemical and oil and gas domain will be conducted for the shortlisting. The
-              shortlisted participants will be allowed to purchase the various refining raw materials
-              and unit operations through bidding by using the provided virtual money. The team
-              that makes the most profit wins the game.
-              Number of rounds: Two
-              Max. number of participants: Two or Three	</p>
+              An online photography event in which participants are required to send their photograph based on the given theme to our event email id.	</p>
               </div>
               <div class="tab-pane" id="tab_default_2">
 
-              <h3>Round One: Preliminary</h3>
-              <p>    A pen and paper round that consists of questions from petroleum, petro chemical
-              engineering domain. The teams with high score will be shortlisted.</p>
-              <h3>Round Two: Bidding</h3>
-              <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
-              provided with virtual amount of credits with which the participants are required to
-              purchase the commodities from the market by bidding among other teams. The market
-              will sell certain barrels of crude oils, refinery equipment and other accessories. The
-              teams are allowed to sell and purchase any commodity any time from the market or
-              other team. The team that earns the highest profit will win the game.</p>
+                <p>Theme: Nature, Animals, City.</p>
+    <p>Use Watermarks.</p>
+    <p>Please Mention:
+    Name,
+    Department,
+    Year,
+    College.</p>
+    <p>The type of nature/ name of the animal/ name of the city</p>
+    <p>Send your meme to petrovisionevents@gmail.com</p>
+    <p>Send it before 5 th March 2019</p>
+    <p>The content will be uploaded in social medias.</p>
+    <p>The most liked photograph will be the winner.</p>
 
               </div>
               </div>

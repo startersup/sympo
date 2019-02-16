@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
-$_SESSION['name']='Meme Masters';
+$_SESSION['name']='TikTOK';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,7 +70,7 @@ $_SESSION['name']='Meme Masters';
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/meme.png">
+            <center><img class="spot" src="../assets/images/inso.png">
               <div class="container1">
               <br>
               <div class="tabbable-panel">
@@ -88,24 +88,24 @@ $_SESSION['name']='Meme Masters';
               <div class="tab-content">
               <div class="tab-pane active" id="tab_default_1">
               <p>
-            An online meme contest in which participants are required to send their memes based on the given theme to our event email id.	</p>
-            
+              An online event to show your acting skills through TikTok clips.	</p>
               </div>
               <div class="tab-pane" id="tab_default_2">
-              <p>  Memes should be relevant to Petroleum Engineering</p>
-                <p> Use Watermarks.</p>
-                <p> Please Mention;</p>
+              <p>  Any kind of tik-tok video is accepted.<p>
+                <p> Please Mention:
                 Name,
                 Department,
                 Year,
-                College.
+                College.</p>
                 <p> Languages allowed - Tamil and English</p>
-                <p> Send your meme to petrovisionevents@gmail.com</p>
-                <p> Send it before 5 th March 2019</p>
-                <p> The memes will be uploaded in social medias.</p>
-                <p> The most liked meme will be the winner.</p>
-                <p> The adult content or usage of inappropriate word in meme will not be
+                <p> Send your video to
+                https://instagram.com/petrovision2019?utm_source=ig_profile_share&amp;igshid=1g99nkx7wd9pd</p>
+                <p> Send it before 7 th March 2019.</p>
+                <p> The content will be uploaded in social medias.</p>
+                <p> The most liked video will be the winner.</p>
+                <p>The adult content or usage of inappropriate word in tik-tok will not be
                 entertained.</p>
+
               </div>
               </div>
               </div>

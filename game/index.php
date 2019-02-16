@@ -89,28 +89,16 @@ $_SESSION['name']='Game of Series';
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="tab_default_1">
+<p>A questionnaire fun event based on English TV show and Anime. The question will be from popular English TV shows and Anime (say, Pokemon, Dragon ball Z, Sherlock, The Walking Dead, F.R.I.E.N.D.S, Game of Thrones).</p>
           <p>
-            An innovative bidding competition in which the participants are requested to attain
-            the highest possible assets. It is a two-round event where prelims of technical question
-            from chemical and oil and gas domain will be conducted for the shortlisting. The
-            shortlisted participants will be allowed to purchase the various refining raw materials
-            and unit operations through bidding by using the provided virtual money. The team
-            that makes the most profit wins the game.
-            Number of rounds: Two
-            Max. number of participants: Two or Three	</p>
+            Max. Number of Participants: Two or Three	</p>
           </div>
           <div class="tab-pane" id="tab_default_2">
 
-              <h3>Round One: Preliminary</h3>
-          <p>    A pen and paper round that consists of questions from petroleum, petro chemical
-              engineering domain. The teams with high score will be shortlisted.</p>
-              <h3>Round Two: Bidding</h3>
-          <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
-            provided with virtual amount of credits with which the participants are required to
-            purchase the commodities from the market by bidding among other teams. The market
-            will sell certain barrels of crude oils, refinery equipment and other accessories. The
-            teams are allowed to sell and purchase any commodity any time from the market or
-            other team. The team that earns the highest profit will win the game.</p>
+          <p>  A Quiz consisting of a preliminary round and a rapid fire round containing questions
+from popular English TV shows and Anime including: Pokemon, Death note, Dragon
+ball Z, Sherlock, The Walking Dead, The Flash, F.R.I.E.N.D.S, Game of Thrones,
+Stranger Things and others. </p>
 
           </div>
         </div>

@@ -93,12 +93,12 @@ $_SESSION['name']='Connexions';
               Are you good at Mind mapping? Here you go…!
   We are conducting an event to move your ticking clock effectively.
   Cook up your creativity and technical knowledge to taste this delightful event-
-  Connexions
-  A fun interactive event where a group of two or three participants are requested to
+  Connexions</p>
+</p>  A fun interactive event where a group of two or three participants are requested to
   relate and establish the connection between the given pictures, that are associated
-  with chemical and petroleum domain.
-  Number of rounds: Three
-  Max. number of participants: Two	</p>
+  with chemical and petroleum domain.</p>
+<p>  Number of rounds: Three</p>
+<p>  Max. number of participants: Two	</p>
             </div>
             <div class="tab-pane" id="tab_default_2">
             <h3>  Round One: A Common Man</h3>

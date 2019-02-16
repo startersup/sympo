@@ -87,27 +87,18 @@ $_SESSION['name']='adzap';
             <div class="tab-content">
             <div class="tab-pane active" id="tab_default_1">
             <p>
-            An innovative bidding competition in which the participants are requested to attain
-            the highest possible assets. It is a two-round event where prelims of technical question
-            from chemical and oil and gas domain will be conducted for the shortlisting. The
-            shortlisted participants will be allowed to purchase the various refining raw materials
-            and unit operations through bidding by using the provided virtual money. The team
-            that makes the most profit wins the game.
-            Number of rounds: Two
-            Max. number of participants: Two or Three	</p>
+The events that provides to demonstrate your marketing and management skills for a given product through various rounds.</p>          <p>  Number of rounds: Two</p>
+          <p>  Number of Round: Two</p>
+<p>Max. Number of Participants: Three or Four	</p>
             </div>
             <div class="tab-pane" id="tab_default_2">
-
-              <h3>Round One: Preliminary</h3>
-            <p>    A pen and paper round that consists of questions from petroleum, petro chemical
-              engineering domain. The teams with high score will be shortlisted.</p>
-              <h3>Round Two: Bidding</h3>
-            <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
-            provided with virtual amount of credits with which the participants are required to
-            purchase the commodities from the market by bidding among other teams. The market
-            will sell certain barrels of crude oils, refinery equipment and other accessories. The
-            teams are allowed to sell and purchase any commodity any time from the market or
-            other team. The team that earns the highest profit will win the game.</p>
+            <p>  The participants will general provided with a product on the spot, for which
+              they must perform an advertisement.<p>
+              <p>The time duration allocated for preparation and performance will be 3 and 5
+              minutes respectively.</p>
+              <p> Participants will not be allowed to bring any props during the event.</p>
+              <p>Usage of ill-mannered and disrespectful words/act will not be entertained.</p>
+              <p> Humor, Spontaneity and Creativity will be much appreciated.</p>
 
             </div>
             </div>

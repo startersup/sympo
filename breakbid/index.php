@@ -94,9 +94,9 @@ $_SESSION['name']='Breaking Bid';
               from chemical and oil and gas domain will be conducted for the shortlisting. The
               shortlisted participants will be allowed to purchase the various refining raw materials
               and unit operations through bidding by using the provided virtual money. The team
-              that makes the most profit wins the game.
-              Number of rounds: Two
-              Max. number of participants: Two or Three	</p>
+              that makes the most profit wins the game.</p>
+              <p>Number of rounds: Two</p>
+            <p>  Max. number of participants: Two or Three	</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
 

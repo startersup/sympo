@@ -95,8 +95,8 @@ $_SESSION['name']='Be An Analsyst';
   from chemical and oil and gas domain. Final round will a timed group
   discussion with your team in front of the judges to discuss a suitable alternative
   solution for the given industrial crisis.
-  Number of rounds: Two
-  Max. number of participants: Three or Four	</p>
+<p>  Number of rounds: Two</p>
+  <p>Max. number of participants: Three or Four	</p>
           </div>
           <div class="tab-pane" id="tab_default_2">
 

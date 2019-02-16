@@ -91,9 +91,9 @@ $_SESSION['name']='Design Challenge';
             <div class="tab-pane active" id="tab_default_1">
             <p>
               Participants will be required to identify and design a theoretical model for a
-    particular petro-chemical plant by the given data.
-    Number of rounds: Two
-    Max. number of participants: Two or Three	</p>
+    particular petro-chemical plant by the given data.</p>
+  <p>  Number of rounds: Two</p>
+<p>    Max. number of participants: Two or Three	</p>
             </div>
             <div class="tab-pane" id="tab_default_2">
 
