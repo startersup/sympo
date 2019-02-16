@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-md-3">
        <div class="char">
-  <img src="../assets/images/IMG_5697%20(3).JPG.jpeg" alt="John" style="width:100%">
+  <img src="../assets/images/male.jpg" alt="John" style="width:100%">
   <h1>Mr.Abdul Haq</h1>
   <p class="title">Core Team</p>
   <p>ACT<p>
@@ -75,7 +75,7 @@
 </div></div>
                             <div class="col-md-3">
        <div class="char">
-  <img src="../assets/images/img2.jpeg" alt="John" style="width:100%">
+  <img src="../assets/images/male.jpg" alt="John" style="width:100%">
   <h1>Mr.Arun Balaji</h1>
   <p class="title">Core Team</p>
   <p>ACT</p>
@@ -83,7 +83,7 @@
 </div></div>
                                 <div class="col-md-3">
        <div class="char">
-  <img src="../assets/images/img3.jpeg" alt="John" style="width:100%">
+  <img src="../assets/images/male.jpg" alt="John" style="width:100%">
   <h1>Mr.Melvin Thomas</h1>
   <p class="title">Core Team</p>
              <p>ACT</p>
@@ -92,7 +92,7 @@
 
                                 <div class="col-md-3">
        <div class="char">
-  <img src="../assets/images/iii.jpeg" alt="John" style="width:100%">
+  <img src="../assets/images/female.png" alt="John" style="width:100%">
   <h1>Ms.Varshini</h1>
   <p class="title">Core Team</p>
              <p>ACT</p>
