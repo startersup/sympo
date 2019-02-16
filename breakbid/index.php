@@ -71,7 +71,7 @@ $_SESSION['name']='Breaking Bid';
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/break.png"
+            <center><img class="spot" src="../assets/images/break.png">
                 <div class="container1">
                 <br>
            	<div class="tabbable-panel">
@@ -133,7 +133,7 @@ $_SESSION['name']='Breaking Bid';
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
               <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                    <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
+                    <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
                     </div>
                     </center>
 				</div>

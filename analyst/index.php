@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
-$_SESSION['name']='Breaking Bid';
+$_SESSION['name']='Be An Analsyst';
  ?>
 
 <!DOCTYPE html>
@@ -131,7 +131,7 @@ discussion about the alternative best solution for the given industrial problem.
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
             <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                  <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
+                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
                   </div>
                   </center>
       </div>

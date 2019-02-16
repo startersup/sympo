@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['amount']="250";
+$_SESSION['name']='Paper Presentation';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,76 +72,222 @@
          <div class="shadow" >
             <center><img class="spot" src="../assets/images/paper.png">
 
-             <p>The great platform for the participates to present their innovative technical review or research paper through a digital presentation. The topics consist both chemical and oil and gas sector. The judgement will be based on the technical content of the paper and how well the content is presented.</p><br>
-                <button class="button">Subscribe and Register</button>
-             </center>
-            </div>
-        </section>
+              <div class="container1">
+              <br>
+          <div class="tabbable-panel">
+      <div class="tabbable-line">
+        <ul class="nav nav-tabs ">
+          <li class="active">
+            <a href="#tab_default_1" data-toggle="tab">
+            Description </a>
+          </li>
+          <li>
+            <a href="#tab_default_2" data-toggle="tab">
+            Rules </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab_default_1">
+          <p>
+            A dais to showcase your innovative concepts in Petroleum and Chemical Engineering fields.
+  Novel ideas will be recognized for sure. A venue of informative exploration for audience.</p>
+  <p>Number of round: Two</p>
+  <p>Max. number of participants: Two</p>
+  <p>Dead line: 5 th of March 2019</p>
+  <p>Time Duration: Ten minutes for the presentation followed by Q&amp;A session.</p>
+<p>  Event Email ID : petrovisionevents@gmail.com	</p>
+          </div>
+          <div class="tab-pane" id="tab_default_2">
+          <h3>  Round One: Preliminary</h3>
+            Participants are requested to send their abstract, paper and PPT to event e-mail within the
+            deadline.
+            A quick review of the abstract will be done to ensure the quality of the content and to check
+            whether the paper and PPT presentation has abided by the rules of the event. Participants
+            will be shortly notified through e-mail once their paper has been shortlisted.
+            <h3>Round Two: Presentation</h3>
+            On the event day, shortlisted participants should submit the hard copies of the submitted
+            paper for judges’ perusal. With no particular order presentations will be performed. The
+            decision of the judges will be final.
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
-       </center>
-            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
-        <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
-        <style>.shadow {
-  position: relative;
-  margin: 120px auto 0;
-  padding:20px;
-  background: linear-gradient(0deg, #000, #262626);
-}
-            p
-            {
-                font-family: 'ProximaNovaSemibold';
+              <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+    </div>
+           </center>
+          </div>
+      </section>
+
+
+    <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel-2">Subscribe the Event </h4>
+      </div>
+      <div class="modal-body">
+        <center><p>Choose your suitable options according to your convenience</p>
+                  <div class="row">
+            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
+                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
+                  </div>
+                  </center>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+      </div>
+    </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+    </div>
+      <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
+     </center>
+          <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
+      <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
+      <style>.shadow {
+    position: relative;
+    margin: 120px auto 0;
+    padding:20px;
+    background: linear-gradient(0deg, #000, #262626);
+    }
+          p
+          {
+              font-family: 'ProximaNovaSemibold';
     color:#bbb;
     font-size:20px;
-            }
-.shadow:before,
-.shadow:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(
+          }
+    .shadow:before,
+    .shadow:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(
     45deg,
     rgb(250,250,250),
     rgb(0, 190, 200),
     rgb(250,250,250)
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: moveBackground 20s linear infinite;
-}
-            button {
-  background: #4CAF50;
-  border: none;
-  border-radius: 25px;
-  color: snow; // Vanilla HTML color name
-  cursor: pointer;
-  font-size: 1.25em;
-  letter-spacing: .1em;
-  outline: none;
-  padding: .75em 2em;
-  position: relative; // Required for pseudo-element positioning
-  text-transform: uppercase;
-}
-.shadow:after {
-  filter: blur(20px);
-}
-@keyframes moveBackground{
-  0% {
+    );
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: moveBackground 20s linear infinite;
+    }
+          button {
+    background: #4CAF50;
+    border: none;
+    border-radius: 25px;
+    color: snow; // Vanilla HTML color name
+    cursor: pointer;
+    font-size: 1.25em;
+    letter-spacing: .1em;
+    outline: none;
+    padding: .75em 2em;
+    position: relative; // Required for pseudo-element positioning
+    text-transform: uppercase;
+    }
+    .shadow:after {
+    filter: blur(20px);
+    }
+    @keyframes moveBackground{
+    0% {
     background-position: 0 0;
-  }
-  50%{
+    }
+    50%{
     background-position: 400% 0;
-  }
-  100% {
+    }
+    100% {
     background-position: 0 0;
-  }
-}
-</style>
+    }
+    }
+    /* Tabs panel */
+    .tabbable-panel {
+    padding: 10px;
+    background-color: transparent;
+    }
+
+    /* Default mode */
+    .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+    }
+    .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+    }
+    .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-family: 'Anton', sans-serif;
+    font-size:18px;
+    letter-spacing: 1.9px;
+    line-height:29px;
+    font-weight:400;
+    margin:0px 10px;
+    color: #737373;
+    }
+    .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+
+    }
+    .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+    }
+    .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    color: #333333;
+    }
+    .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+    }
+    .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+    }
+    .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
+    }
+    .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+    }
+    .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+    }
+    .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color:transparent;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+    }
+    .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+    }
+
+    .tabpane
+          {
+              background-color:transparent;
+          }
+          @media screen and (max-width: 600px) {
+
+              .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-family: 'Anton', sans-serif;
+    font-size:14px;
+    letter-spacing: 1.9px;
+    line-height:29px;
+    font-weight:400;
+    margin:0px 0px;
+    color: #737373;
+    }
+
+          }
+    </style>
 
 
     </body></html>
