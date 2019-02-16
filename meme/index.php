@@ -89,16 +89,16 @@ $_SESSION['name']='Meme Masters';
               <div class="tab-pane active" id="tab_default_1">
               <p>
             An online meme contest in which participants are required to send their memes based on the given theme to our event email id.	</p>
-            
+
               </div>
               <div class="tab-pane" id="tab_default_2">
               <p>  Memes should be relevant to Petroleum Engineering</p>
                 <p> Use Watermarks.</p>
-                <p> Please Mention;</p>
+                <p> Please Mention:
                 Name,
                 Department,
                 Year,
-                College.
+                College.</p>
                 <p> Languages allowed - Tamil and English</p>
                 <p> Send your meme to petrovisionevents@gmail.com</p>
                 <p> Send it before 5 th March 2019</p>

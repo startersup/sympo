@@ -94,7 +94,7 @@ $_SESSION['name']='Connexions';
   We are conducting an event to move your ticking clock effectively.
   Cook up your creativity and technical knowledge to taste this delightful event-
   Connexions</p>
-</p>  A fun interactive event where a group of two or three participants are requested to
+<p>  A fun interactive event where a group of two or three participants are requested to
   relate and establish the connection between the given pictures, that are associated
   with chemical and petroleum domain.</p>
 <p>  Number of rounds: Three</p>

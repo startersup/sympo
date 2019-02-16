@@ -68,14 +68,18 @@
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">on<span>l</span>i<span>n</span>e</b></div>
              <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <center><a href="../meme/"><div class="card zoom"><center><img class="spot" src="../assets/images/meme.png" ></center></div></a></center>
 
                  </div>
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                          <center><a href="../isomanic/"><div class="card zoom"><img class="spot" src="../assets/images/inso.png" ></div></a></center>
 
                  </div>
+                 <div class="col-md-4">
+                     <center><a href="../tiktok/"><div class="card zoom"><img class="spot" src="../assets/images/tiktok.png" ></div></a></center>
+
+             </div>
                         </div></div>
 
 

@@ -70,7 +70,7 @@ $_SESSION['name']='TikTOK';
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/inso.png">
+            <center><img class="spot" src="../assets/images/tiktok.png">
               <div class="container1">
               <br>
               <div class="tabbable-panel">
