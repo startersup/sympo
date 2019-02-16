@@ -68,7 +68,7 @@
             <div class="container">
           <center>  <div class="logos"><b style="font-family: 'Signika', sans-serif;margin-top:-40px;">P<span>ETR</span>O<span>VI</span>SION 2K19</b></div>
             <br>
-              <h3 class="downer">A National Level Technical Symposium</h3>
+              <h3 class="downer hidden-xs">A National Level Technical Symposium</h3>
               <p>Starts at</p>
  <ul>
     <li><span id="days"></span>days</li>
