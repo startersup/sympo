@@ -73,7 +73,7 @@ $_SESSION['name']='Breaking Bid';
              <div class="shadow" >
             <center><img class="spot" src="../assets/images/break.png"
                 <div class="container1">
-                <br><br>
+                <br>
            	<div class="tabbable-panel">
 				<div class="tabbable-line">
 					<ul class="nav nav-tabs ">
