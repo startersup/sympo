@@ -463,10 +463,12 @@ margin:0px 10px;
 .right
 {
     border-right:1px solid #f4f4f4;
+    padding:5px;
 }
 .left
 {
     border-left:1px solid #f4f4f4;
+    padding:5px;
 }
 .container1
 {
