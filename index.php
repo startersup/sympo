@@ -80,6 +80,7 @@
               <a href="./register/" ><button class="button3">Register Now</button></a>
             </center>
             <section class="container about">
+                <br><br>
              <div class="row">
             <div class="col-xs-6">
                 <div class=" margino right">
