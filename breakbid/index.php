@@ -71,10 +71,7 @@ $_SESSION['name']='Breaking Bid';
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/break.png">
-
-             <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
-</p>
+            <center><img class="spot" src="../assets/images/break.png"
                 <div class="container1">
                 <br><br>
            	<div class="tabbable-panel">
