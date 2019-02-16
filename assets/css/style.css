@@ -766,7 +766,7 @@ input[type=password] {
     }
     .footerp
     {
-        font-size:15px;
+        font-size:15px !important;
     }
     .tabbable-line > .nav-tabs > li > a {
     border: 0;
