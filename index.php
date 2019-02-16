@@ -76,8 +76,6 @@
     <li><span id="minutes"></span>Minutes</li>
     <li><span id="seconds"></span>Seconds</li>
   </ul>
-
-              <a href="./register/" ><button class="button3">Register Now</button></a>
             </center>
             <section class="container about">
                 <br><br>
