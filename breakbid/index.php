@@ -93,14 +93,29 @@ $_SESSION['name']='Breaking Bid';
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
 						<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
+              An innovative bidding competition in which the participants are requested to attain
+              the highest possible assets. It is a two-round event where prelims of technical question
+              from chemical and oil and gas domain will be conducted for the shortlisting. The
+              shortlisted participants will be allowed to purchase the various refining raw materials
+              and unit operations through bidding by using the provided virtual money. The team
+              that makes the most profit wins the game.
+              Number of rounds: Two
+              Max. number of participants: Two or Three	</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
 
 							<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
+                <h3>Round One: Preliminary</h3>
+                A pen and paper round that consists of questions from petroleum, petro chemical
+                engineering domain. The teams with high score will be shortlisted.
+                <h3>Round Two: Bidding</h3>
+              The shortlisted teams will enter the final bidding round. The teams will be initially
+              provided with virtual amount of credits with which the participants are required to
+              purchase the commodities from the market by bidding among other teams. The market
+              will sell certain barrels of crude oils, refinery equipment and other accessories. The
+              teams are allowed to sell and purchase any commodity any time from the market or
+              other team. The team that earns the highest profit will win the game.
+              	</p>
 
 						</div>
 						<div class="tab-pane" id="tab_default_3">
