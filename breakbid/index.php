@@ -122,10 +122,10 @@ $_SESSION['mode']=$row['payment'];
 				</div>
 			</div>
 
-                <br><?php if($_SESSION['mode']=="Onspot"){
-                 echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";}
+                <br><?php if($_SESSION['mode']=="Paid"){
+               echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button>";}
                  else{
-                   echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button>";
+                    echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";
                  }?>
 </div>
              </center>
