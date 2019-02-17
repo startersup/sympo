@@ -1,4 +1,8 @@
 <?php
+if(!isset($_SESSION['id']))
+{
+	header('Location : /login/');
+}
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
