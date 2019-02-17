@@ -9,6 +9,7 @@
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
 	$name=$row['name'];
+	mysqli_close($conn);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +73,7 @@
       <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
 			<input type="hidden" value="WAP" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<input type="hidden" name="CUST_ID" Value="<?php echo $_SESSION['id'];?>">
+			<input type="hidden" name="CUST_ID" Value="CUST001">
     </div>
 
               <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
