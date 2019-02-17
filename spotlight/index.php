@@ -67,8 +67,7 @@
             <div class="evento">
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">spo<span>t</span>li<span>g</span>ht</b></div>
-                <br><br>
-                <div class="container1 backwhite" id="borderimg1"><p><img src="../assets/images/coupon.png"><b>Note: </b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></div>  <br><br>
+              
              <div class="row">
             <div class="col-md-4">
                 <center><a href="../paper/"><div class=" zoom"><center><img class="spot" src="../assets/images/paper.png" ></center></div></a></center>
