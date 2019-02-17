@@ -24,11 +24,12 @@ $paramList["CHANNEL_ID"] = $CHANNEL_ID;
 $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 $paramList["CALLBACK_URL"] = "http://petrovision.co.in/PaytmKit/pgResponse.php";
+/*
 echo $ORDER_ID;
 echo $CUST_ID;
 echo $INDUSTRY_TYPE_ID;
 echo $CHANNEL_ID;
-echo $TXN_AMOUNT;
+echo $TXN_AMOUNT;*/
 /*
 $paramList["CALLBACK_URL"] = "http://localhost/PaytmKit/pgResponse.php";
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer

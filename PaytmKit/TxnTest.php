@@ -8,7 +8,7 @@
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
 	$name=$row['name'];
-	mysqli_close($conn);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
