@@ -1,7 +1,7 @@
 <?php
 if(!isset($_SESSION['id']))
 {
-	header('Location : /login/');
+	  header('location: /login/index.php');
 }
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
