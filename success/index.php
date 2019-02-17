@@ -14,16 +14,19 @@ if($count>0)
 echo "<script type='text/javascript'> alert('Already Registered'); </script>";
   header('location: /index.php');
 }
-$sql="select * from students where id='$id'";
-$res=mysqli_query($conn,$sql);
-$row=mysqli_fetch_array($res);
-$name=$row['name'];
-$mail=$row['email'];
-$number=$row['number'];
-$dept=$row['dept'];
-$college=$row['college'];
-$sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
-$res=mysqli_query($conn,$sql);
+else {
+  $sql="select * from students where id='$id'";
+  $res=mysqli_query($conn,$sql);
+  $row=mysqli_fetch_array($res);
+  $name=$row['name'];
+  $mail=$row['email'];
+  $number=$row['number'];
+  $dept=$row['dept'];
+  $college=$row['college'];
+  $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
+  $res=mysqli_query($conn,$sql);
+}
+
  ?>
  <html lang="en">
  <head>
