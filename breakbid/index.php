@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['amount']="1";
+$_SESSION['amount']="10";
 $_SESSION['name']='Breaking Bid';
  ?>
 <!DOCTYPE html>
