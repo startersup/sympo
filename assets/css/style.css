@@ -149,6 +149,12 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
   font-family: 'Anton', sans-serif;
     letter-spacing: 1.2px;
 }
+.alert
+    {
+        max-width:50%;
+        font-size:20px;
+        font-family: 'ProximaNovaSemibold';
+    }
 .white
 {
     color:#ffffff;
@@ -658,6 +664,12 @@ input[type=password] {
     right: 0;
     top: 0;
   }
+    .alert
+    {
+        max-width:100%;
+        font-size:20px;
+        font-family: 'ProximaNovaSemibold';
+    }
   .topnav.responsive a {
     float: none;
     display: block;
@@ -763,8 +775,8 @@ input[type=password] {
 }
     .logos b{
   font: 40 8vh "Vibur";
-  color: #fee;
-  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+ color: #fee;   
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
 }
 .logos b span{
   animation: blink linear infinite 2s;
@@ -772,7 +784,7 @@ input[type=password] {
 .logos1 b{
   font: 40 8vh "Vibur";
   color: #fee;
-  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
 }
 .logos1 b span{
   animation: blink linear infinite 2s;
@@ -809,7 +821,7 @@ input[type=password] {
     }
     .main li {
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.8em;
   list-style-type: none;
   padding: 1em;
     color:#ffffff;
@@ -818,7 +830,7 @@ input[type=password] {
 
 .main li span {
   display: block;
-  font-size: 4rem;
+  font-size: 2rem;
     color:#63e265;
 }
 .white
