@@ -3,7 +3,6 @@
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
 	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-	session_start();
 	$id=$_SESSION['id'];
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
@@ -55,10 +54,10 @@
                    <div class="col-md-3"></div>
                    <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-          <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
+            <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
-			<input id="ORDER_ID" class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999)?>" disabled>
+			<input class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999);?>" disabled>
     </div>
     <div class="form-group">
       <label>Student Name</label>
@@ -74,9 +73,10 @@
 			<input type="hidden" value="WAP" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
 			<input type="hidden" name="CUST_ID" Value="CUST001">
+			<input type="hidden" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999);?>">
     </div>
 
-              <button class="button1">Proceed to Checkout</button>  </form>    </div></div></div></div>
+              <input type="submit" class="button1" value="Proceed to Checkout">  </form>    </div></div></div></div>
 
          <div class="col-md-3"></div>
         </section>
