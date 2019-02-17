@@ -67,7 +67,10 @@
             <div class="evento">
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">spo<span>t</span>li<span>g</span>ht</b></div>
-              
+              <div class="alert alert-info alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
              <div class="row">
             <div class="col-md-4">
                 <center><a href="../paper/"><div class=" zoom"><center><img class="spot" src="../assets/images/paper.png" ></center></div></a></center>
