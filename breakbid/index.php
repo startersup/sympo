@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['amount']="250";
+$_SESSION['amount']="1";
 $_SESSION['name']='Breaking Bid';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
