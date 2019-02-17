@@ -1,4 +1,5 @@
 <?php
+	session_start();
 if(!isset($_SESSION['id']))
 {
 	  header('location: /login/index.php');
@@ -7,7 +8,6 @@ if(!isset($_SESSION['id']))
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
 	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-	session_start();
 	$id=$_SESSION['id'];
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
