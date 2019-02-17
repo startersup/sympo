@@ -6,8 +6,13 @@ $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $sql="select payment from events where id='$id'";
 $res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
 $row=mysqli_fetch_array($res);
-$_SESSION['mode']=$row['payment'];
+$_SESSION['mode']=$row['payment'];}
+else {
+  $_SESSION['mode']="Onspot";
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
