@@ -593,7 +593,7 @@ input[type=password] {
 .logos b{
   font: 60 10vh "Vibur";
   color: #fee;
-  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
 .logos b span{
   animation: blink linear infinite 2s;
@@ -601,7 +601,7 @@ input[type=password] {
 .logos1 b{
   font: 60 10vh "Vibur";
   color: #fee;
-   text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
 .logos1 b span{
   animation: blink linear infinite 2s;
@@ -773,18 +773,18 @@ input[type=password] {
 {
  margin-top:80px;
 }
-    .logos b{
-  font: 40 8vh "Vibur";
-  color: #AD8622;
-  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
+  .logos b{
+  font: 60 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
 .logos b span{
   animation: blink linear infinite 2s;
 }
 .logos1 b{
-  font: 40 8vh "Vibur";
+  font: 60 10vh "Vibur";
   color: #fee;
-  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #AD8622, 0 0 0.5em #AD8622, 0 0 0.1em #AD8622, 0 10px 3px #000;
+  text-shadow: 0 -20px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
 .logos1 b span{
   animation: blink linear infinite 2s;
