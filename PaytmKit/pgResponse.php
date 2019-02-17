@@ -14,7 +14,7 @@ $isValidChecksum = "FALSE";
 $paramList = $_POST;
 $paytmChecksum = isset($_POST["CHECKSUMHASH"]) ? $_POST["CHECKSUMHASH"] : ""; //Sent by Paytm pg
 
-//Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your application’s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
+//Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your applicationï¿½s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
 $isValidChecksum = verifychecksum_e($paramList, PAYTM_MERCHANT_KEY, $paytmChecksum); //will return TRUE or FALSE string.
 
 
@@ -38,7 +38,7 @@ if($isValidChecksum == "TRUE") {
 <body>
 	<header class="site-header" id="header">
 		<h2 class="site-header__title" data-lead-id="site-header-title">Success!</h2>
-        <center><h3 style="padding:10px;">Transaction Id: 123456789</h3></center>
+        <center><h3 style="padding:10px;">Transaction Id: '.$_POSt['TXNID'].'</h3></center>
 	</header>
 
 	<div class="main-content">
@@ -48,7 +48,7 @@ if($isValidChecksum == "TRUE") {
 <center><a href="http://petrovision.co.in">Back to Home</a></center>
 </body>
 </html>';
-		
+
 	}
 	else {
 		echo '<html lang="en">
@@ -73,12 +73,12 @@ if($isValidChecksum == "TRUE") {
 	}
 
 	if (isset($_POST) && count($_POST)>0 )
-	{ 
+	{
 		foreach($_POST as $paramName => $paramValue) {
-				
+
 		}
 	}
-	
+
 
 }
 else {
