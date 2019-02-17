@@ -14,7 +14,7 @@ $mail=$row['email'];
 $number=$row['number'];
 $dept=$row['dept'];
 $college=$row['college'];
-$sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name','$mail',$number,'$dept','$college','Onspot')";
+$sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Onspot')";
 $res=mysqli_query($conn,$sql);
  ?>
  <html lang="en">
