@@ -154,7 +154,17 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     color:#ffffff;
     padding:5px;
 }
-
+.backwhite
+{
+    background-color:#ffffff;
+    padding:10px;
+    
+}
+.backwhite p
+{
+  font-family: 'ProximaNovaSemibold';
+    font-size:16px;
+}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: transparent !important;
 }

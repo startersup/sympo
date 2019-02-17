@@ -68,17 +68,18 @@
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">spo<span>t</span>li<span>g</span>ht</b></div>
                 <br><br>
+                <div class="container1 backwhite" id="borderimg1"><p><img src="../assets/images/coupon.png"><b>Note: </b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></div>
              <div class="row">
             <div class="col-md-4">
-                <center><a href="../paper/"><div class="card zoom"><center><img class="spot" src="../assets/images/paper.png" ></center></div></a></center>
+                <center><a href="../paper/"><div class=" zoom"><center><img class="spot" src="../assets/images/paper.png" ></center></div></a></center>
 
                  </div>
                      <div class="col-md-4">
-                         <center><a href="../poster/"><div class="card zoom"><img class="spot" src="../assets/images/poster.png" ></div></a></center>
+                         <center><a href="../poster/"><div class="zoom"><img class="spot" src="../assets/images/poster.png" ></div></a></center>
 
                  </div>
                   <div class="col-md-4">
-                      <center><a href="../case/"><div class="card zoom"><img class="spot" src="../assets/images/case.png" ></div></a></center>
+                      <center><a href="../case/"><div class="zoom"><img class="spot" src="../assets/images/case.png" ></div></a></center>
 
                  </div>
                         </div></div>
