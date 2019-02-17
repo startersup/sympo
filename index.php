@@ -83,7 +83,7 @@
             <div class="col-xs-6 nopadding">
                 <div class=" margino right ">
                <center>
-                    <h3>Intrested to Participate?</h3>
+                    <h3>Interested to Participate?</h3>
                   <a href="events/index.php"> <button class="button2">Events</button></a>
                     </center></div>
                </div>
@@ -100,7 +100,7 @@
         </section>
                  <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
-<a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
+<a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
 </center>
      <br><center><p class="footerp">Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center>

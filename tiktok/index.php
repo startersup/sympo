@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
-$_SESSION['name']='Minute to win it';
+$_SESSION['name']='TikTOK';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +53,6 @@ $_SESSION['name']='Minute to win it';
                 <li><a href="../contact/">Contact</a>
                 </li>
                 <li><a href="../gallery/">Gallery</a></li>
-
                 <?php
                 session_start();
                   if(isset($_SESSION['id'])){
@@ -71,7 +70,7 @@ $_SESSION['name']='Minute to win it';
         <section class="container">
 
              <div class="shadow" >
-            <center><img class="spot" src="../assets/images/minute.png">
+            <center><img class="spot" src="../assets/images/tiktok.png">
               <div class="container1">
               <br>
               <div class="tabbable-panel">
@@ -89,27 +88,23 @@ $_SESSION['name']='Minute to win it';
               <div class="tab-content">
               <div class="tab-pane active" id="tab_default_1">
               <p>
-              An innovative bidding competition in which the participants are requested to attain
-              the highest possible assets. It is a two-round event where prelims of technical question
-              from chemical and oil and gas domain will be conducted for the shortlisting. The
-              shortlisted participants will be allowed to purchase the various refining raw materials
-              and unit operations through bidding by using the provided virtual money. The team
-              that makes the most profit wins the game.
-              Number of rounds: Two
-              Max. number of participants: Two or Three	</p>
+              An online event to show your acting skills through TikTok clips.	</p>
               </div>
               <div class="tab-pane" id="tab_default_2">
-
-              <h3>Round One: Preliminary</h3>
-              <p>    A pen and paper round that consists of questions from petroleum, petro chemical
-              engineering domain. The teams with high score will be shortlisted.</p>
-              <h3>Round Two: Bidding</h3>
-              <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
-              provided with virtual amount of credits with which the participants are required to
-              purchase the commodities from the market by bidding among other teams. The market
-              will sell certain barrels of crude oils, refinery equipment and other accessories. The
-              teams are allowed to sell and purchase any commodity any time from the market or
-              other team. The team that earns the highest profit will win the game.</p>
+              <p>  Any kind of tik-tok video is accepted.<p>
+                <p> Please Mention:
+                Name,
+                Department,
+                Year,
+                College.</p>
+                <p> Languages allowed - Tamil and English</p>
+                <p> Send your video to
+                https://instagram.com/petrovision2019?utm_source=ig_profile_share&amp;igshid=1g99nkx7wd9pd</p>
+                <p> Send it before 7 th March 2019.</p>
+                <p> The content will be uploaded in social medias.</p>
+                <p> The most liked video will be the winner.</p>
+                <p>The adult content or usage of inappropriate word in tik-tok will not be
+                entertained.</p>
 
               </div>
               </div>

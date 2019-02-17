@@ -68,14 +68,18 @@
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">on<span>l</span>i<span>n</span>e</b></div>
              <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <center><a href="../meme/"><div class="card zoom"><center><img class="spot" src="../assets/images/meme.png" ></center></div></a></center>
 
                  </div>
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                          <center><a href="../isomanic/"><div class="card zoom"><img class="spot" src="../assets/images/inso.png" ></div></a></center>
 
                  </div>
+                 <div class="col-md-4">
+                     <center><a href="../tiktok/"><div class="card zoom"><img class="spot" src="../assets/images/tiktok.png" ></div></a></center>
+
+             </div>
                         </div></div>
 
 
@@ -83,7 +87,7 @@
 
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
-       <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
+       <a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

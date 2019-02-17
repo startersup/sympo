@@ -8,11 +8,11 @@ require_once("./lib/encdec_paytm.php");
 
 $checkSum = "";
 $paramList = array();
-session_start();
 $ORDER_ID = $_POST["ORDER_ID"];
 $CUST_ID = $_POST["CUST_ID"];
 $INDUSTRY_TYPE_ID = $_POST["INDUSTRY_TYPE_ID"];
 $CHANNEL_ID = $_POST["CHANNEL_ID"];
+session_start();
 $TXN_AMOUNT = $_SESSION['amount'];
 
 // Create an array having all required parameters for creating checksum.
@@ -24,6 +24,12 @@ $paramList["CHANNEL_ID"] = $CHANNEL_ID;
 $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 $paramList["CALLBACK_URL"] = "http://petrovision.co.in/PaytmKit/pgResponse.php";
+/*
+echo $ORDER_ID;
+echo $CUST_ID;
+echo $INDUSTRY_TYPE_ID;
+echo $CHANNEL_ID;
+echo $TXN_AMOUNT;*/
 /*
 $paramList["CALLBACK_URL"] = "http://localhost/PaytmKit/pgResponse.php";
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer

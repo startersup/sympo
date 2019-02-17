@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['amount']="250";
+$_SESSION['amount']="1";
 $_SESSION['name']='Breaking Bid';
  ?>
 <!DOCTYPE html>
@@ -72,11 +72,8 @@ $_SESSION['name']='Breaking Bid';
 
              <div class="shadow" >
             <center><img class="spot" src="../assets/images/break.png">
-
-             <p> An innovative bidding competition in which the participants are requested to attain the highest possible assets. It is a two-round event where prelims of technical question from chemical and oil and gas domain will be conducted for the shortlisting. The shortlisted participants will be allowed to purchase the various refining raw materials and unit operations through bidding by using the provided virtual money.  The team that makes the most profit wins the game.
-</p>
                 <div class="container1">
-                <br><br>
+                <br>
            	<div class="tabbable-panel">
 				<div class="tabbable-line">
 					<ul class="nav nav-tabs ">
@@ -86,30 +83,34 @@ $_SESSION['name']='Breaking Bid';
 						</li>
 						<li>
 							<a href="#tab_default_2" data-toggle="tab">
-							Rounds </a>
-						</li>
-						<li>
-							<a href="#tab_default_3" data-toggle="tab">
-							Venue </a>
+							Rules </a>
 						</li>
 					</ul>
 					<div class="tab-content">
 						<div class="tab-pane active" id="tab_default_1">
 						<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
+              An innovative bidding competition in which the participants are requested to attain
+              the highest possible assets. It is a two-round event where prelims of technical question
+              from chemical and oil and gas domain will be conducted for the shortlisting. The
+              shortlisted participants will be allowed to purchase the various refining raw materials
+              and unit operations through bidding by using the provided virtual money. The team
+              that makes the most profit wins the game.</p>
+              <p>Number of rounds: Two</p>
+            <p>  Max. number of participants: Two or Three	</p>
 						</div>
 						<div class="tab-pane" id="tab_default_2">
 
-							<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
+                <h3>Round One: Preliminary</h3>
+            <p>    A pen and paper round that consists of questions from petroleum, petro chemical
+                engineering domain. The teams with high score will be shortlisted.</p>
+                <h3>Round Two: Bidding</h3>
+            <p>  The shortlisted teams will enter the final bidding round. The teams will be initially
+              provided with virtual amount of credits with which the participants are required to
+              purchase the commodities from the market by bidding among other teams. The market
+              will sell certain barrels of crude oils, refinery equipment and other accessories. The
+              teams are allowed to sell and purchase any commodity any time from the market or
+              other team. The team that earns the highest profit will win the game.</p>
 
-						</div>
-						<div class="tab-pane" id="tab_default_3">
-								<p>
-								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-							</p>
 						</div>
 					</div>
 				</div>
@@ -132,7 +133,7 @@ $_SESSION['name']='Breaking Bid';
 					<center><p>Choose your suitable options according to your convenience</p>
                     <div class="row">
               <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                    <div class="col-md-6"><center><img src="../assets/images/cash.png"><br><p>Onspot</p></center></div>
+                    <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
                     </div>
                     </center>
 				</div>
@@ -145,7 +146,7 @@ $_SESSION['name']='Breaking Bid';
 	</div>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
-       <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
+       <a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

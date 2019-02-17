@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['amount']="250";
+$_SESSION['name']='Insomniac';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,78 +71,216 @@
 
              <div class="shadow" >
             <center><img class="spot" src="../assets/images/treasure.png">
-
-             <p> Hunt for the treasure is always inexhaustible. The fun event that involves you to find the treasure through a series of logical hints within the limited perimeter.
-</p>
-                <br><button class="button">Subscribe and Register</button>
-             </center>
+              <div class="container1">
+              <br>
+            <div class="tabbable-panel">
+            <div class="tabbable-line">
+            <ul class="nav nav-tabs ">
+            <li class="active">
+            <a href="#tab_default_1" data-toggle="tab">
+            Description </a>
+            </li>
+            <li>
+            <a href="#tab_default_2" data-toggle="tab">
+            Rules </a>
+            </li>
+            </ul>
+            <div class="tab-content">
+            <div class="tab-pane active" id="tab_default_1">
+              <p>Hunt for the treasure is always inexhaustible. The fun event that involves you to find the treasure through a series of logical hints within the limited perimeter.</p>
+            <p>
+              Number of Round: One</p>
+   <p>  Max. Number of Participants: Two</p>
+            <p>Number of rounds: Two</p>
+            <p>  Max. number of participants: Two or Three	</p>
+            </div>
+            <div class="tab-pane" id="tab_default_2">
+            <p>   The participants are required to find the list of hints.</p>
+<p> Vehicles are not allowed during hunting</p>
+<p> If you can’t find the hint, you can call us through mobile</p>
+<p>But points will be reduced for each calls</p>
+<p>The one who finds the treasure first wins the contest</p>
 
             </div>
-        </section>
+            </div>
+            </div>
+            </div>
 
-        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&igshid=1g99nkx7wd9pd" class="fa fa-instagram"></a>
-       </center>
-            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p></center></footer>
-        <style>.shadow {
-  position: relative;
-  margin: 120px auto 0;
-  padding:20px;
-  background: linear-gradient(0deg, #000, #262626);
-}
+              <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+            </div>
+            </center>
+            </div>
+            </section>
+
+
+            <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel-2">Subscribe the Event </h4>
+            </div>
+            <div class="modal-body">
+            <center><p>Choose your suitable options according to your convenience</p>
+                  <div class="row">
+            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
+                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
+                  </div>
+                  </center>
+            </div>
+
+            <div class="modal-footer">
+            <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+            </div>
+            </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+            </div>
+            <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
+            </center>
+            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
+            <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
+            <style>.shadow {
+            position: relative;
+            margin: 120px auto 0;
+            padding:20px;
+            background: linear-gradient(0deg, #000, #262626);
+            }
             p
             {
-                font-family: 'ProximaNovaSemibold';
-    color:#bbb;
-    font-size:20px;
+              font-family: 'ProximaNovaSemibold';
+            color:#bbb;
+            font-size:20px;
             }
-.shadow:before,
-.shadow:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(
-    45deg,
-    rgb(250,250,250),
-    rgb(0, 190, 200),
-    rgb(250,250,250)
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: moveBackground 20s linear infinite;
-}
+            .shadow:before,
+            .shadow:after {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background: linear-gradient(
+            45deg,
+            rgb(250,250,250),
+            rgb(0, 190, 200),
+            rgb(250,250,250)
+            );
+            background-size: 400%;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            z-index: -1;
+            animation: moveBackground 20s linear infinite;
+            }
             button {
-  background: #4CAF50;
-  border: none;
-  border-radius: 25px;
-  color: snow; // Vanilla HTML color name
-  cursor: pointer;
-  font-size: 1.25em;
-  letter-spacing: .1em;
-  outline: none;
-  padding: .75em 2em;
-  position: relative; // Required for pseudo-element positioning
-  text-transform: uppercase;
-}
-.shadow:after {
-  filter: blur(20px);
-}
-@keyframes moveBackground{
-  0% {
-    background-position: 0 0;
-  }
-  50%{
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-</style>
+            background: #4CAF50;
+            border: none;
+            border-radius: 25px;
+            color: snow; // Vanilla HTML color name
+            cursor: pointer;
+            font-size: 1.25em;
+            letter-spacing: .1em;
+            outline: none;
+            padding: .75em 2em;
+            position: relative; // Required for pseudo-element positioning
+            text-transform: uppercase;
+            }
+            .shadow:after {
+            filter: blur(20px);
+            }
+            @keyframes moveBackground{
+            0% {
+            background-position: 0 0;
+            }
+            50%{
+            background-position: 400% 0;
+            }
+            100% {
+            background-position: 0 0;
+            }
+            }
+            /* Tabs panel */
+            .tabbable-panel {
+            padding: 10px;
+            background-color: transparent;
+            }
+
+            /* Default mode */
+            .tabbable-line > .nav-tabs {
+            border: none;
+            margin: 0px;
+            }
+            .tabbable-line > .nav-tabs > li {
+            margin-right: 2px;
+            }
+            .tabbable-line > .nav-tabs > li > a {
+            border: 0;
+            margin-right: 0;
+            font-family: 'Anton', sans-serif;
+            font-size:18px;
+            letter-spacing: 1.9px;
+            line-height:29px;
+            font-weight:400;
+            margin:0px 10px;
+            color: #737373;
+            }
+            .tabbable-line > .nav-tabs > li > a > i {
+            color: #a6a6a6;
+
+            }
+            .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+            border-bottom: 4px solid #fbcdcf;
+            }
+            .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+            border: 0;
+            color: #333333;
+            }
+            .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+            color: #a6a6a6;
+            }
+            .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+            margin-top: 0px;
+            }
+            .tabbable-line > .nav-tabs > li.active {
+            border-bottom: 4px solid #f3565d;
+            position: relative;
+            }
+            .tabbable-line > .nav-tabs > li.active > a {
+            border: 0;
+            color: #333333;
+            }
+            .tabbable-line > .nav-tabs > li.active > a > i {
+            color: #404040;
+            }
+            .tabbable-line > .tab-content {
+            margin-top: -3px;
+            background-color:transparent;
+            border: 0;
+            border-top: 1px solid #eee;
+            padding: 15px 0;
+            }
+            .portlet .tabbable-line > .tab-content {
+            padding-bottom: 0;
+            }
+
+            .tabpane
+            {
+              background-color:transparent;
+            }
+            @media screen and (max-width: 600px) {
+
+              .tabbable-line > .nav-tabs > li > a {
+            border: 0;
+            margin-right: 0;
+            font-family: 'Anton', sans-serif;
+            font-size:14px;
+            letter-spacing: 1.9px;
+            line-height:29px;
+            font-weight:400;
+            margin:0px 0px;
+            color: #737373;
+            }
+
+            }
+            </style>
 
 
-    </body></html>
+            </body></html>
