@@ -38,7 +38,6 @@ if($isValidChecksum == "TRUE") {
 <body>
 	<header class="site-header" id="header">
 		<h2 class="site-header__title" data-lead-id="site-header-title">Success!</h2>
-        <center><h3 style="padding:10px;">Transaction Id: '.$_POSt['TXNID'].'</h3></center>
 	</header>
 
 	<div class="main-content">
