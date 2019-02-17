@@ -66,9 +66,9 @@
 
         <section class="main">
             <div class="container">
-          <center>  <div class="logos"><b style="font-family: 'Signika', sans-serif;margin-top:-40px;">P<span>ETR</span>O<span>VI</span>SION 2K19</b></div>
-            <br>
-              <h3 class="downer hidden-xs">A National Level Technical Symposium</h3>
+          <center> 
+              <img src="./assets/images/petroing.png" style="max-width:800px;width:100%;" ></center>
+                <center><br>
               <p class="margin-top">Starts at</p>
  <ul style="margin-right:50px;">
     <li><span id="days"></span>days</li>
