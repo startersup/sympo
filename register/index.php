@@ -84,22 +84,22 @@ mysqli_close($conn);
              <p> Kindly register once here and go to the specific events that you want to participate and subscribe it</p><br>
                 <form class="" method="post" action="">
     <div class="form-group">
-      <input type="text" class="controls" placeholder="Your Good Name Please ?" name="name">
+      <input type="text" class="controls" placeholder="Your Good Name Please ?" name="name" required>
     </div>
     <div class="form-group">
-      <input type="text" class="controls" placeholder="Your Email Adddress for Reference ?" name="email">
+      <input type="text" class="controls" placeholder="Your Email Adddress for Reference ?" name="email" required>
     </div>
          <div class="form-group">
-      <input type="text" class="controls" placeholder="your Contact Number ?" name="contact">
+      <input type="text" class="controls" placeholder="your Contact Number ?" name="contact" required>
     </div>
                     <div class="form-group">
-      <input type="text" class="controls" placeholder="Which Department you belong to ?" name="dept">
+      <input type="text" class="controls" placeholder="Which Department you belong to ?" name="dept" required>
     </div>
     <div class="form-group">
-      <input type="text" class="controls" placeholder="Name of your college ?" name="college" >
+      <input type="text" class="controls" placeholder="Name of your college ?" name="college" required >
     </div>
               <div class="form-group">
-      <input type="password" class="controls" placeholder="Set a Password" name="pass" >
+      <input type="password" class="controls" placeholder="Set a Password" name="pass" required >
     </div>
                     <center><button name="reg" class="button">Register</button></center>
   </form>
