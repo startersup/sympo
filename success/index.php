@@ -6,7 +6,7 @@ if(!isset($_SESSION['id']))
 }
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select * from events where id='$id'";
+$sql="select * from students where id='$id'";
 $res=mysqli_query($conn,$sql);
 $row=mysqli_fetch_array($res);
 $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','".$row['name']."','".$row['email']."','".$row['number']."','".$row['dept']."','".$row['college']."','Onspot')";
