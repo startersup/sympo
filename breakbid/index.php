@@ -1,7 +1,13 @@
 <?php
 session_start();
-$_SESSION['amount']="1";
+$_SESSION['amount']="250";
 $_SESSION['name']='Breaking Bid';
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+$sql="select payment from events where id='$id'";
+$res=mysqli_query($conn,$sql);
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']=$row['payment'];
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -116,7 +122,11 @@ $_SESSION['name']='Breaking Bid';
 				</div>
 			</div>
 
-                <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+                <br><?php if($_SESSION['mode']=="Onspot"){
+                 echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";}
+                 else{
+                   echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button>";
+                 }?>
 </div>
              </center>
             </div>

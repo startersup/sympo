@@ -4,11 +4,19 @@ if(!isset($_SESSION['id']))
 {
 	  header('location: /login/index.php');
 }
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+	$id=$_SESSION['id'];
+$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0)
+{
+	echo "<script type='text/javascript'> alert('Already Registered'); </script>";
+	  header('location: /index.php');
+}
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
-	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-	$id=$_SESSION['id'];
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
