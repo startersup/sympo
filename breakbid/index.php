@@ -17,6 +17,7 @@ else {
   $count=mysqli_num_rows($res);
   if($count>0)
   {
+    $_SESSION['mode']='Onspot';
     $flag=1;
   }
   else {
@@ -140,7 +141,7 @@ else {
 
                 <br><?php if($_SESSION['mode']=="Paid"){
                echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button></a>";}
-               else if($flag==1)
+               else if($flag==1 && $_SESSION['mode']=='Onspot')
                {
                  echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now and get RS.50 Off</button></a>";
                  $flag=0;
