@@ -12,7 +12,7 @@ $row=mysqli_fetch_array($res);
 $_SESSION['mode']="Paid";
 }
 else {
-  $sql="select * from events where id='$id' and event='$_SESSION['name']'";
+  $sql="select * from events where id='$id' and event='".$_SESSION['name']."'";
   $res=mysqli_query($conn,$sql);
   $count=mysqli_num_rows($res);
   if($count>0)
