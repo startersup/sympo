@@ -4,7 +4,7 @@ $_SESSION['amount']="250";
 $_SESSION['name']='Breaking Bid';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select status from payinfo where userid='$id' and type='general'";
+$sql="select * from payinfo where userid='$id' and type='general'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0){
