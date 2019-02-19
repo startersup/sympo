@@ -32,8 +32,45 @@ if($isValidChecksum == "TRUE") {
 		$number=$row['number'];
 		$dept=$row['dept'];
 		$college=$row['college'];
+		if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study")
+		{
+			$sql="select * from spotlight where id='$id' AND event='".$_SESSION['name']."'";
+			$res=mysqli_query($conn,$sql);
+			$count=mysqli_num_rows($res);
+			if($count>0)
+			{
+				$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','".$_SESSION['name']."')";
+				mysqli_query($conn,$sql);
+				$sql ="UPDATE spotlight SET payment='Paid' where id='$id' AND event='".$_SESSION['name']."'";
+				mysqli_query($conn,$sql);
+			}
+			else
+			{
+			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','general')";
+			mysqli_query($conn,$sql);
+			$sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Paid')";
+			$res=mysqli_query($conn,$sql);
+	  	}
+		}
+		else {
+		$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
+		$res=mysqli_query($conn,$sql);
+		$count=mysqli_num_rows($res);
+		if($count>0)
+		{
+			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','general')";
+			mysqli_query($conn,$sql);
+			$sql ="UPDATE events SET payment='Paid' where id='$id'";
+			mysqli_query($conn,$sql);
+		}
+		else
+		{
+		$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','general')";
+		mysqli_query($conn,$sql);
 		$sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Paid')";
 		$res=mysqli_query($conn,$sql);
+	}
+}
 		echo '<html lang="en">
 <head>
 	<meta charset="utf-8" />

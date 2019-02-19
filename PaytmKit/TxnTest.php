@@ -4,16 +4,6 @@ if(!isset($_SESSION['id']))
 {
 	  header('location: /login/index.php');
 }
-$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-	$id=$_SESSION['id'];
-$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
-$res=mysqli_query($conn,$sql);
-$count=mysqli_num_rows($res);
-if($count>0)
-{
-	echo "<script type='text/javascript'> alert('Already Registered'); </script>";
-	  header('location: /index.php');
-}
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
@@ -69,7 +59,7 @@ if($count>0)
             <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
-			<input class="form-control" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999);?>" disabled>
+			<input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
     </div>
     <div class="form-group">
       <label>Student Name</label>
@@ -85,7 +75,7 @@ if($count>0)
 			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
 			<input type="hidden" name="CUST_ID" Value="CUST001">
-			<input type="hidden" name="ORDER_ID" value="<?php echo  "ORDS" . rand(10000,99999999);?>">
+			<input type="hidden" name="ORDER_ID" value="<?php echo $_SESSION['orderid'];?>">
     </div>
 
               <input type="submit" class="button1" value="Proceed to Checkout">  </form>    </div></div></div></div>

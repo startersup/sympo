@@ -4,14 +4,25 @@ $_SESSION['amount']="250";
 $_SESSION['name']='Breaking Bid';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select payment from events where id='$id'";
+$sql="select status from payinfo where userid='$id' and type='general'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0){
 $row=mysqli_fetch_array($res);
-$_SESSION['mode']=$row['payment'];}
+$_SESSION['mode']="Paid";
+}
 else {
-  $_SESSION['mode']="Onspot";
+  $sql="select * from events where id='$id' and event='$_SESSION['name']'";
+  $res=mysqli_query($conn,$sql);
+  $count=mysqli_num_rows($res);
+  if($count>0)
+  {
+    $flag=1;
+  }
+  else {
+      $_SESSION['mode']="Onspot";
+  }
+
 }
  ?>
 <!DOCTYPE html>
@@ -128,7 +139,12 @@ else {
 			</div>
 
                 <br><?php if($_SESSION['mode']=="Paid"){
-               echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button>";}
+               echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button></a>";}
+               else if($flag=1)
+               {
+                 echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now and get RS.50 Off</button></a>";
+                 $flag=0;
+               }
                  else{
                     echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";
                  }?>
