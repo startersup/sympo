@@ -7,6 +7,8 @@ if(!isset($_SESSION['id']))
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
+	$id= $_SESSION['id'];
+	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
