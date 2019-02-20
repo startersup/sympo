@@ -69,6 +69,8 @@ if($isValidChecksum == "TRUE") {
 		mysqli_query($conn,$sql);
 		$sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Paid')";
 		$res=mysqli_query($conn,$sql);
+		$sql ="UPDATE events SET payment='Paid' where id='$id'";
+		mysqli_query($conn,$sql);
 	}
 }
 
