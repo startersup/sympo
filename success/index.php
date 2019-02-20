@@ -54,7 +54,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 								<tr>
 									<td class="grey-block" style="border-collapse: collapse;border: 0;margin: 0;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;background-color: #fff; text-align:center;">
 									<div class="mktEditable" id="cta">
-									<img class="top-image" src="../assets/images/emailbanner.jpg" width="560"/><br>
+									<img class="top-image" src="http://petrovision.co.in/assets/images/emailbanner.jpg" width="560"/><br>
 
 									</div>
 									</td>
@@ -212,7 +212,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 								<tr>
 									<td class="grey-block" style="border-collapse: collapse;border: 0;margin: 0;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;background-color: #fff; text-align:center;">
 									<div class="mktEditable" id="cta">
-									<img class="top-image" src="../assets/images/emailbanner.jpg" width="560"/><br>
+									<img class="top-image" src="http://petrovision.co.in/assets/images/emailbanner.jpg" width="560"/><br>
 
 									</div>
 									</td>
