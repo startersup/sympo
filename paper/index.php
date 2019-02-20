@@ -3,7 +3,7 @@ session_start();
 $_SESSION['name']='Paper Presentation';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select * from spotlight where id='$id' and event='Poster'";
+$sql="select * from payinfo where userid='$id' and type='Poster'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
