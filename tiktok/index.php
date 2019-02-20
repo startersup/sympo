@@ -2,7 +2,7 @@
 session_start();
 $_SESSION['amount']="250";
 $_SESSION['name']='TikTOK';
-$_SESSION['mode']='paid';
+$_SESSION['mode']='Paid';
  ?>
 <!DOCTYPE html>
 <html lang="en">
