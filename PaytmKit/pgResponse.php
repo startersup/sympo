@@ -77,7 +77,7 @@ if($isValidChecksum == "TRUE") {
 
 
 $headers = "";
-   $to      = 'saicharan14996@gmail.com';
+   $to      = $mail;
 $headers .= "From: Petrovision <info@petrovision.in> \r\n";
 $headers .= "Reply-To: Petrovision <info@petrovision.in> \r\n"."X-Mailer: PHP/";// . phpversion();
 $headers .= "MIME-Version: 1.0" . "\r\n";
