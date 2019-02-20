@@ -66,7 +66,7 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;"><span>Non-Tec</span>hn<span>i</span>cal</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;"><span>NON-TEC</span>HN<span>I</span>CAL</b></div>
              <div class="row">
             <div class="col-md-6">
                 <center><a href="../funpack/"><div class="card"><img class="spot" src="../assets/images/funpack%20(2).png" ></div></a></center>

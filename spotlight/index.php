@@ -66,7 +66,7 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">spo<span>t</span>li<span>g</span>ht</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">SPO<span>T</span>LI<span>G</span>HT</b></div>
                 <br><br>
            <center> <div class="alert alert-info alert-dismissible">
     <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
