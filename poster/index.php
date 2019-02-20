@@ -13,7 +13,7 @@ if($count>0)
 else {
   $_SESSION['amount']="250";
 }
-$sql="select * from payinfo where userid='$id' and type='general'";
+$sql="select * from payinfo where userid='$id' and type='".$_SESSION['name']."'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0){
