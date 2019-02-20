@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
-$_SESSION['name']='treasure HUnt';
+$_SESSION['name']='Treasure Hunt';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $sql="select * from payinfo where userid='$id' and type='general'";

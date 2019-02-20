@@ -146,7 +146,7 @@ else {
                            echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button></a>";}
                            else if($flag==1 && $_SESSION['mode']=='Onspot')
                            {
-                             echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now and get RS.50 Off</button></a>";
+                             echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now</button></a>";
                              $flag=0;
                            }
                              else{
