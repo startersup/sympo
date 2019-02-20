@@ -46,7 +46,7 @@ if($isValidChecksum == "TRUE") {
 			}
 			else
 			{
-			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','general')";
+			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','".$_SESSION['name']."')";
 			mysqli_query($conn,$sql);
 			$sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Paid')";
 			$res=mysqli_query($conn,$sql);
