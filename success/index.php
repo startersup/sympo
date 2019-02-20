@@ -27,9 +27,34 @@ if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_S
     $college=$row['college'];
     $sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
     $res=mysqli_query($conn,$sql);
+    
       
-      
-      
+}
+
+ 
+    
+}
+else{
+$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0)
+{
+echo "<script type='text/javascript'> alert('Already Registered'); </script>";
+  header('location: /index.php');
+}
+else {
+  $sql="select * from students where id='$id'";
+  $res=mysqli_query($conn,$sql);
+  $row=mysqli_fetch_array($res);
+  $name=$row['name'];
+  $mail=$row['email'];
+  $number=$row['number'];
+  $dept=$row['dept'];
+  $college=$row['college'];
+  $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
+  $res=mysqli_query($conn,$sql);
+    
     $subject ="Greetings From Petrovision";
 
 
@@ -156,33 +181,9 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
             font-size:18px !important;
         }
 
-	}</style>' ;  
-      
-}
-
- 
+	}</style>' ;      
     
-}
-else{
-$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
-$res=mysqli_query($conn,$sql);
-$count=mysqli_num_rows($res);
-if($count>0)
-{
-echo "<script type='text/javascript'> alert('Already Registered'); </script>";
-  header('location: /index.php');
-}
-else {
-  $sql="select * from students where id='$id'";
-  $res=mysqli_query($conn,$sql);
-  $row=mysqli_fetch_array($res);
-  $name=$row['name'];
-  $mail=$row['email'];
-  $number=$row['number'];
-  $dept=$row['dept'];
-  $college=$row['college'];
-  $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
-  $res=mysqli_query($conn,$sql);
+    
 }
 }
  ?>
