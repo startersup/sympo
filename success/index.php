@@ -311,7 +311,7 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 
 	}</style>' ;
 
- mail('saicharan14996@gmail.com', 'Greetings from Petrovision',"Information from Petrovision",$values, implode("\r\n", $headers));
+ mail('saicharan14996@gmail.com', 'Greetings from Petrovision','Information from Petrovision',$values, implode("\r\n", $headers));
 }
 }
  ?>
