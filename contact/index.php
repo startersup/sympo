@@ -41,9 +41,7 @@
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
@@ -71,7 +69,7 @@
   <h1>Mr.Abdul Haq</h1>
   <p class="title">Core Team</p>
   <p>ACT<p>
-  <p><a href="tel:7708522009"><button>Contact</button></a></p>
+  <p><a href="tel:7708522009"><button>Contact - 7708522009</button></a></p>
 </div></div>
                             <div class="col-md-3">
        <div class="char">
@@ -79,7 +77,7 @@
   <h1>Mr.Arun Balaji</h1>
   <p class="title">Core Team</p>
   <p>ACT</p>
-  <p><a href="tel:9789127282"><button>Contact</button></a></p>
+  <p><a href="tel:9789127282"><button>Contact - 9789127282</button></a></p>
 </div></div>
                                 <div class="col-md-3">
        <div class="char">
@@ -87,7 +85,7 @@
   <h1>Mr.Melvin Thomas</h1>
   <p class="title">Core Team</p>
              <p>ACT</p>
-  <p><a href="tel:9597997919"><button>Contact</button></a></p>
+  <p><a href="tel:9597997919"><button>Contact - 9597997919</button></a></p>
 </div></div>
 
                                 <div class="col-md-3">
@@ -96,7 +94,7 @@
   <h1>Ms.Varshini</h1>
   <p class="title">Core Team</p>
              <p>ACT</p>
-  <p><a href="tel:9791190177"><button>Contact</button></a></p>
+  <p><a href="tel:9791190177"><button>Contact - 9791190177</button></a></p>
 </div></div>
 
             </div>

@@ -2,6 +2,7 @@
 session_start();
 $_SESSION['amount']="250";
 $_SESSION['name']='Insomniac';
+$_SESSION['mode']='Paid';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,9 +47,7 @@ $_SESSION['name']='Insomniac';
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
@@ -110,7 +109,16 @@ $_SESSION['name']='Insomniac';
               </div>
               </div>
 
-              <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+              <br><?php if($_SESSION['mode']=="Paid"){
+             echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button></a>";}
+             else if($flag==1 && $_SESSION['mode']=='Onspot')
+             {
+               echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now and get RS.50 Off</button></a>";
+               $flag=0;
+             }
+               else{
+                  echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";
+               }?>
               </div>
               </center>
               </div>

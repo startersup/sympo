@@ -41,9 +41,7 @@
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
@@ -66,7 +64,7 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">on<span>l</span>i<span>n</span>e</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">ON<span>L</span>I<span>N</span>E</b></div>
              <div class="row">
             <div class="col-md-4">
                 <center><a href="../meme/"><div class="card zoom"><center><img class="spot" src="../assets/images/meme.png" ></center></div></a></center>

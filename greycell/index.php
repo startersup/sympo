@@ -42,8 +42,7 @@
                 <li><a href="../workshop/">Workshops</a>
                 </li>
                 <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
@@ -67,7 +66,7 @@
 
             <div class="evento">
 
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Gr<span>ey</span>-<span>ce</span>ll</b></div>
+                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">GR<span>EY</span>-<span>CE</span>LL</b></div>
              <div class="row">
                      <div class="col-md-4">
                       <center><a href="../analyst/"><div class="card zoom"><img class="spot" src="../assets/images/analyst.png" ></div></a></center>

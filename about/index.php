@@ -41,9 +41,7 @@
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a></li>
                                 <li><a href="../gallery/">Gallery</a></li>
@@ -65,7 +63,7 @@
         <section class="container">
 
          <div class="shadow" >
-            <center> <div class="logos"><b style="font-family: 'Signika', sans-serif;font-style:20px;margin-top:-40px;">Ab<span>o</span>ut<span>  us</span></b></div>
+            <center> <div class="logos"><b style="font-family: 'Signika', sans-serif;font-style:20px;margin-top:-40px;">AB<span>O</span>UT<span>  US</span></b></div>
             </center>
                  <br><br>
              <center><div class="con"><img src="../assets/images/banner.jpeg" style="width:100%;height :auto;"></div></center><br><br>

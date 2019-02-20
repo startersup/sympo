@@ -42,9 +42,7 @@
                 </li>
                 <li><a href="./workshop/">Workshops</a>
                 </li>
-                <li><a href="./sponsor/">Sponsors</a>
-                </li>
-                <li><a href="./accomodation/">Accomodation</a>
+                <li><a href="./accommodation/">Accommodation</a>
                 </li>
                 <li><a href="./contact/">Contact</a>
                 </li>
@@ -66,7 +64,7 @@
 
         <section class="main">
             <div class="container">
-          <center> 
+          <center>
               <img src="./assets/images/petroing.png" style="max-width:800px;width:100%;" ></center>
                 <center><br>
               <p class="margin-top">Starts at</p>

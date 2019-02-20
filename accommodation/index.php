@@ -19,7 +19,7 @@
     <script src="../assets/js/sidenav.js"></script>
 </head>
     <body style="background-color:#000000;opacity:0.8;">
-  <nav class="navbar navbar-default navit navbar-fixed-top">
+     <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-                <ul class="nav navbar-nav navbar-right " id="myTopnav">
+              <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.php">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -41,11 +41,13 @@
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
+                <li><a href="../sponsor/">Sponsors</a>
+                </li>
                 <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                <li><a href="../gallery/">Gallery</a></li>
+                  <li><a href="../gallery/">Gallery</a></li>
                 <?php
                 session_start();
                   if(isset($_SESSION['id'])){
@@ -57,35 +59,14 @@
              }       ?>
             </ul>
         </div>
-
     </nav>
-
-        <section class="container">
-
-            <div class="evento">
-
-                          <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;"><span>NON-TEC</span>HN<span>I</span>CAL</b></div>
-             <div class="row">
-            <div class="col-md-6">
-                <center><a href="../funpack/"><div class="card"><img class="spot" src="../assets/images/funpack%20(2).png" ></div></a></center>
-
-                 </div>
-                  <div class="col-md-6">
-                      <center><a href="../online/"><div class="card"><img  class="spot" src="../assets/images/online.png" ></div></a></center>
-
-                 </div>
-                        </div></div>
-
-
-        </section>
-
+    <br><br>
+    <center><strong><h1 style="color:#ffffff ">Will Be Updated Soon</h1></strong></center>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://instagram.com/petrovision2018?utm_source=ig_profile_share&igshid=1kt9ff6uyu06q" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
-
-       <style></style>
 
     </body></html>

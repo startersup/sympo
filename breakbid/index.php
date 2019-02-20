@@ -1,7 +1,30 @@
 <?php
 session_start();
-$_SESSION['amount']="1";
+$_SESSION['amount']="250";
 $_SESSION['name']='Breaking Bid';
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+$sql="select * from payinfo where userid='$id' and type='general'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']="Paid";
+}
+else {
+  $sql="select * from events where id='$id' and event='".$_SESSION['name']."'";
+  $res=mysqli_query($conn,$sql);
+  $count=mysqli_num_rows($res);
+  if($count>0)
+  {
+    $_SESSION['mode']='Onspot';
+    $flag=1;
+  }
+  else {
+      $_SESSION['mode']="Onspot";
+  }
+
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,9 +69,7 @@ $_SESSION['name']='Breaking Bid';
                 </li>
                 <li><a href="../workshop/">Workshops</a>
                 </li>
-                <li><a href="../sponsor/">Sponsors</a>
-                </li>
-                <li><a href="../accomodation/">Accomodation</a>
+                <li><a href="../accommodation/">Accommodation</a>
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
@@ -116,7 +137,16 @@ $_SESSION['name']='Breaking Bid';
 				</div>
 			</div>
 
-                <br><button class="button" class="btn btn-demo" data-toggle="modal" data-target="#myModal-2">Subscribe</button>
+                <br><?php if($_SESSION['mode']=="Paid"){
+               echo "<a href='/success/'><button class='button' class='btn btn-demo'>Subscribe</button></a>";}
+               else if($flag==1 && $_SESSION['mode']=='Onspot')
+               {
+                 echo "<a href='/PaytmKit/TxnTest.php'><button class='button' class='btn btn-demo'>Pay Now and get RS.50 Off</button></a>";
+                 $flag=0;
+               }
+                 else{
+                    echo "<button class='button' class='btn btn-demo' data-toggle='modal' data-target='#myModal-2'>Subscribe</button>";
+                 }?>
 </div>
              </center>
             </div>
