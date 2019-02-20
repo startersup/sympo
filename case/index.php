@@ -1,7 +1,30 @@
 <?php
 session_start();
-$_SESSION['amount']="250";
 $_SESSION['name']='Case Study';
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+$_SESSION['amount']="200";
+$sql="select * from payinfo where userid='$id' and type='".$_SESSION['name']."'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']="Paid";
+}
+else {
+  $sql="select * from spotlight where id='$id' and event='".$_SESSION['name']."'";
+  $res=mysqli_query($conn,$sql);
+  $count=mysqli_num_rows($res);
+  if($count>0)
+  {
+    $_SESSION['mode']='Onspot';
+    $flag=1;
+  }
+  else {
+      $_SESSION['mode']="Onspot";
+  }
+
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
