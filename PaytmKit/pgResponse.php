@@ -71,8 +71,7 @@ if($isValidChecksum == "TRUE") {
 		$res=mysqli_query($conn,$sql);
 	}
 }
-session_unset($_SESSION['mode']);
-session_unset($_SESSION['orderid']);
+
 		echo '<html lang="en">
 <head>
 	<meta charset="utf-8" />
