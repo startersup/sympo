@@ -156,7 +156,7 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
             font-size:18px !important;
         }
 
-	}</style>'   
+	}</style>' ;  
       
 }
 
