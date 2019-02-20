@@ -27,9 +27,10 @@ if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_S
     $college=$row['college'];
     $sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
     $res=mysqli_query($conn,$sql);
-}
-
-$subject ="Greetings From Petrovision";
+      
+      
+      
+    $subject ="Greetings From Petrovision";
 
 
 $headers = "";
@@ -155,7 +156,11 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
             font-size:18px !important;
         }
 
-	}</style>'  
+	}</style>'   
+      
+}
+
+ 
     
 }
 else{
