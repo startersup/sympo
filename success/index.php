@@ -63,7 +63,8 @@ $headers .= "From: Petrovision <info@petrovision.in> \r\n";
 $headers .= "Reply-To: Petrovision <info@petrovision.in> \r\n"."X-Mailer: PHP/";// . phpversion();
 $headers .= "MIME-Version: 1.0" . "\r\n"; 
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
-    $message = '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
+     mail($mail, 'Greetings from Petrovision',$values,"", implode("\r\n", $headers));
+    $values = '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
 
 <table class=" main contenttable" align="center" style="font-weight: normal;border-collapse: collapse;border: 0;margin-left: auto;margin-right: auto;padding: 0;font-family: Arial, sans-serif;color: #555559;background-color: white;font-size: 16px;line-height: 26px;width: 600px;">
 		<tr>
