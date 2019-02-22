@@ -77,10 +77,6 @@
                  <div class="col-md-4">
                      <center><a href="../game/"><div class="card zoom"><center><img class="spot" src="../assets/images/games.png" ></center></div></a></center>
                       </div>
-                      <div class="col-md-4">
-                          <center><a href="../minute/"><div class="card zoom"><img class="spot" src="../assets/images/minute.png" ></div></a></center>
-
-                  </div>
                         </div>
              <div class="row">
 
