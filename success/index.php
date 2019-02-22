@@ -28,7 +28,7 @@ if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_S
     $sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
     $res=mysqli_query($conn,$sql);
      $subject ="Greetings From Petrovision";
-
+$eventname=$_SESSION['name'];
 
 $headers = "";
    $to      = $mail;
@@ -69,7 +69,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 									<div class="mktEditable" id="main_text">
 										Hello,<br>
 										Greetings from Petrovision!!<br>
-We, the organisers of Petrovision 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Petrovision 2k19.<br>
+We, the organisers of Petrovision 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event '.$eventname.'. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Petrovision 2k19.<br>
 									</div>
 									</td>
 								</tr>
@@ -89,8 +89,8 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 										<table style="font-weight: normal;border-collapse: collapse;border: 0;margin: 0;padding: 0;font-family: Arial, sans-serif;">
 											<tr>
 
-									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/PetroVisionOfficial/"><img src="https://info.tenable.com/rs/tenable/images/twitter-teal.png"></a></td>
-									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.instagram.com/_petrovision2k19"><img src="https://info.tenable.com/rs/tenable/images/facebook-teal.png"></a></td>
+									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/PetroVisionOfficial/"><img src="https://info.tenable.com/rs/tenable/images/facebook-teal.png"></a></td>
+									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.instagram.com/_petrovision2k19"><img style="height:20px; width:20px;" src="https://icons-for-free.com/free-icons/png/512/1807542.png"></a></td>
 
 											</tr>
 										</table>
@@ -247,8 +247,8 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 										<table style="font-weight: normal;border-collapse: collapse;border: 0;margin: 0;padding: 0;font-family: Arial, sans-serif;">
 											<tr>
 
-									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="tps://www.facebook.com/PetroVisionOfficial/"><img src="https://info.tenable.com/rs/tenable/images/twitter-teal.png"></a></td>
-									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/Tenable.Inc"><img src="https://info.tenable.com/rs/tenable/images/facebook-teal.png"></a></td>
+                      <td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/PetroVisionOfficial/"><img src="https://info.tenable.com/rs/tenable/images/facebook-teal.png"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.instagram.com/_petrovision2k19"><img style="height:20px; width:20px;" src="https://icons-for-free.com/free-icons/png/512/1807542.png"></a></td>
 
 											</tr>
 										</table>

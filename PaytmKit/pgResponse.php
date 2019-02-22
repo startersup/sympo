@@ -71,8 +71,9 @@ if($isValidChecksum == "TRUE") {
 		$res=mysqli_query($conn,$sql);
 		$sql ="UPDATE events SET payment='Paid' where id='$id'";
 		mysqli_query($conn,$sql);
-            
-            
+	}
+}
+
          $subject ="Greetings From Petrovision";
 
 
@@ -115,7 +116,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 									<div class="mktEditable" id="main_text">
 										Hello,<br>
 										Greetings from Petrovision!!<br>
-We, the organisers of Petrovision 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Petrovision 2k19.<br>
+We, the organisers of Petrovision 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation that we have recieved your payment and subscription for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Petrovision 2k19.<br>
 									</div>
 									</td>
 								</tr>
@@ -204,9 +205,6 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 	}</style>' ;
 
    mail($to, $subject, $message, $headers);
-    
-	}
-}
 
 		echo '<html lang="en">
 <head>
