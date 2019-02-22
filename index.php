@@ -81,14 +81,14 @@
             <div class="col-xs-6 nopadding">
                 <div class=" margino right ">
                <center>
-                    <h3>Interested to Participate?</h3>
+                    <h3 style="color:#fbe266;">Interested to Participate?</h3>
                   <a href="events/index.php"> <button class="button2">Events</button></a>
                     </center></div>
                </div>
                 <div class="col-xs-6 nopadding">
                       <div class="margino left ">
                           <center>
-                    <h3>Know about Timeline ?</h3>
+                    <h3 style="color:#fbe266;">Know about Timeline ?</h3>
                               <a target="_blank" href="tl.html">    <button class="button1">Click Here </button>   </a>
                           </center>
                     </div>
