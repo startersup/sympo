@@ -98,7 +98,7 @@ $_SESSION['mode']='Paid';
                 College.</p>
                 <p> Languages allowed - Tamil and English</p>
                 <p> Send your video to
-                https://instagram.com/petrovision2019?utm_source=ig_profile_share&amp;igshid=1g99nkx7wd9pd</p>
+                <a href="https://instagram.com/petrovision2019?utm_source=ig_profile_share&amp;igshid=1g99nkx7wd9pd">https://instagram.com/petrovision2019?utm_source=ig_profile_share&amp;igshid=1g99nkx7wd9pd</a></p>
                 <p> Send it before 7 th March 2019.</p>
                 <p> The content will be uploaded in social medias.</p>
                 <p> The most liked video will be the winner.</p>
