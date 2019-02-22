@@ -67,6 +67,11 @@
             <div class="evento">
 
                           <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">GR<span>EY</span>-<span>CE</span>LL</b></div>
+                          <br><br>
+                            <center> <div class="alert alert-info alert-dismissible">
+                     <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+                     <strong>Info:</strong>Pay online Rs.250 as general registration and get access to events in Greycells and Funpack. You can subscribe now and pay online anytime.
+                   </div></center><br><br>
              <div class="row">
                      <div class="col-md-4">
                       <center><a href="../analyst/"><div class="card zoom"><img class="spot" src="../assets/images/analyst.png" ></div></a></center>
