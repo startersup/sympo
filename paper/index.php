@@ -144,49 +144,48 @@ else {
             decision of the judges will be final.</p>
           </div>
             <div class="tab-pane" id="tab_default_3">
-              <ul>
-        <li><p>  1. Maximum number of participants in a Team is 2.</p><li></ul>
-2. The topic should be based on the above mentioned domain for paper
+          <p>  1. Maximum number of participants in a Team is 2.</p>
+  <p>2. The topic should be based on the above mentioned domain for paper
 presentation. It is advisable that the presentation focuses on one particular
 topic. The participants who are desirous of choosing a different theme than
 those mentioned above are welcome, provided, it falls under the ambit of the
 domain. Report should be well comprehended, albeit advanced which could
-appeal to an undergraduate. Kindly contact the coordinator for clarifications.
-3. The subject of the mail with the attached abstract and later, the final paper
-should be the domain and sub-category under which the paper is categorized.
-4. Bring your college ID-card &amp; receipt on event day.
+appeal to an undergraduate. Kindly contact the coordinator for clarifications.</p>
+  <p>3. The subject of the mail with the attached abstract and later, the final paper
+should be the domain and sub-category under which the paper is categorized.</p>
+  <p>4. Bring your college ID-card &amp; receipt on event day.</p>
 
-5. The teams will get 10 minutes for presentation followed by question and
-answer session.
-6. The mail with submissions should contain:
- Title- theme of the paper.
- Name of the author(s).
- Name of the College.
- Contact Number
- E- mail ID.
+  <p>5. The teams will get 10 minutes for presentation followed by question and
+answer session.</p>
+  <p>6. The mail with submissions should contain:
+  Title- theme of the paper
+  Name of the author(s),
+  Name of the College,
+ Contact Number,
+  E- mail ID.</p>
 
-7. Paper should be in a one column format &amp; should not exceed 15 pages.
-8. Paper should be in Times New Roman of font size 12.
-9. For headings use bold and a font of size 16.
-10. Paper must contain index, list of figures, list of tables, abstract, introduction,
-point wise description of subject and conclusion and references.
-11. Paper must be preceded by a cover page specifying the title of the paper, names
-of authors and their college names as also their contact numbers and email ids.
-12. Please bring your PowerPoint presentation on a pen-drive.
-13. Abstract should not exceed 1 page and Paper should not exceed 15 pages.
-14. Soft-copies of the submitted paper must be in the .docx format.
-15. Please bring 2 hardcopies of the submitted paper on the day of the event.
-16. Please Mail your abstract, paper and presentation to the event email before the
-instructed dates. Difficulties will be addressed through the same email-id.
-17. The abstract mail should contain abstract, references, your e-mail id and mobile
-number.
-18. Persons from different institutions can be a part of the same team. However,
-one person may not be a part of multiple teams for the same event.
-19. Last day to submit soft copy of your report via e-mail, will be a week prior
-to the day of presentation.
-20. After you have submitted the soft copy, a panel of judges will go through your
-material and if you are shortlisted to give the presentation, you will be notified.
-21. The decision of judges will be final.
+  <p>7. Paper should be in a one column format &amp; should not exceed 15 pages.</p>
+  <p>8. Paper should be in Times New Roman of font size 12.</p>
+  <p>9. For headings use bold and a font of size 16.</p>
+  <p>10. Paper must contain index, list of figures, list of tables, abstract, introduction,
+point wise description of subject and conclusion and references.</p>
+  <p>11. Paper must be preceded by a cover page specifying the title of the paper, names
+of authors and their college names as also their contact numbers and email ids.</p>
+  <p>12. Please bring your PowerPoint presentation on a pen-drive.</p>
+  <p>13. Abstract should not exceed 1 page and Paper should not exceed 15 pages.</p>
+  <p>14. Soft-copies of the submitted paper must be in the .docx format.</p>
+  <p>15. Please bring 2 hardcopies of the submitted paper on the day of the event.</p>
+  <p>16. Please Mail your abstract, paper and presentation to the event email before the
+instructed dates. Difficulties will be addressed through the same email-id.</p>
+  <p>17. The abstract mail should contain abstract, references, your e-mail id and mobile
+number.</p>
+  <p>18. Persons from different institutions can be a part of the same team. However,
+one person may not be a part of multiple teams for the same event.</p>
+  <p>19. Last day to submit soft copy of your report via e-mail, will be a week prior
+to the day of presentation.</p>
+  <p>20. After you have submitted the soft copy, a panel of judges will go through your
+material and if you are shortlisted to give the presentation, you will be notified.</p>
+  <p>21. The decision of judges will be final.</p>
     </div>
         </div>
       </div>
