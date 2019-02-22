@@ -145,7 +145,7 @@ else {
           </div>
             <div class="tab-pane" id="tab_default_3">
               <ul>
-        <li>  1. Maximum number of participants in a Team is 2.<li></ul>
+        <li><p>  1. Maximum number of participants in a Team is 2.</p><li></ul>
 2. The topic should be based on the above mentioned domain for paper
 presentation. It is advisable that the presentation focuses on one particular
 topic. The participants who are desirous of choosing a different theme than
