@@ -80,7 +80,7 @@
                         </div>
              <div class="row">
 
-                  <div class="col-md-8">
+                  <div class="col-md-10">
                       <center><a href="../marvel/"><div class="card zoom"><img class="spot" src="../assets/images/marvel.png" ></div></a></center>
 
                  </div>
