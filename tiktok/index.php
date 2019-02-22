@@ -98,7 +98,7 @@ $_SESSION['mode']='Paid';
                 College.</p>
                 <p> Languages allowed - Tamil and English</p>
                 <p> Send your video to
-                <a href="www.instagram.com/_petrovision2k19">www.instagram.com/_petrovision2k19</a></p>
+                <a href="https://www.instagram.com/_petrovision2k19">https://www.instagram.com/_petrovision2k19</a></p>
                 <p> Send it before 7 th March 2019.</p>
                 <p> The content will be uploaded in social medias.</p>
                 <p> The most liked video will be the winner.</p>
