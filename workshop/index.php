@@ -61,7 +61,7 @@
     <br><br>
         <div class="top evento">
             <div class="container">
-            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>sh<span>h</span>ops </b></div>
+            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b></div>
                 <br><br><br>
         </div></div>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
