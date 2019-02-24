@@ -73,7 +73,7 @@ thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
 thermodynamic properties is particularly important. </p>
-                      <br><center><button class=="">Registrations Open !</button></center>
+                      <br><center><button class="button2">Registrations Open !</button></center>
                     </div>
                 </div>
                 <div class="col-md-4">
