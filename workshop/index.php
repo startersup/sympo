@@ -84,7 +84,7 @@ thermodynamic properties is particularly important. </p>
 throughout design and manufacturing as well as during end use. The
 software’s fluid flow analysis capabilities can be used to design and optimize new equipment and to troubleshoot already existing installations. The package can handle variety of fluid dynamics segments
 ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. </p>
-                          <center><button class="button2">Registrations Open !</button></center>
+                          <center><button class="button1">Registrations Open !</button></center>
                     </div>
                 </div>
                 <div class="col-md-4">
