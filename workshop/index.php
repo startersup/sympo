@@ -72,8 +72,7 @@ industry today. Given a process design and an appropriate selection of
 thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
-thermodynamic properties is particularly important in the separation
-of non-ideal mixtures, and ASPEN has a large database of regressed parameters.<a href="">Read More</a> </p>
+thermodynamic properties is particularly important.<a href="">Read More</a> </p>
                       
                     </div>
                 </div>
