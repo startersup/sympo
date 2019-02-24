@@ -64,16 +64,8 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="char">
-                        <h1>Mr.Abdul Haq</h1>
-                        <p class="title">Core Team</p>
-                        <p>ACT
-                            <p>
-                                <p>
-                                    <a href="tel:7708522009">
-                                        <button>Contact - 7708522009</button>
-                                    </a>
-                                </p>
+                    <div class="workshop">
+                       
                     </div>
                 </div>
                 <div class="col-md-4">
