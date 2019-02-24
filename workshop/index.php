@@ -66,6 +66,7 @@
                 <div class="col-md-4">
                     <div class="workshop">
                       <h1>ASPEN PLUS</h1> 
+                        <hr>
                         <p>ASPEN Plus is a process simulation software package widely used in
 industry today. Given a process design and an appropriate selection of
 thermodynamic models, ASPEN uses mathematical models to predict
