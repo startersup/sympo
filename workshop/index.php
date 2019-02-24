@@ -71,7 +71,9 @@
 industry today. Given a process design and an appropriate selection of
 thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
-an iterative fashion to optimize the design. </p>
+an iterative fashion to optimize the design. This accurate modelling of
+thermodynamic properties is particularly important in the separation
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters. </p>
                         <button class="button1">Read More..</button>
                     </div>
                 </div>
@@ -94,7 +96,9 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
 industry today. Given a process design and an appropriate selection of
 thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
-an iterative fashion to optimize the design. </p>
+an iterative fashion to optimize the design. This accurate modelling of
+thermodynamic properties is particularly important in the separation
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters.</p>
                           <button class="button1">Read More..</button>
                     </div>
                 </div>
