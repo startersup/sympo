@@ -60,7 +60,7 @@
     </nav>
     <br><br>
         <div class="top">
-      <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">C<span>om</span>ing<span> S</span>oon</b></div>
+            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">C<span>om</span>ing<span> S</span>oon</b></div></div>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
