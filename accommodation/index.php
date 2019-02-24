@@ -64,7 +64,7 @@
             <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">C<span>om</span>ing<span> S</span>oon !</b></div>
                  <center> <div class="alert alert-info alert-dismissible">
     <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-   We are working Hard to provide you the Best Workshops in our Symposium
+   We are working Hard to provide you the safe and secured Accomodation until the event ends.
   </div></center>
                 <br><br><br>
         </div></div>
