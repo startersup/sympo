@@ -58,7 +58,7 @@
     </nav>
     <br>
     <br>
-    <div class="top evento">
+    <div class="evento">
         <div class="container">
             <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b>
             </div>
