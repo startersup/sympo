@@ -190,6 +190,13 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
   width: 100%;
     background-color:#ffffff;
 }
+.workshop h1
+{
+     font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:30px;
+    
+}
 .container1
 {
     margin-left:5%;

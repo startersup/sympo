@@ -65,7 +65,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="workshop">
-                       
+                      <h1>ASPEN PLUS</h1> 
+                        <p>ASPEN Plus is a process simulation software package widely used in
+industry today. Given a process design and an appropriate selection of
+thermodynamic models, ASPEN uses mathematical models to predict
+the performance of the process. This information can then be used in
+an iterative fashion to optimize the design. This accurate modelling of
+thermodynamic properties is particularly important in the separation
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters. ASPEN can handle very complex processes, including multiple-column separation systems, chemical reactors, distillation of chemically reactive compounds and even electrolyte solutions like mineral
+acids and sodium hydroxide solutions.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
