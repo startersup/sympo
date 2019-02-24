@@ -72,8 +72,8 @@ industry today. Given a process design and an appropriate selection of
 thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
-thermodynamic properties is particularly important.<a href="">Read More</a> </p>
-                      
+thermodynamic properties is particularly important. </p>
+                      <br><center><button class=="">Registrations Open !</button></center>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -83,7 +83,7 @@ thermodynamic properties is particularly important.<a href="">Read More</a> </p>
                         <p>ANSYS Fluent is a simulation tool that predicts the impact of fluid flows
 throughout design and manufacturing as well as during end use. The
 software’s fluid flow analysis capabilities can be used to design and optimize new equipment and to troubleshoot already existing installations. The package can handle variety of fluid dynamics segments
-ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. <a href="">Read More</a></p>
+ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. </p>
                          
                     </div>
                 </div>
