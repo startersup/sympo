@@ -59,7 +59,15 @@
         </div>
     </nav>
     <br><br>
-    <center><strong><h1 style="color:#ffffff ">Will Be Updated Soon</h1></strong></center>
+          <div class="top evento">
+            <div class="container">
+            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">C<span>om</span>ing<span> S</span>oon !</b></div>
+                 <center> <div class="alert alert-info alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+   We are working Hard to provide you the Best Workshops in our Symposium
+  </div></center>
+                <br><br><br>
+        </div></div>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
