@@ -198,6 +198,12 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     font-size:35px;
     
 }
+.workshop p
+{
+    font-family: 'ProximaNovaSemibold';
+    text-align: center;
+    font-size:20px; 
+}
 .container1
 {
     margin-left:5%;
