@@ -198,6 +198,10 @@ body{ font-family: 'ProximaNovaLtLight';background-color: #000000;}
     font-size:35px;
     
 }
+.workshop hr
+{
+    border:2px solid #000000;
+}
 .workshop p
 {
     font-family: 'ProximaNovaLtLight';
