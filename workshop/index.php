@@ -59,7 +59,8 @@
         </div>
     </nav>
     <br><br>
-    <center><strong><h1 style="color:#ffffff ">Will Be Updated Soon</h1></strong></center>
+        <div class="top">
+    <center><strong><h1 style="color:#ffffff ">Will Be Updated Soon</h1></strong></center></div>
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
        <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
