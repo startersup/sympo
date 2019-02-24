@@ -73,8 +73,8 @@ thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
 thermodynamic properties is particularly important in the separation
-of non-ideal mixtures, and ASPEN has a large database of regressed parameters. </p>
-                        <button class="button1">Read More..</button>
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters.<a href="">Read More</a> </p>
+                      
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -84,8 +84,8 @@ of non-ideal mixtures, and ASPEN has a large database of regressed parameters. <
                         <p>ANSYS Fluent is a simulation tool that predicts the impact of fluid flows
 throughout design and manufacturing as well as during end use. The
 software’s fluid flow analysis capabilities can be used to design and optimize new equipment and to troubleshoot already existing installations. The package can handle variety of fluid dynamics segments
-ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible.</p>
-                          <button class="button1">Read More..</button>
+ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. <a href="">Read More</a></p>
+                         
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -98,8 +98,8 @@ thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
 thermodynamic properties is particularly important in the separation
-of non-ideal mixtures, and ASPEN has a large database of regressed parameters.</p>
-                          <button class="button1">Read More..</button>
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters.<a href="">Read More</a></p>
+                          
                     </div>
                 </div>
             </div>
