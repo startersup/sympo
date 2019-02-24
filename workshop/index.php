@@ -18,21 +18,24 @@
     <link rel="stylesheet" href="../assets/css/fonts.css">
     <script src="../assets/js/sidenav.js"></script>
 </head>
-    <body style="background-color:#000000;opacity:0.8;">
-     <nav class="navbar navbar-default navit navbar-fixed-top">
+
+<body style="background-color:#000000;opacity:0.8;">
+    <nav class="navbar navbar-default navit navbar-fixed-top">
         <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-           <center> <a class="navbar-brand" href="#">
-               <span> <img class="logo" src="../assets/images/logo.png">Petrovision</span>
-            </a></center>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <center>
+                <a class="navbar-brand" href="#">
+                    <span> <img class="logo" src="../assets/images/logo.png">Petrovision</span>
+                </a>
+            </center>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
 
-              <ul class="nav navbar-nav navbar-right " id="myTopnav">
+            <ul class="nav navbar-nav navbar-right " id="myTopnav">
                 <li><a href="../index.php">Home</a>
                 </li>
                 <li><a href="../about/">About</a>
@@ -45,30 +48,78 @@
                 </li>
                 <li><a href="../contact/">Contact</a>
                 </li>
-                  <li><a href="../gallery/">Gallery</a></li>
-                <?php
-                session_start();
-                  if(isset($_SESSION['id'])){
-                  echo "<li><a href='/logout/'>Logout</a>
-               </li> ";
-             } else {
-               echo "<li><a href='/login/'>Login</a>
-            </li>";
-             }       ?>
+                <li><a href="../gallery/">Gallery</a>
+                </li>
+                <?php session_start(); if(isset($_SESSION[ 'id'])){ echo "<li><a href='/logout/'>Logout</a>
+               </li> "; } else { echo "<li><a href='/login/'>Login</a>
+            </li>"; } ?>
             </ul>
         </div>
     </nav>
-    <br><br>
-        <div class="top evento">
-            <div class="container">
-            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b></div>
-                <br><br><br>
-        </div></div>
-        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
-       </center>
-            <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
-        <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
+    <br>
+    <br>
+    <div class="top evento">
+        <div class="container">
+            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="char">
+                        <h1>Mr.Abdul Haq</h1>
+                        <p class="title">Core Team</p>
+                        <p>ACT
+                            <p>
+                                <p>
+                                    <a href="tel:7708522009">
+                                        <button>Contact - 7708522009</button>
+                                    </a>
+                                </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="char">
+                        <h1>Mr.Abdul Haq</h1>
+                        <p class="title">Core Team</p>
+                        <p>ACT
+                            <p>
+                                <p>
+                                    <a href="tel:7708522009">
+                                        <button>Contact - 7708522009</button>
+                                    </a>
+                                </p>
+                    </div>
+                </div>
 
-    </body></html>
+                <div class="col-md-4">
+                    <div class="char">
+                        <h1>Mr.Abdul Haq</h1>
+                        <p class="title">Core Team</p>
+                        <p>ACT
+                            <p>
+                                <p>
+                                    <a href="tel:7708522009">
+                                        <button>Contact - 7708522009</button>
+                                    </a>
+                                </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="">
+        <center>
+            <a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+        </center>
+        <br>
+        <center>
+            <p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
+            <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span>
+        </center>
+    </footer>
+
+</body>
+
+</html>
