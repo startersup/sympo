@@ -77,7 +77,7 @@ thermodynamic properties is particularly important. </p>
                 <center><a href="/workshop/workshop1.php"><button class="button2">Registrations Open !</button></a></center>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-4">
                     <div class="workshop">
                       <h1>ANSYS FLUENT</h1>
                         <hr>
