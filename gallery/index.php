@@ -1,3 +1,5 @@
+<<?php
+$_SESSION['redirect']='/gallery'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/non-tech';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,3 +1,5 @@
+
+<?php $_SESSION['redirect']='/funoack'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

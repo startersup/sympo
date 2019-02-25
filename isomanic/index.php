@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
+$_SESSION['redirect']='/isomanic';
 $_SESSION['name']='Insomniac';
 $_SESSION['mode']='Paid';
  ?>

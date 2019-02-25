@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/about'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

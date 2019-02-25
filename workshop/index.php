@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/workshop'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +66,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="workshop">
-                      <h1>ASPEN PLUS</h1> 
+                      <h1>ASPEN PLUS</h1>
                         <hr>
                         <p>ASPEN Plus is a process simulation software package widely used in
 industry today. Given a process design and an appropriate selection of
@@ -78,7 +79,7 @@ thermodynamic properties is particularly important. </p>
                 </div>
                 <div class="col-md-4">
                     <div class="workshop">
-                      <h1>ANSYS FLUENT</h1> 
+                      <h1>ANSYS FLUENT</h1>
                         <hr>
                         <p>ANSYS Fluent is a simulation tool that predicts the impact of fluid flows
 throughout design and manufacturing as well as during end use. The
@@ -89,7 +90,7 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
                 </div>
                 <div class="col-md-4">
                     <div class="workshop">
-                      <h1>ASPEN PLUS</h1> 
+                      <h1>ASPEN PLUS</h1>
                         <hr>
                         <p>ASPEN Plus is a process simulation software package widely used in
 industry today. Given a process design and an appropriate selection of
@@ -97,7 +98,7 @@ thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
 thermodynamic properties is particularly important.</p>
-                       <center><button class="button2">Registrations Open !</button></center>    
+                       <center><button class="button2">Registrations Open !</button></center>
                     </div>
                 </div>
             </div>

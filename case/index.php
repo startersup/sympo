@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['name']='Case Study';
+$_SESSION['redirect']='/case';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $_SESSION['amount']="200";

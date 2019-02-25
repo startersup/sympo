@@ -2,6 +2,7 @@
 session_start();
 $_SESSION['amount']="250";
 $_SESSION['name']='Meme Masters';
+$_SESSION['redirect']='/meme';
 $_SESSION['mode']='Paid';
  ?>
 <!DOCTYPE html>

@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/tech'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

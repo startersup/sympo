@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/greycell'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

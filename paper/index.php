@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['name']='Paper Presentation';
+$_SESSION['redirect']='/paper';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $sql="select * from payinfo where userid='$id' and type='Poster'";

@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['redirect']='/breakbid';
 $_SESSION['amount']="250";
 $_SESSION['name']='Breaking Bid';
 $id= $_SESSION['id'];

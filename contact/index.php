@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/adzap';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 

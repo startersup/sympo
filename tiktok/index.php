@@ -1,6 +1,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
+$_SESSION['redirect']='/tiktok';
 $_SESSION['name']='TikTOK';
 $_SESSION['mode']='Paid';
  ?>

@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['redirect']='/analyst';
 $_SESSION['amount']="250";
 $_SESSION['name']='Be An Analsyst';
 $id= $_SESSION['id'];

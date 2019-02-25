@@ -2,6 +2,7 @@
 <?php
 session_start();
 $_SESSION['amount']="250";
+$_SESSION['redirect']='/design';
 $_SESSION['name']='Design Challenge';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');

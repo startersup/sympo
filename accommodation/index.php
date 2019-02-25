@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/accommodation';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 

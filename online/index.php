@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/online';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 

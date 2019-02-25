@@ -2,6 +2,7 @@
 session_start();
 $_SESSION['amount']="250";
 $_SESSION['name']='Minute to win it';
+$_SESSION['redirect']='/minute';
  ?>
 <!DOCTYPE html>
 <html lang="en">

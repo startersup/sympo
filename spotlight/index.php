@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/spotlight'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
