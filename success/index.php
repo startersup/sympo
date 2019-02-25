@@ -2,6 +2,7 @@
 session_start();
 if(!isset($_SESSION['id']))
 {
+  $_SESSION['redirect']='/success';
   header('location: /login/index.php');
 }
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');

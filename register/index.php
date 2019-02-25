@@ -14,7 +14,9 @@ $sql = "INSERT into students (id,name,email,number,dept,college,pass,accom) VALU
 //   echo $sql;
 mysqli_query($conn,$sql);
 $_SESSION['id']=$id;
-header('location: /index.php');
+$desturl=$_SESSION['redirect'];
+$_SESSION['redirect']='/index.php';
+header('location: '.$desturl);
 mysqli_close($conn);
 }
 ?>
