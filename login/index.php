@@ -10,9 +10,11 @@ $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
 {
+  $desturl=$_SESSION['redirect'];
+  unset($_SESSION['redirect']);
   $row=mysqli_fetch_array($res);
   $_SESSION['id']=$row['id'];
-  header('location: /index.php');
+  header('location: '.$desturl);
 }
 else {
   echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";

@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['redirect']='/adzap';
 $_SESSION['amount']="250";
 $_SESSION['name']='adzap';
 $id= $_SESSION['id'];

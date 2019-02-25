@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/index.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
