@@ -63,6 +63,11 @@
         <div class="container">
             <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b>
             </div>
+            <br><br>
+       <center> <div class="alert alert-info alert-dismissible">
+<a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+<strong> Combo Offer:</strong> Pay online Rs.450 for anyone of the workshop and get Rs.50 off in the other. You can subscibe now and pay online anytime.
+</div></center><br><br>
             <div class="row">
                 <div class="col-md-4">
                     <div class="workshop">
@@ -95,7 +100,7 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
         <center>
             <a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
         </center>
         <br>
         <center>
