@@ -69,7 +69,7 @@
 <strong> Combo Offer:</strong> Pay online Rs.450 for anyone of the workshop and get Rs.50 off in the other. You can subscibe now and pay online anytime.
 </div></center><br><br>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="workshop">
                       <h1>ASPEN PLUS</h1>
                         <hr>
@@ -82,7 +82,7 @@ thermodynamic properties is particularly important. </p>
                 <center><a href="/workshop/workshop1.php"><button class="button2">Registrations Open !</button></a></center>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="workshop">
                       <h1>ANSYS FLUENT</h1>
                         <hr>
