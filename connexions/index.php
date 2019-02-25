@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['amount']="250";
+$_SESSION['amount']="100";
 $_SESSION['name']='Connexions';
 $_SESSION['redirect']='/connexions';
 $id= $_SESSION['id'];
@@ -162,8 +162,8 @@ else {
             <div class="modal-body">
             <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
-            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p><p>Rs.250</p></center></div>
-                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.300</p></center></div>
+            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p><p>Rs.100</p></center></div>
+                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.150</p></center></div>
                   </div>
                   </center>
             </div>

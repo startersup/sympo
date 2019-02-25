@@ -71,7 +71,7 @@
                           <br><br>
                             <center> <div class="alert alert-info alert-dismissible">
                      <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-                     <strong>Info:</strong>Pay online Rs.250 as general registration and get access to events in Greycells and Funpack. You can subscribe now and pay online anytime.
+                     <strong>Info:</strong>Pay online Rs.100 as general registration and get access to events in Greycells and Funpack. You can subscribe now and pay online anytime.
                    </div></center><br><br>
              <div class="row">
                      <div class="col-md-4">
