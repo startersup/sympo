@@ -1,18 +1,18 @@
 <?php
 session_start();
-$_SESSION['name']='Poster';
-$_SESSION['redirect']='/poster';
+$_SESSION['name']='Workshop-Aspen';
+$_SESSION['redirect']='/workshop/workshop1.php';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select * from payinfo where userid='$id' and type='Paper Presentation'";
+$sql="select * from payinfo where userid='$id' and type='Workshop-Ansys'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
 {
-  $_SESSION['amount']="150";
+  $_SESSION['amount']="400";
 }
 else {
-  $_SESSION['amount']="250";
+  $_SESSION['amount']="450";
 }
 $sql="select * from payinfo where userid='$id' and type='".$_SESSION['name']."'";
 $res=mysqli_query($conn,$sql);
@@ -100,7 +100,6 @@ else {
 
         <section class="container">
               <div class="shadow" id="two">
-            <center><img class="spot" src="../assets/images/poster.png">
 
                             <div class="container1">
                             <br>
@@ -113,67 +112,32 @@ else {
                         </li>
                         <li>
                           <a href="#tab_default_2" data-toggle="tab">
-                          Rules </a>
-                        </li>
-                        <li>
-                          <a href="#tab_default_3" data-toggle="tab">
-                          Rules </a>
+                          Topics Covered </a>
                         </li>
                       </ul>
                       <div class="tab-content">
                         <div class="tab-pane active" id="tab_default_1">
                         <p>
-                          A dais to showcase your innovative concepts in Petroleum and Chemical Engineering fields.
-                Novel ideas will be recognized for sure. A venue of informative exploration for audience.</p>
-                <p>Number of round: Two</p>
-                <p>Max. number of participants: Two</p>
-                <p>Dead line: 5 th of March 2019</p>
-                <p>Time Duration: Ten minutes for the presentation followed by Q&amp;A session.</p>
-              <p>  Event Email ID : petrovisionevents@gmail.com	</p>
+                          ASPEN Plus is a process simulation software package widely used in
+industry today. Given a process design and an appropriate selection of
+thermodynamic models, ASPEN uses mathematical models to predict
+the performance of the process. This information can then be used in
+an iterative fashion to optimize the design. This accurate modelling of
+thermodynamic properties is particularly important in the separation
+of non-ideal mixtures, and ASPEN has a large database of regressed parameters. ASPEN can handle very complex processes, including multiple-column separation systems, chemical reactors, distillation of chemically reactive compounds and even electrolyte solutions like mineral
+acids and sodium hydroxide solutions.</p>
+
                         </div>
                         <div class="tab-pane" id="tab_default_2">
-                        <h3>  Round One: Preliminary</h3>
-                        <p>  Participants are requested to send their abstract, paper and PPT to event e-mail within the
-                          deadline.
-                          A quick review of the abstract will be done to ensure the quality of the content and to check
-                          whether the paper and PPT presentation has abided by the rules of the event. Participants
-                          will be shortly notified through e-mail once their paper has been shortlisted.</p>
-                          <h3>Round Two: Presentation</h3>
-                        <p>  On the event day, shortlisted participants should submit the hard copies of the submitted
-                          paper for judges’ perusal. With no particular order presentations will be performed. The
-                          decision of the judges will be final.</p>
+                        <h3>  Topics to be Covered: </h3>
+                        <p>  1.Introduction to Process Simulation</p>
+                        <p>  2.Aspen Plus Basics</p>
+                        <p>  3. Properties and Thermodynamic Model</p>
+                        <p>  4.Aspen Plus Flash Drum Simulation</p>
+                        <p>  5.Simulation of Reactor Model.</p>
+                        <p>  6.Pressure Changers (Pump/Compressor)</p>
+                        <p>  7.Process FlowSheet Development</p>
                         </div>
-                          <div class="tab-pane" id="tab_default_3">
-                            <p>1. Maximum number of participants in a Team is 2 to 3. </p>
-<p>2. The subject of the mail with the attached poster details like poster material (of
-your convenience) and poster dimension (of necessary size), the final poster should be
-the domain and sub-category under which the poster is categorized.</p>
-<p>3. Bring your college I-Card &amp; receipt on event day.</p>
-<p>4. Soft-copies of the submitted poster must be in the .docx format.</p>
-<p>5. Please Mail your poster details and ppt to (petro vision email).</p>
-<p>6. Difficulties will be addressed through the same email-id.</p>
-<p>7. The teams will get 7 minutes for presentation followed by question and answer
-session.</p>
-<p>8. Persons from different institutions can be a part of the same team. However, one
-person may not be a part of multiple teams for the same event.</p>
-<p>9. Poster should be in a one column format &amp; should not exceed 1 sheet.</p>
-<p>10. The mail with submissions should contain:
-Title- theme of the poster,
- Name of the authors,
- Phone no of both the authors,
- E-mail ID.</p>
-<p>11. Poster should be in standard font and font sizes</p>
-<p>12. For headings use bold font.</p>
-<p>13. Paper must contain list of figures, graph, introduction, point wise description of
-subject and conclusion and references.</p>
-<p>14. Poster must be preceded by specifying the title of the poster, names of authors
-and their college names as also their contact numbers and email ids.</p>
-<p>15. Last day to submit soft copy of your poster (via e-mail) will be a week prior to
-the day of presentation.</p>
-<p>16. After you have submitted the soft copy, a panel of judges will go through your
-material and you will be notified.</p>
-<p>17. The mail should contain topic, references, your e-mail id and mobile number.</p>
-                          </div>
                       </div>
                     </div>
                   </div>
@@ -204,7 +168,7 @@ material and you will be notified.</p>
                       <center><p>Choose your suitable options according to your convenience</p>
                                 <div class="row">
                           <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p><p><?php echo "Rs.".$_SESSION['amount'];?></p></center></div>
-                                <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.250</p></center></div>
+                                <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.500</p></center></div>
                                 </div>
                                 </center>
                     </div>
@@ -217,7 +181,7 @@ material and you will be notified.</p>
                   </div>
                     <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
                    <a href="#" class="fa fa-twitter"></a>
-                   <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
+                   <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
                    </center>
                         <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
                     <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

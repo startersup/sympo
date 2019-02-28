@@ -1,6 +1,7 @@
 <?php
 session_start();
-$_SESSION['amount']="250";
+$_SESSION['redirect']='/analyst';
+$_SESSION['amount']="100";
 $_SESSION['name']='Be An Analsyst';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
@@ -160,8 +161,8 @@ discussion about the alternative best solution for the given industrial problem.
       <div class="modal-body">
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
-            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p><p>Rs.250</p></center></div>
-                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.300</p></center></div>
+            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p><p>Rs.100</p></center></div>
+                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p><p>Rs.150</p></center></div>
                   </div>
                   </center>
       </div>
@@ -174,7 +175,7 @@ discussion about the alternative best solution for the given industrial problem.
   </div>
       <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
      <a href="#" class="fa fa-twitter"></a>
-     <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+     <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
      </center>
           <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
       <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

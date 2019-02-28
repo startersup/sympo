@@ -2,6 +2,7 @@
 	session_start();
 if(!isset($_SESSION['id']))
 {
+	$_SESSION['redirect']='/PaytmKit/TxnTest.php';
 	  header('location: /login/index.php');
 }
 	header("Pragma: no-cache");

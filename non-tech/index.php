@@ -1,3 +1,6 @@
+<?php
+$_SESSION['redirect']='/non-tech';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,7 +84,7 @@
 
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
-       <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+       <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

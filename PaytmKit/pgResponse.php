@@ -32,7 +32,7 @@ if($isValidChecksum == "TRUE") {
 		$number=$row['number'];
 		$dept=$row['dept'];
 		$college=$row['college'];
-		if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study")
+		if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys")
 		{
 			$sql="select * from spotlight where id='$id' AND event='".$_SESSION['name']."'";
 			$res=mysqli_query($conn,$sql);

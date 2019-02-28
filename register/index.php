@@ -14,7 +14,9 @@ $sql = "INSERT into students (id,name,email,number,dept,college,pass,accom) VALU
 //   echo $sql;
 mysqli_query($conn,$sql);
 $_SESSION['id']=$id;
-header('location: /index.php');
+$desturl=$_SESSION['redirect'];
+$_SESSION['redirect']='/index.php';
+header('location: '.$desturl);
 mysqli_close($conn);
 }
 ?>
@@ -108,7 +110,7 @@ mysqli_close($conn);
 
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
-       <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+       <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>

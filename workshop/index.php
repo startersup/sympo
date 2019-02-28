@@ -1,3 +1,4 @@
+<?php $_SESSION['redirect']='/workshop'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,10 +63,15 @@
         <div class="container">
             <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b>
             </div>
+            <br><br>
+       <center> <div class="alert alert-info alert-dismissible">
+<a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+<strong> Combo Offer:</strong> Pay online Rs.450 for anyone of the workshop and get Rs.50 off in the other. You can subscibe now and pay online anytime.
+</div></center><br><br>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="workshop">
-                      <h1>ASPEN PLUS</h1> 
+                      <h1>ASPEN PLUS</h1>
                         <hr>
                         <p>ASPEN Plus is a process simulation software package widely used in
 industry today. Given a process design and an appropriate selection of
@@ -73,31 +79,18 @@ thermodynamic models, ASPEN uses mathematical models to predict
 the performance of the process. This information can then be used in
 an iterative fashion to optimize the design. This accurate modelling of
 thermodynamic properties is particularly important. </p>
-                <center><button class="button2">Registrations Open !</button></center>
+                <center><a href="/workshop/workshop1.php"><button class="button2">Registrations Open !</button></a></center>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="workshop">
-                      <h1>ANSYS FLUENT</h1> 
+                      <h1>ANSYS FLUENT</h1>
                         <hr>
                         <p>ANSYS Fluent is a simulation tool that predicts the impact of fluid flows
 throughout design and manufacturing as well as during end use. The
 software’s fluid flow analysis capabilities can be used to design and optimize new equipment and to troubleshoot already existing installations. The package can handle variety of fluid dynamics segments
 ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. </p>
-                          <center><button class="button1">Registrations Open !</button></center>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="workshop">
-                      <h1>ASPEN PLUS</h1> 
-                        <hr>
-                        <p>ASPEN Plus is a process simulation software package widely used in
-industry today. Given a process design and an appropriate selection of
-thermodynamic models, ASPEN uses mathematical models to predict
-the performance of the process. This information can then be used in
-an iterative fashion to optimize the design. This accurate modelling of
-thermodynamic properties is particularly important.</p>
-                       <center><button class="button2">Registrations Open !</button></center>    
+                          <center><a href="/workshop/workshop2.php"> <button class="button1">Registrations Open !</button></a></center>
                     </div>
                 </div>
             </div>
@@ -107,7 +100,7 @@ thermodynamic properties is particularly important.</p>
         <center>
             <a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
         </center>
         <br>
         <center>

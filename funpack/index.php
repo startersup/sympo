@@ -1,3 +1,5 @@
+
+<?php $_SESSION['redirect']='/funoack'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,7 +70,7 @@
                           <br><br>
                             <center> <div class="alert alert-info alert-dismissible">
                      <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-                     <strong>Info:</strong>Pay online Rs.250 as general registration and get access to events in Greycells and Funpack. You can subscribe now and pay online anytime.
+                     <strong>Info:</strong>Pay online Rs.100 as general registration and get access to events in Greycells and Funpack. You can subscribe now and pay online anytime.
                    </div></center><br><br>
              <div class="row">
                      <div class="col-md-4">
@@ -97,7 +99,7 @@
 
         <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
        <a href="#" class="fa fa-twitter"></a>
-       <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
+       <a href="https://www.instagram.com/_petrovision2k19" class="fa fa-instagram"></a>
        </center>
             <br><center><p>Copyrights &copy 2019 Petrovision. All Rights Reserved</p>
         <span class="craft">Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span></center></footer>
