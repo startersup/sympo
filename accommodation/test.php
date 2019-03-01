@@ -6,6 +6,9 @@ if(!isset($_SESSION['id']))
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
+header("Pragma: no-cache");
+header("Cache-Control: no-cache");
+header("Expires: 0");
 if(isset($_SESSION['class']))
 {
 
