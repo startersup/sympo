@@ -9,6 +9,7 @@ if(isset($_POST["class"]))
   $class=$_POST['class'];
   $college=$row['college'];
   $sql = "INSERT into accommodation (userid,name,phone,college,class,payment) VALUES ('".$_SESSION['id']."','$name',$number,'$college','$class','Onspot')";
+
   $res=mysqli_query($conn,$sql);
   $subject ="Greetings From Petrovision";
 
@@ -141,7 +142,6 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 }</style>' ;
 
 mail($to, $subject, $message, $headers);
-  exit();
 }
  ?>
 
