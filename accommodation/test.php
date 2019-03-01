@@ -8,7 +8,14 @@ if(!isset($_SESSION['id']))
 }
 if(isset($_POST['class'])||isset($_SESSION['class']))
 {
-
+  $sql="select * from accommodation where id='$id'";
+  $res=mysqli_query($conn,$sql);
+  $count=mysqli_num_rows($res);
+  if($count>0)
+  {
+  echo "<script type='text/javascript'> alert('Already Registered'); </script>";
+    header('location: /index.php');
+  }
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
   $id=$_SESSION['id'];
   echo $id;
