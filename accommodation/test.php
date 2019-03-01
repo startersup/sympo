@@ -153,7 +153,6 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 }</style>' ;
 
 mail($to, $subject, $message, $headers);
-unset($_SESSION['class']);
 }
  ?>
 
