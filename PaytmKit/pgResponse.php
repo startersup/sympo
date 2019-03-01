@@ -45,7 +45,7 @@ if($isValidChecksum == "TRUE") {
 			$res=mysqli_query($conn,$sql);
 			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','Accommodation')";
 			mysqli_query($conn,$sql);
-			$res=mysqli_query($conn,$sql);
+			
 			$subject ="Greetings From Petrovision";
 
 
@@ -177,9 +177,9 @@ if($isValidChecksum == "TRUE") {
 		}</style>' ;
 
 		mail($to, $subject, $message, $headers);
-			exit();
+
 		}
-		if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys")
+	elseif($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys")
 		{
 			$sql="select * from spotlight where id='$id' AND event='".$_SESSION['name']."'";
 			$res=mysqli_query($conn,$sql);
