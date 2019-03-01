@@ -9,6 +9,7 @@ if(isset($_POST["class"]))
   $res=mysqli_query($conn,$sql);
   $row=mysqli_fetch_array($res);
   $name=$row['name'];
+  $mail=$row['email'];
   $number=$row['number'];
   $class=$_POST['class'];
   $college=$row['college'];
@@ -16,7 +17,6 @@ if(isset($_POST["class"]))
   echo $sql;
   $res=mysqli_query($conn,$sql);
   $subject ="Greetings From Petrovision";
-
 
 $headers = "";
  $to      = $mail;
