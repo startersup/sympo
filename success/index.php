@@ -7,7 +7,8 @@ if(!isset($_SESSION['id']))
 }
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $id=$_SESSION['id'];
-if(isset($_POST['class']))
+echo $_POST["class"];
+if(isset($_POST["class"]))
 {
   $sql="select * from students where id='$id'";
   $res=mysqli_query($conn,$sql);
