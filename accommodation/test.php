@@ -2,14 +2,11 @@
 session_start();
 if(!isset($_SESSION['id']))
 {
-  $_SESSION['class']="CLASS 1";
+  $_SESSION['class']=$_POST['class'];
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
-header("Pragma: no-cache");
-header("Cache-Control: no-cache");
-header("Expires: 0");
-if(isset($_SESSION['class']))
+if(isset($_POST['class'])||isset($_SESSION['class']))
 {
 
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
@@ -156,6 +153,7 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 }</style>' ;
 
 mail($to, $subject, $message, $headers);
+
 }
  ?>
 
