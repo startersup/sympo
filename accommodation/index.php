@@ -115,8 +115,8 @@ alone who check in on 10th night. Check out time will be considered as the
 same as check in time.</p>
                          <br><center><button class="button2" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button></center>
         </div></div>
-             
-             
+
+
               <div class="col-md-6 ">
                      <div class="workshop">
                          <h3>✌CLASS 2</h3><br>
@@ -128,9 +128,9 @@ same as check in time.</p>
                          <p><span>Total Inmates :-</span> 60 Members ( 2 per room )</p>
                          <p>Boys and Girls will be accommodated in <span>separate rooms</span>
 </p><p>Accommodation will be provided on first come first serve Basis</p>
-                 <br> <br> <br><br> <br><button class="button1" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button>     
+                 <br> <br> <br><br> <br><button class="button1" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button>
         </div></div>
-             
+
              </div>
              <br><br>
             </div>
@@ -145,7 +145,7 @@ same as check in time.</p>
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
             <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
+                  <div class="col-md-6"><center><form method="post" action="/success"><input type="hidden" value="CLASS 1"><button><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
                   </div>
                   </center>
       </div>
