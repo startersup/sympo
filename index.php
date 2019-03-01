@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['redirect']='/index.php';
+$_SESSION['redirect']='/events';
  ?>
 <!DOCTYPE html>
 <html lang="en">
