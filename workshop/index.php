@@ -100,7 +100,7 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
                       <h1>DIRECTIONAL DRILLING</h1>
                         <hr>
                         <p>Drilling is one the most challenging job for the petroleum engineers. It requires good skills and strong knowledge in basics physics and mathematics along with lots of patience. Directional drilling is a new concept and very specialised branch that can reach the source rock present in different geological area underneath.  </p>
-                          <center><a href="/workshop/workshop3.php"> <button class="button1">Registrations Open !</button></a></center>
+                          <center><a href="/workshop/workshop3.php"> <button class="button2">Registrations Open !</button></a></center>
                     </div>
                 </div>
             </div>

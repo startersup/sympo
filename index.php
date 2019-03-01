@@ -92,8 +92,8 @@ $_SESSION['redirect']='/events';
                 <div class="col-xs-6 nopadding">
                       <div class="margino left ">
                           <center>
-                    <h3 style="color:#fbe266;">Know about Timeline ?</h3>
-                              <a target="_blank" href="tl.html">    <button class="button1">Click Here </button>   </a>
+                    <h3 style="color:#fbe266;">Register Now?</h3>
+                              <a target="_blank" href="/register">    <button class="button1">Click Here </button>   </a>
                           </center>
                     </div>
                </div>
