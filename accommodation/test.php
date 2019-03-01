@@ -8,8 +8,8 @@ if(!isset($_SESSION['id']))
 }
 if(isset($_POST['class'])||isset($_SESSION['class']))
 {
+  $id=$_SESSION['id'];
   $sql="select * from accommodation where userid='$id'";
-  echo $sql;
   $res=mysqli_query($conn,$sql);
   $count=mysqli_num_rows($res);
   if($count>0)
@@ -18,8 +18,6 @@ if(isset($_POST['class'])||isset($_SESSION['class']))
     header('location: /index.php');
   }
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-  $id=$_SESSION['id'];
-  echo $id;
   $sql="select * from students where id='$id'";
   $res=mysqli_query($conn,$sql);
   $row=mysqli_fetch_array($res);
@@ -34,7 +32,6 @@ if(isset($_POST['class'])||isset($_SESSION['class']))
   }
   $college=$row['college'];
   $sql = "INSERT into accommodation (userid,name,phone,college,class,payment) VALUES ('".$_SESSION['id']."','$name',$number,'$college','$class','Onspot')";
-  echo $sql;
   $res=mysqli_query($conn,$sql);
   $subject ="Greetings From Petrovision";
 
