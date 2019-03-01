@@ -113,7 +113,7 @@ facility.</p>
                          <p><span>PS :-</span> March 11th morning breakfast will be provided at the hotel for those
 alone who check in on 10th night. Check out time will be considered as the
 same as check in time.</p>
-                         <br><center><button class="button2" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button></center>
+                         <br><center><button class="button2" data-toggle="modal" data-target="#myModal-1">Avail For Accomodation</button></center>
         </div></div>
 
 
@@ -135,11 +135,11 @@ same as check in time.</p>
              <br><br>
             </div>
         </section>
-      <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
+      <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel-1">Avail Accomodation Soon! </h4>
+        <h4 class="modal-title" id="myModalLabel-2">Avail Accomodation Soon! </h4>
       </div>
       <div class="modal-body">
         <center><p>Choose your suitable options according to your convenience</p>
