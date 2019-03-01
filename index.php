@@ -1,5 +1,5 @@
 <?php
-$_SESSION['redirect']='/index.php';
+$_SESSION['redirect']='/';
  ?>
 <!DOCTYPE html>
 <html lang="en">
