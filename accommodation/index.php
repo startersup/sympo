@@ -155,6 +155,7 @@ same as check in time.</p>
       </div>
     </div><!-- modal-content -->
   </div><!-- modal-dialog -->
+    </div>
   <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
@@ -175,8 +176,8 @@ same as check in time.</p>
   </div>
 </div><!-- modal-content -->
 </div><!-- modal-dialog -->
-
   </div>
+
        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
