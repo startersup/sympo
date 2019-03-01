@@ -9,6 +9,7 @@ if(!isset($_SESSION['id']))
 if(isset($_POST['class'])||isset($_SESSION['class']))
 {
   $id=$_SESSION['id'];
+  $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
   $sql="select * from accommodation where userid='$id'";
   $res=mysqli_query($conn,$sql);
   $count=mysqli_num_rows($res);
@@ -19,7 +20,6 @@ if(isset($_POST['class'])||isset($_SESSION['class']))
   echo "<script type='text/javascript'> alert('Already Registered'); </script>";
     header('location: /index.php');
   }
-  $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
   $sql="select * from students where id='$id'";
   $res=mysqli_query($conn,$sql);
   $row=mysqli_fetch_array($res);
