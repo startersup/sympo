@@ -12,6 +12,8 @@ if(isset($_POST['class'])||isset($_SESSION['class']))
   $sql="select * from accommodation where userid='$id'";
   $res=mysqli_query($conn,$sql);
   $count=mysqli_num_rows($res);
+    echo $sql;
+    echo $count;
   if($count>0)
   {
   echo "<script type='text/javascript'> alert('Already Registered'); </script>";
