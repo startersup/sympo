@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(!isset($_SESSION['id']))
 {
   $_SESSION['redirect']='/accommodation/test.php';
@@ -6,7 +7,7 @@ if(!isset($_SESSION['id']))
 }
 if(isset($_POST["class"]))
 {
-  session_start();
+
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
   $id=$_SESSION['id'];
   echo $id;
