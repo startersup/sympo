@@ -145,7 +145,7 @@ same as check in time.</p>
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
             <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input type="hidden" name="class" value="CLASS 1"><button type="submit"><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></center></div>
-                  <div class="col-md-6"><center><form method="post" action="/success/index.php"><input type="hidden" name="class" value="CLASS 1"><button type="submit"><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
+                  <div class="col-md-6"><center><form method="post" action="/accommodation/test.php"><input type="hidden" name="class" value="CLASS 1"><button type="submit"><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
                   </div>
                   </center>
       </div>
