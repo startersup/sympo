@@ -7,7 +7,7 @@ if(!isset($_SESSION['id']))
 }
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
 $id=$_SESSION['id'];
-if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys")
+if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys"||$_SESSION['name']=="Workshop-Drill")
 {
   $sql="select * from spotlight where id='$id' AND event='".$_SESSION['name']."'";
   $res=mysqli_query($conn,$sql);
