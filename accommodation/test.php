@@ -25,7 +25,12 @@ if(isset($_POST['class'])||isset($_SESSION['class']))
   $name=$row['name'];
   $mail=$row['email'];
   $number=$row['number'];
-  $class=$_POST['class'];
+  if(isset($_POST['class']))
+  {
+  $class=$_POST['class'];}
+  else{
+    $class=$_SESSION['class'];
+  }
   $college=$row['college'];
   $sql = "INSERT into accommodation (userid,name,phone,college,class,payment) VALUES ('".$_SESSION['id']."','$name',$number,'$college','$class','Onspot')";
   echo $sql;
