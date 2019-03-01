@@ -135,17 +135,17 @@ same as check in time.</p>
              <br><br>
             </div>
         </section>
-      <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+      <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel-2">Avail Accomodation Soon! </h4>
+        <h4 class="modal-title" id="myModalLabel-1">Avail Accomodation Soon! </h4>
       </div>
       <div class="modal-body">
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
-            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                  <div class="col-md-6"><center><form method="post" action="/success"><input type="hidden" value="CLASS 1"><button><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
+            <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input type="hidden" name="class" value="CLASS 1"><button><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></center></div>
+                  <div class="col-md-6"><center><form method="post" action="/success"><input type="hidden" name="class" value="CLASS 1"><button><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
                   </div>
                   </center>
       </div>
@@ -155,6 +155,27 @@ same as check in time.</p>
       </div>
     </div><!-- modal-content -->
   </div><!-- modal-dialog -->
+  <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h4 class="modal-title" id="myModalLabel-2">Avail Accomodation Soon! </h4>
+  </div>
+  <div class="modal-body">
+    <center><p>Choose your suitable options according to your convenience</p>
+              <div class="row">
+        <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input type="hidden" name="class" value="CLASS 2"><button><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></center></div>
+              <div class="col-md-6"><center><form method="post" action="/success"><input type="hidden" name="class" value="CLASS 2"><button><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
+              </div>
+              </center>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+  </div>
+</div><!-- modal-content -->
+</div><!-- modal-dialog -->
+
   </div>
        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
