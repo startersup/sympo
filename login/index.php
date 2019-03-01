@@ -11,6 +11,7 @@ $count=mysqli_num_rows($res);
 if($count>0)
 {
   $desturl=$_SESSION['redirect'];
+  echo $desturl;
   $_SESSION['redirect']='/index.php';
   $row=mysqli_fetch_array($res);
   $_SESSION['id']=$row['id'];
