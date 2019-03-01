@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST["class"]))
 {
+  session_start();
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
   $id=$_SESSION['id'];
   echo $id;
