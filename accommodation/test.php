@@ -1,4 +1,9 @@
 <?php
+if(!isset($_SESSION['id']))
+{
+  $_SESSION['redirect']='/accommodation/test.php';
+  header('location: /login/index.php');
+}
 if(isset($_POST["class"]))
 {
   session_start();
