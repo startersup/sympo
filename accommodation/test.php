@@ -2,6 +2,10 @@
 session_start();
 if(!isset($_SESSION['id']))
 {
+  if(isset($_POST["class"]))
+  {
+    $_SESSION['class']=$_POST["class"];
+  }
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
