@@ -9,6 +9,7 @@ if(!isset($_SESSION['id']))
 if(isset($_POST['class'])||isset($_SESSION['class']))
 {
   $sql="select * from accommodation where userid='$id'";
+  echo $sql;
   $res=mysqli_query($conn,$sql);
   $count=mysqli_num_rows($res);
   if($count>0)
