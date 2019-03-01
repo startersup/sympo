@@ -2,10 +2,11 @@
 session_start();
 if(!isset($_SESSION['id']))
 {
+  $_SESSION['class']=$_POST['class'];
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
-if(isset($_POST['class']))
+if(isset($_SESSION['class']))
 {
 
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
