@@ -6,7 +6,7 @@ if(!isset($_SESSION['id']))
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
-if(isset($_POST["class"])||$_SESSION['class'])
+if(isset($_POST["class"])||isset($_SESSION['class']))
 {
 
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
