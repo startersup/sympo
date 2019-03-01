@@ -10,6 +10,10 @@ $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
 if($count>0)
 {
+  if(isset($_POST["class"])
+  {
+    $_SESSION['class']=$_POST["class"];
+  }
   $desturl=$_SESSION['redirect'];
   $_SESSION['redirect']='/index.php';
   $row=mysqli_fetch_array($res);

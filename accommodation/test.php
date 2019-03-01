@@ -5,7 +5,7 @@ if(!isset($_SESSION['id']))
   $_SESSION['redirect']='/accommodation/test.php';
   header('location: /login/index.php');
 }
-if(isset($_POST["class"]))
+if(isset($_POST["class"])||$_SESSION['class'])
 {
 
   $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
@@ -152,6 +152,7 @@ We, the organisers of Petrovision 2k19 would like to welcome you to our Extravag
 }</style>' ;
 
 mail($to, $subject, $message, $headers);
+unset($_SESSION['class']);
 }
  ?>
 
