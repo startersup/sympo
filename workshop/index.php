@@ -71,6 +71,14 @@ session_start();
 <strong> Combo Offer:</strong> Pay online Rs.450 for anyone of the workshop and get Rs.50 off in the other. You can subscibe now and pay online anytime.
 </div></center><br><br>
             <div class="row">
+              <div class="col-md-4">
+                  <div class="workshop">
+                    <h1>DIRECTIONAL DRILLING</h1>
+                      <hr>
+                      <p>Drilling is one the most challenging job for the petroleum engineers. It requires good skills and strong knowledge in basics physics and mathematics along with lots of patience. Directional drilling is a new concept and very specialised branch that can reach the source rock present in different geological area underneath.  </p>
+                        <center><a href="/workshop/workshop3.php"> <button class="button2">Registrations Open !</button></a></center>
+                  </div>
+              </div>
                 <div class="col-md-4">
                     <div class="workshop">
                       <h1>ASPEN PLUS</h1>
@@ -95,14 +103,7 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
                           <center><a href="/workshop/workshop2.php"> <button class="button1">Registrations Open !</button></a></center>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="workshop">
-                      <h1>DIRECTIONAL DRILLING</h1>
-                        <hr>
-                        <p>Drilling is one the most challenging job for the petroleum engineers. It requires good skills and strong knowledge in basics physics and mathematics along with lots of patience. Directional drilling is a new concept and very specialised branch that can reach the source rock present in different geological area underneath.  </p>
-                          <center><a href="/workshop/workshop3.php"> <button class="button2">Registrations Open !</button></a></center>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
