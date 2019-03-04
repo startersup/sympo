@@ -63,7 +63,7 @@ session_start();
     <br>
     <div class="evento">
         <div class="container">
-          <table class="table table-bordered " style="font-color:#ffffff">
+          <table class="table table-striped table-bordered " style="font-color:#ffffff">
     <thead>
       <tr>
         <th scope="col">#</th>
