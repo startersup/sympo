@@ -92,9 +92,9 @@ session_start();
       <tr>
         <td>Aspen Plus</td>
         <td>450/-</td>
-        <td rowspan="2">850/-</td>
+        <td rowspan="2" style="vertical-align : middle;text-align:center;">850/-</td>
         <td>500/-</td>
-        <td rowspan="2">900/-</td>
+        <td rowspan="2" style="vertical-align : middle;text-align:center;">900/-</td>
       </tr>
       <tr>
         <td>Aspen Fluent</td>
@@ -107,9 +107,9 @@ session_start();
       <tr>
         <td>Paper Presentation</td>
         <td>250/-</td>
-        <td rowspan="2">400/-</td>
+        <td rowspan="2" style="vertical-align : middle;text-align:center;">400/-</td>
         <td>250/-</td>
-        <td rowspan="2">400/-</td>
+        <td rowspan="2" style="vertical-align : middle;text-align:center;">400/-</td>
       </tr>
       <tr>
         <td>Poster Presentation</td>
@@ -125,9 +125,9 @@ session_start();
       </tr>
       <tr>
         <td>Be-An-Analyst</td>
-        <td rowspan="6">100/-</td>
+        <td rowspan="6" style="vertical-align : middle;text-align:center;">100/-</td>
         <td></td>
-            <td rowspan="6">150/-</td>
+            <td rowspan="6" style="vertical-align : middle;text-align:center;">150/-</td>
       </tr>
       <tr>
         <td>Breaking-Bid</td>
