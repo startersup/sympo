@@ -69,7 +69,10 @@
                 <br><br>
            <center> <div class="alert alert-info alert-dismissible">
     <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-    <strong> Combo Offer:</strong> Pay online Rs.250 for Poster presentation or Paper Presentation and get Rs.100 off in the other. You can subscibe now and pay online anytime.
+    <strong> Combo Offer:</strong>Paper presentation : ₹250/-
+Poster presentation :₹250/-
+Case study :  ₹200/-
+COMBO (Paper presentation + Poster presentation) : ₹400/-
   </div></center><br><br>
              <div class="row">
             <div class="col-md-4">

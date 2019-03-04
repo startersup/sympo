@@ -1,6 +1,6 @@
 <?php
 session_start();
- $_SESSION['redirect']='/workshop'; ?>
+ $_SESSION['redirect']='/tariff'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,51 +63,35 @@ session_start();
     <br>
     <div class="evento">
         <div class="container">
-            <div class="logos"><b style="font-family: 'Anton', sans-serif;font-style:20px;margin-top:-40px;">Wo<span>rk</span>s<span>h</span>ops </b>
-            </div>
-            <br><br>
-       <center> <div class="alert alert-info alert-dismissible">
-<a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-<strong> Combo Offer:</strong> Directional drilling : Online ₹450/- Onspot ₹500/-
-ASPEN Plus : Online ₹450/- Onspot ₹500/-
-ANSYS Fluent : Online ₹450/- Onspot ₹500/-
-COMBO (ASPEN + ANSYS) : ONLINE ₹850/- ONSPOT ₹900/-
-</div></center><br><br>
-            <div class="row">
-              <div class="col-md-4">
-                  <div class="workshop">
-                    <h1>DIRECTIONAL DRILLING</h1>
-                      <hr>
-                      <p>Drilling is one the most challenging job for the petroleum engineers. It requires good skills and strong knowledge in basics physics and mathematics along with lots of patience. Directional drilling is a new concept and very specialised branch that can reach the source rock present in different geological area underneath.  </p>
-                        <center><a href="/workshop/workshop3.php"> <button class="button2">Registrations Open !</button></a></center>
-                  </div>
-              </div>
-                <div class="col-md-4">
-                    <div class="workshop">
-                      <h1>ASPEN PLUS</h1>
-                        <hr>
-                        <p>ASPEN Plus is a process simulation software package widely used in
-industry today. Given a process design and an appropriate selection of
-thermodynamic models, ASPEN uses mathematical models to predict
-the performance of the process. This information can then be used in
-an iterative fashion to optimize the design. This accurate modelling of
-thermodynamic properties is particularly important. </p>
-                <center><a href="/workshop/workshop1.php"><button class="button2">Registrations Open !</button></a></center>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="workshop">
-                      <h1>ANSYS FLUENT</h1>
-                        <hr>
-                        <p>ANSYS Fluent is a simulation tool that predicts the impact of fluid flows
-throughout design and manufacturing as well as during end use. The
-software’s fluid flow analysis capabilities can be used to design and optimize new equipment and to troubleshoot already existing installations. The package can handle variety of fluid dynamics segments
-ranging from single- or multi-phase, isothermal or reacting, compressible or non-compressible. </p>
-                          <center><a href="/workshop/workshop2.php"> <button class="button1">Registrations Open !</button></a></center>
-                    </div>
-                </div>
-
-            </div>
+          <table class="table table-bordered table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
         </div>
     </div>
     <footer class="">
