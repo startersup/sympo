@@ -26,16 +26,7 @@ session_start();
 .table td {
     background-color: white !important;
 }
-table.table-bordered{
-    border:1px solid red;
-    margin-top:20px;
-  }
-table.table-bordered > thead > tr > th{
-    border:1px solid red;
-}
-table.table-bordered > tbody > tr > td{
-    border:1px solid red;
-}
+
     </style>
 </head>
 
