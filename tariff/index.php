@@ -84,26 +84,37 @@ session_start();
     <tbody>
       <tr>
         <td>Directional Drilling</td>
-        <td>450</td>
+        <td>450/-</td>
         <td></td>
-        <td>500</td>
+        <td>500/-</td>
         <td></td>
       </tr>
       <tr>
         <td>Aspen Plus</td>
-        <td>450</td>
+        <td>450/-</td>
         <td rowspan="2">850/-</td>
-        <td>500</td>
+        <td>500/-</td>
         <td rowspan="2">900/-</td>
       </tr>
       <tr>
         <td>Aspen Fluent</td>
-        <td>450</td>
-        <td>500</td>
+        <td>450/-</td>
+        <td>500/-</td>
       </tr>
       <tr>
         <th scope="row">Technical Events</th>
-
+      </tr>
+      <tr>
+        <td>Paper Presentation</td>
+        <td>250/-</td>
+        <td rowspan="2">400/-</td>
+        <td>250/-</td>
+        <td rowspan="2">400/-</td>
+      </tr>
+      <tr>
+        <td>Poster Presentation</td>
+        <td>250/-</td>
+        <td>250/-</td>
       </tr>
     </tbody>
   </table>
