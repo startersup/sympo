@@ -74,29 +74,36 @@ session_start();
           <table class="table table-striped table-bordered" BORDER=10 BORDERCOLOR=RED>
     <thead>
       <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Workshops</th>
+        <th scope="col">Online</th>
+        <th scope="col">Combo</th>
+        <th scope="col">Onspot</th>
+        <th scope="col">Combo</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td>Directional Drilling</td>
+        <td>450</td>
+        <td></td>
+        <td>500</td>
+        <td></td>
       </tr>
       <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
+        <td>Aspen Plus</td>
+        <td>450</td>
+        <td rowspan="0">850/-</td>
+        <td>500</td>
+        <td rowspan="0">900/-</td>
       </tr>
       <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
+        <td>Aspen Fluent</td>
+        <td>450</td>
+        <td>500</td>
+      </tr>
+      <tr>
+        <th scope="row">Technical Events</th>
+    
       </tr>
     </tbody>
   </table>
