@@ -63,7 +63,7 @@ session_start();
     <br>
     <div class="evento">
         <div class="container">
-          <table class="table table-bordered table-dark">
+          <table class="table table-bordered ">
     <thead>
       <tr>
         <th scope="col">#</th>
