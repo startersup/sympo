@@ -92,9 +92,9 @@ session_start();
       <tr>
         <td>Aspen Plus</td>
         <td>450</td>
-        <td rowspan="0">850/-</td>
+        <td rowspan="2">850/-</td>
         <td>500</td>
-        <td rowspan="0">900/-</td>
+        <td rowspan="2">900/-</td>
       </tr>
       <tr>
         <td>Aspen Fluent</td>
@@ -103,7 +103,7 @@ session_start();
       </tr>
       <tr>
         <th scope="row">Technical Events</th>
-    
+
       </tr>
     </tbody>
   </table>
