@@ -70,7 +70,7 @@ session_start();
     <br>
     <div class="evento">
         <div class="container">
-          <table BORDER=10 BORDERCOLOR=RED class="table table-striped table-bordered">
+          <table class="table table-striped table-bordered" BORDER=10 BORDERCOLOR=RED>
     <thead>
       <tr>
         <th scope="col">#</th>
