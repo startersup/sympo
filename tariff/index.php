@@ -116,6 +116,34 @@ session_start();
         <td>250/-</td>
         <td>250/-</td>
       </tr>
+      <tr>
+        <td>Directional Drilling</td>
+        <td>200/-</td>
+        <td></td>
+        <td>200/-</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Be-An-Analyst</td>
+        <td rowspan="6">100/-</td>
+        <td></td>
+            <td rowspan="6">150/-</td>
+      </tr>
+      <tr>
+        <td>Breaking-Bid</td>
+      </tr>
+      <tr>
+        <td>Connexions</td>
+      </tr>
+      <tr>
+        <td>Design Challenge</td>
+      </tr>
+      <tr>
+        <td>PetroClash</td>
+      </tr>
+      <tr>
+        <th scope="row">Non-Technical Events</th>
+      </tr>
     </tbody>
   </table>
         </div>
