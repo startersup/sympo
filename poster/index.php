@@ -113,11 +113,15 @@ else {
                         </li>
                         <li>
                           <a href="#tab_default_2" data-toggle="tab">
-                          Rules </a>
+                          Rounds </a>
                         </li>
                         <li>
                           <a href="#tab_default_3" data-toggle="tab">
                           Rules </a>
+                        </li>
+                        <li>
+                          <a href="#tab_default_4" data-toggle="tab">
+                          Topics </a>
                         </li>
                       </ul>
                       <div class="tab-content">
@@ -144,36 +148,51 @@ else {
                           decision of the judges will be final.</p>
                         </div>
                           <div class="tab-pane" id="tab_default_3">
-                            <p>1. Maximum number of participants in a Team is 2 to 3. </p>
-<p>2. The subject of the mail with the attached poster details like poster material (of
-your convenience) and poster dimension (of necessary size), the final poster should be
-the domain and sub-category under which the poster is categorized.</p>
+                            <p>1. Maximum number of participants in a Team is 3. </p>
+<p>2. The subject of the mail with the attached abstract and the mail with the final
+poster should be subjected as Sub:"POSTER PRESENTATION - DOMAIN, Sub
+category: Topic".</p>
 <p>3. Bring your college I-Card &amp; receipt on event day.</p>
 <p>4. Soft-copies of the submitted poster must be in the .docx format.</p>
-<p>5. Please Mail your poster details and ppt to (petro vision email).</p>
+<p>5. Please Mail your poster details and ppt to petrovisionevents@gmail.com.</p>
 <p>6. Difficulties will be addressed through the same email-id.</p>
 <p>7. The teams will get 7 minutes for presentation followed by question and answer
 session.</p>
-<p>8. Persons from different institutions can be a part of the same team. However, one
-person may not be a part of multiple teams for the same event.</p>
+<p>8. Participants from different institutions can be a part of the same team. However,
+one person may not be a part of multiple teams for the same event.</p>
 <p>9. Poster should be in a one column format &amp; should not exceed 1 sheet.</p>
 <p>10. The mail with submissions should contain:
-Title- theme of the poster,
+Title- theme of the poster,Abstract,
  Name of the authors,
- Phone no of both the authors,
+ Phone no of both the authors,Transaction ID of the general registration,
  E-mail ID.</p>
-<p>11. Poster should be in standard font and font sizes</p>
-<p>12. For headings use bold font.</p>
-<p>13. Paper must contain list of figures, graph, introduction, point wise description of
+<p>11. Poster should be A0 size, 33.1*46.8 inches, Paper material or flex material.Poster should be in standard font and font sizes (should be readable and presentable).
+For headings use bold font.</p>
+<p>12. Poster may contain list of figures, graph, introduction, point wise description of
 subject and conclusion and references.</p>
+<p>13. Poster must include the title of the poster, names of authors and their college
+names along with their contact numbers and email IDs.</p>
 <p>14. Poster must be preceded by specifying the title of the poster, names of authors
 and their college names as also their contact numbers and email ids.</p>
-<p>15. Last day to submit soft copy of your poster (via e-mail) will be a week prior to
-the day of presentation.</p>
+<p>15. Last day to submit the abstract (via e-mail) will be a week prior to the day of
+presentation ( 5th March)..</p>
 <p>16. After you have submitted the soft copy, a panel of judges will go through your
 material and you will be notified.</p>
-<p>17. The mail should contain topic, references, your e-mail id and mobile number.</p>
+<p>17. After you are short-listed, continue with your registration fee payments.</p>
+<p>18.Students are requested to bring the poster in recommended dimensions, once they
+are shortlisted.</p>
+<p>19.The decision of judges will be final.</p>
                           </div>
+                            <div class="tab-pane" id="tab_default_4">
+                          Domain A - Chemical
+Domain B - Petroleum
+These are the topic domains that the presentation should be based on. It is advisable that
+the presentation focuses on one particular research topic. The participants who are
+desirous of choosing a different theme than those mentioned above are welcome,
+provided, it falls under the ambit of the domain Like biomedical, aerospace, thermal
+design, biotechnology pharmaceutical and several other chemistries related fields.
+Kindly contact the coordinator for further clarifications.
+</div>
                       </div>
                     </div>
                   </div>
