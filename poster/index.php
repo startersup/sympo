@@ -184,14 +184,14 @@ are shortlisted.</p>
 <p>19.The decision of judges will be final.</p>
                           </div>
                             <div class="tab-pane" id="tab_default_4">
-                          Domain A - Chemical
-Domain B - Petroleum
-These are the topic domains that the presentation should be based on. It is advisable that
+                        <p>  Domain A - Chemical</p>
+<p>Domain B - Petroleum</p>
+<p>These are the topic domains that the presentation should be based on. It is advisable that
 the presentation focuses on one particular research topic. The participants who are
 desirous of choosing a different theme than those mentioned above are welcome,
 provided, it falls under the ambit of the domain Like biomedical, aerospace, thermal
 design, biotechnology pharmaceutical and several other chemistries related fields.
-Kindly contact the coordinator for further clarifications.
+Kindly contact the coordinator for further clarifications.</p>
 </div>
                       </div>
                     </div>
