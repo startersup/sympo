@@ -69,10 +69,7 @@ $_SESSION['redirect']='/accommodation';
             <center> <div class="logos"><b style="font-family: 'Signika', sans-serif;font-style:20px;margin-top:-40px;">Acc<span>o</span>moda<span>tion</span></b></div>
             </center>
             <br><br>
-              <center> <div class="alert alert-info alert-dismissible">
-       <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
-       <strong>Info:</strong>If You except further cheap accommodation services, we can recommend you some other place. We will not be responsible for your accommodation. For further details, contact our communication team.
-     </div></center><br><br>
+
              <h3>RULES :</h3>
              <p>➢ Registration for accommodation is not part of the events
 registration, and is to be done separately.
@@ -138,6 +135,10 @@ same as check in time.</p>
 
              </div>
              <br><br>
+             <center> <div class="alert alert-info alert-dismissible">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+      <strong>Info:</strong>If You except further cheap accommodation services, we can recommend you some other place. We will not be responsible for your accommodation. For further details, contact our communication team.
+    </div></center><br><br>
             </div>
         </section>
       <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
