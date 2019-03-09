@@ -1,5 +1,6 @@
 <?php
-$_SESSION['redirect']='/index.php';
+session_start();
+$_SESSION['redirect']='/events';
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -91,8 +92,8 @@ $_SESSION['redirect']='/index.php';
                 <div class="col-xs-6 nopadding">
                       <div class="margino left ">
                           <center>
-                    <h3 style="color:#fbe266;">Know about Timeline ?</h3>
-                              <a target="_blank" href="tl.html">    <button class="button1">Click Here </button>   </a>
+                    <h3 style="color:#fbe266;">Check our Event Tariff?</h3>
+                              <a  href="/tariff">    <button class="button1">Click Here </button>   </a>
                           </center>
                     </div>
                </div>

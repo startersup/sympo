@@ -14,6 +14,20 @@ if(!isset($_SESSION['id']))
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
 	$name=$row['name'];
+	if(isset($_POST['class']))
+	{
+		if($_POST['class']=="CLASS 1")
+		{
+			$_SESSION['amount']="450";
+			$_SESSION['name']="Accommodation";
+			$_SESSION['class']="CLASS 1";
+		}
+		elseif($_POST['class']=="CLASS 2"){
+			$_SESSION['amount']="350";
+				$_SESSION['name']="Accommodation";
+					$_SESSION['class']="CLASS 2";
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">

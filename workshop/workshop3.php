@@ -1,19 +1,10 @@
 <?php
 session_start();
-$_SESSION['name']='Workshop-Aspen';
-$_SESSION['redirect']='/workshop/workshop1.php';
+$_SESSION['name']='Workshop-Drill';
+$_SESSION['redirect']='/workshop/workshop3.php';
 $id= $_SESSION['id'];
 $conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
-$sql="select * from payinfo where userid='$id' and type='Workshop-Ansys'";
-$res=mysqli_query($conn,$sql);
-$count=mysqli_num_rows($res);
-if($count>0)
-{
-  $_SESSION['amount']="400";
-}
-else {
-  $_SESSION['amount']="450";
-}
+$_SESSION['amount']="450";
 $sql="select * from payinfo where userid='$id' and type='".$_SESSION['name']."'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
@@ -114,43 +105,31 @@ else {
                           <a href="#tab_default_2" data-toggle="tab">
                           Topics Covered </a>
                         </li>
-                        <li>
-                          <a href="#tab_default_3" data-toggle="tab">
-                          Requirements </a>
-                        </li>
                       </ul>
                       <div class="tab-content">
                         <div class="tab-pane active" id="tab_default_1">
+                        <h3>  About the Lecturer</h3>
+
+<p>Sundar Ramasubramaniam is a graduate student from College of Technology, Coimabator, India. He has been Driller in ONGC specialised in Offshore drilling activities after the multi directional drilling. Later, he also worked as a directional Driller in Schlumberger India. After many years of experience in Middle East, he is currently a Rig Manager in Brunei Shell Petroleum.</p>
                         <p>
-                          ASPEN Plus is a process simulation software package widely used in
-industry today. Given a process design and an appropriate selection of
-thermodynamic models, ASPEN uses mathematical models to predict
-the performance of the process. This information can then be used in
-an iterative fashion to optimize the design. This accurate modelling of
-thermodynamic properties is particularly important in the separation
-of non-ideal mixtures, and ASPEN has a large database of regressed parameters. ASPEN can handle very complex processes, including multiple-column separation systems, chemical reactors, distillation of chemically reactive compounds and even electrolyte solutions like mineral
-acids and sodium hydroxide solutions.</p>
+                          Drilling is one the most challenging job for the petroleum engineers. It requires good skills and strong knowledge in basics physics and mathematics along with lots of patience. Directional drilling is a new concept and very specialised branch that can reach the source rock present in different geological area underneath. </p>
+  <p>PTCS, which was established in 2010, has long been recognized as a leading ‘Well Control Training School’ in Mumbai, India.
+  Petroleum Training & Consultancy Services (PTCS) an IWCF & IADC accredited training center mainly offering Drilling Well Control Courses - “Surface BOP Stack” & “Combined Surface & Subsea”- from basic industry awareness to advanced courses leading to improved performance in the field of drilling operations. This year PTCS offers a one day work shop on Directional Drilling.</p>
+
 
                         </div>
                         <div class="tab-pane" id="tab_default_2">
                         <h3>  Topics to be Covered: </h3>
-                        <p>  1.Introduction to Process Simulation</p>
-                        <p>  2.Aspen Plus Basics</p>
-                        <p>  3. Properties and Thermodynamic Model</p>
-                        <p>  4.Aspen Plus Flash Drum Simulation</p>
-                        <p>  5.Simulation of Reactor Model.</p>
-                        <p>  6.Pressure Changers (Pump/Compressor)</p>
-                        <p>  7.Process FlowSheet Development</p>
+                        <p>  1.Fundamentals of drilling</p>
+                        <p>  2.Fundamentals of directional drilling</p>
+                        <p>  3. Co ordinate system </p>
+                        <p>  4.Survey calculations </p>
+                        <p>  5.Anti collision planning.</p>
+                        <p>  6.Wellbore surveying and survey instruments.)</p>
+                        <p>  7.drilling tools and wellbore deflection methods.</p>
+                      <p>  Drilling fluids and hydraulics.</p>
+                      <p>    9. Torque and drag calculation</p>
                         </div>
-                        <div class="tab-pane" id="tab_default_3">
-                      <h3>  In order to successfully complete the workshop(s)</h3>
-
-               <p>1.The applicant must possess a laptop with the necessary installed software.</p>
-<p>2. In case of unavailability of personal laptop, laptops are provided at the event (charges applicable). </p>
-<p>3.In case of availability of laptop but unavailability of the required software(s) , we request you to be present on the 11th of March for our volunteers to install the software in your personal laptop. </p>
-
-<p>Kindly follow the instructions for a hassle-free and educational experience.</p>
-      </div>
                       </div>
                     </div>
                   </div>

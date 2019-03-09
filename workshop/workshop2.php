@@ -114,6 +114,10 @@ else {
                           <a href="#tab_default_2" data-toggle="tab">
                           Topics Covered </a>
                         </li>
+                        <li>
+                          <a href="#tab_default_3" data-toggle="tab">
+                          Requirements </a>
+                        </li>
                       </ul>
                       <div class="tab-content">
                         <div class="tab-pane active" id="tab_default_1">
@@ -136,7 +140,15 @@ ranging from single- or multi-phase, isothermal or reacting, compressible or non
                         <p>  10.Analysis of Results</p>
                         <p>  11.Steady State Flow Simulation Problems</p>
                         </div>
+                        <div class="tab-pane" id="tab_default_3">
+                      <h3>  In order to successfully complete the workshop(s)</h3>
 
+               <p>1.The applicant must possess a laptop with the necessary installed software.</p>
+<p>2. In case of unavailability of personal laptop, laptops are provided at the event (charges applicable). </p>
+<p>3.In case of availability of laptop but unavailability of the required software(s) , we request you to be present on the 11th of March for our volunteers to install the software in your personal laptop. </p>
+
+<p>Kindly follow the instructions for a hassle-free and educational experience.</p>
+      </div>
                       </div>
                     </div>
                   </div>

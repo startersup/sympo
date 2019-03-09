@@ -111,19 +111,19 @@ else {
           <div class="tab-pane active" id="tab_default_1">
           <p>
             Case study requires a good team work and wise technical judgments for solving the
-  given problem. The participants are presented with a challenging real-life problem
-  statement concerned to the field of Oil and Gas. They are obliged to provide an
-  alternative best solution for the given problem through the analytical and technical
-  knowledge.</p>
-  <p>Max number of participants: Three or Four	</p>
+  given problem. The participants will be presented with a challenging real-life problem
+  statement that is related to the field of Oil and Gas. They are obliged to provide an
+  alternative best solution for the given problem through the extensive research
+  implementing analytical and technical expertise.</p>
+  <p>Max number of participants: Three</p>
           </div>
           <div class="tab-pane" id="tab_default_2">
 
-          <p>    A team of three or four participants will be presented an analytical industrial
-issue/problem on the first day. The team requires to find the suitable alternative
-solution to the issue/problem with the help any kinds of references. Two days will
-have provided for the team to find the solution. On the third day, the teams are
-requested to present their best alternative solution using power point presentation.</p>
+          <p>   The number of participants is restricted to two or three members per team. The
+team should analyse the cause, probable effects and the analytics of the
+presented problem in the provided duration of 2 days. On the day of event, the
+participants should provide a viable solution using a power point presentation.
+The students are requested to bring the requirements (Laptop, pendrive).</p>
 
           </div>
         </div>

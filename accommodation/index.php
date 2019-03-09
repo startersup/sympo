@@ -1,4 +1,5 @@
 <?php
+session_start();
 $_SESSION['redirect']='/accommodation';
  ?>
 <!DOCTYPE html>
@@ -67,7 +68,8 @@ $_SESSION['redirect']='/accommodation';
          <div class="shadow" >
             <center> <div class="logos"><b style="font-family: 'Signika', sans-serif;font-style:20px;margin-top:-40px;">Acc<span>o</span>moda<span>tion</span></b></div>
             </center>
-                 <br><br>
+            <br><br>
+
              <h3>RULES :</h3>
              <p>➢ Registration for accommodation is not part of the events
 registration, and is to be done separately.
@@ -106,17 +108,17 @@ expense in canteens and food stalls that are available.</p>
                          <p><span>Travel time:-</span> 5kms (15mins) from our campus.</p>
                          <p><span>Perks :-</span> A/C Room, Free WiFi connection, 3days Compliment Breakfast TV
 facility.</p>
-                         <p>We will take care of the Transportation </p>
+                         <p>We will take care of the Transportation and lunch will be provided </p>
                          <p><span>Total Inmates :-</span> 75 Members ( 3 per room ).</p>
                          <p>Boys and Girls will be accommodated in <span>separate rooms.</span>
 </p>
                          <p><span>PS :-</span> March 11th morning breakfast will be provided at the hotel for those
 alone who check in on 10th night. Check out time will be considered as the
 same as check in time.</p>
-                         <br><center><button class="button2" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button></center>
+                         <br><center><button class="button2" data-toggle="modal" data-target="#myModal-1">Avail For Accomodation</button></center>
         </div></div>
-             
-             
+
+
               <div class="col-md-6 ">
                      <div class="workshop">
                          <h3>✌CLASS 2</h3><br>
@@ -124,18 +126,22 @@ same as check in time.</p>
              <p><span> RS 350</span> per head per day.</p>
                                <p>Non-resident Indian Hostel inside our Campus. </p>
                          <p><span>Non-AC </span> room</p>
-                         <p><span>No food </span> will be provided</p>
+                         <p><span>Lunch and Breakfast </span> will be provided</p>
                          <p><span>Total Inmates :-</span> 60 Members ( 2 per room )</p>
                          <p>Boys and Girls will be accommodated in <span>separate rooms</span>
 </p><p>Accommodation will be provided on first come first serve Basis</p>
-                 <br> <br> <br><br> <br><button class="button1" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button>     
+                 <br> <br> <br><br> <br><button class="button1" data-toggle="modal" data-target="#myModal-2">Avail For Accomodation</button>
         </div></div>
-             
+
              </div>
              <br><br>
+             <center> <div class="alert alert-info alert-dismissible">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close" style="color:black !important;">&times;</a>
+      <strong>Info:</strong>If You except further cheap accommodation services, we can recommend you some other place. We will not be responsible for your accommodation. For further details, contact our communication team.
+    </div></center><br><br>
             </div>
         </section>
-      <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+      <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -144,8 +150,8 @@ same as check in time.</p>
       <div class="modal-body">
         <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
-            <div class="col-md-6"><center><a href="/PaytmKit/TxnTest.php"><img src="../assets/images/debit-card%20(1).png"></a><br><p>Online</p></center></div>
-                  <div class="col-md-6"><center><a href="/success/"><img src="../assets/images/cash.png"></a><br><p>Onspot</p></center></div>
+            <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input type="hidden" name="class" value="CLASS 1"><button type="submit"><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></center></div>
+                  <div class="col-md-6"><center><form method="post" action="/accommodation/test.php"><input type="hidden" name="class" value="CLASS 1"><button type="submit"><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
                   </div>
                   </center>
       </div>
@@ -155,7 +161,29 @@ same as check in time.</p>
       </div>
     </div><!-- modal-content -->
   </div><!-- modal-dialog -->
+    </div>
+  <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h4 class="modal-title" id="myModalLabel-2">Avail Accomodation Soon! </h4>
   </div>
+  <div class="modal-body">
+    <center><p>Choose your suitable options according to your convenience</p>
+              <div class="row">
+        <div class="col-md-6"><center><form method="post" action="/PaytmKit/TxnTest.php"><input type="hidden" name="class" value="CLASS 2"><button><img src="../assets/images/debit-card%20(1).png"></button></form><br><p>Online</p></center></div>
+              <div class="col-md-6"><center><form method="post" action="/accommodation/test.php"><input type="hidden" name="class" value="CLASS 2"><button type="submit"><img src="../assets/images/cash.png"></button></form><br><p>Onspot</p></center></div>
+              </div>
+              </center>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+  </div>
+</div><!-- modal-content -->
+</div><!-- modal-dialog -->
+  </div>
+
        <footer class=""><center><a href="https://www.facebook.com/PetroVisionOfficial/" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="https://www.instagram.com/_petrovision2k19q" class="fa fa-instagram"></a>
