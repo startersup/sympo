@@ -1,5 +1,5 @@
 
-<?php $_SESSION['redirect']='/funoack'; ?>
+<?php $_SESSION['redirect']='/funpack'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
